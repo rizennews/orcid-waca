@@ -512,6 +512,22 @@
       "title": "Entre em Contato",
       "subtitle": "Tem perguntas sobre ORCID-WACA? Estamos aqui para ajudar. Entre em contato conosco e responderemos o mais breve possível."
     },
+    "connect": {
+      "title": "Vamos nos conectar",
+      "subtitle": "Se você estiver interessado em apoiar o alcance/workshop de um embaixador, juntar-se à nossa Comunidade de Prática, fazer parceria com ORCID-WACA, ou simplesmente aprender mais sobre ORCID, adoraríamos ouvir você.",
+      "emailUs": {
+        "title": "Envie-nos um E-mail",
+        "desc": "Para consultas gerais e suporte contínuo."
+      },
+      "visit": {
+        "title": "Visite WACREN",
+        "desc": "Saiba mais sobre WACREN - a organização implementadora."
+      },
+      "follow": {
+        "title": "Siga-nos",
+        "desc": "Mantenha-se atualizado em nossas mídias sociais."
+      }
+    },
     "form": {
       "title": "Envie-nos uma Mensagem",
       "subtitle": "Preencha o formulário abaixo e nossa equipe entrará em contato com você em breve.",

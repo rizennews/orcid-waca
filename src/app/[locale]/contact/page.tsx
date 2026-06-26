@@ -143,6 +143,94 @@ export default async function ContactPage({
           </div>
         </section>
 
+        {/* ─── Connect ─── */}
+        <section className="py-16 md:py-24">
+          <div className="mx-auto max-w-7xl px-4">
+            <FadeIn className="text-center max-w-3xl mx-auto mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-6">
+                {t('connect.title')}
+              </h2>
+              <p className="text-zinc-600 text-lg leading-relaxed">
+                {t('connect.subtitle')}
+              </p>
+            </FadeIn>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Email Us */}
+              <FadeIn delay={0.1}>
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+                <div className="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center text-primary mb-6">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-zinc-900 mb-4">{t('connect.emailUs.title')}</h3>
+                <p className="text-sm text-zinc-500 mb-6 leading-relaxed">
+                  {t('connect.emailUs.desc')}
+                </p>
+                <a href="mailto:orcid@wacren.net" className="text-primary font-semibold hover:underline">
+                  orcid@wacren.net
+                </a>
+              </div>
+              </FadeIn>
+
+              {/* Visit WACREN */}
+              <FadeIn delay={0.2}>
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+                <div className="w-14 h-14 mx-auto rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-6">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-zinc-900 mb-4">{t('connect.visit.title')}</h3>
+                <p className="text-sm text-zinc-500 mb-6 leading-relaxed">
+                  {t('connect.visit.desc')}
+                </p>
+                <a href="https://wacren.net" target="_blank" rel="noopener noreferrer" className="text-secondary font-semibold hover:underline">
+                  wacren.net
+                </a>
+              </div>
+              </FadeIn>
+
+              {/* Follow Us */}
+              <FadeIn delay={0.3}>
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+                <div className="w-14 h-14 mx-auto rounded-full bg-zinc-100 flex items-center justify-center text-zinc-600 mb-6">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-zinc-900 mb-4">{t('connect.follow.title')}</h3>
+                <p className="text-sm text-zinc-500 mb-6 leading-relaxed">
+                  {t('connect.follow.desc')}
+                </p>
+                <div className="flex flex-wrap items-center justify-center gap-3">
+                  {socials.map((s) => (
+                    <a
+                      key={s.label}
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center w-10 h-10 rounded-full bg-zinc-100 text-zinc-600 hover:bg-primary hover:text-white transition-all"
+                      title={s.label}
+                    >
+                      {s.svg}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              </FadeIn>
+            </div>
+          </div>
+        </section>
+
         {/* ─── Contact Form ─── */}
         <section className="py-16 md:py-24 bg-white">
           <div className="mx-auto max-w-4xl px-4">
