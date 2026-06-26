@@ -137,7 +137,7 @@ export default async function AboutPage({
                 <ul className="space-y-4">
                   {(t.raw('about.page.matters.approach.items') as string[]).map((item: string, i: number) => (
                     <li key={i} className="flex gap-3 text-sm text-zinc-600 leading-relaxed">
-                      <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-primary" />
+                      <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                       {item}
                     </li>
                   ))}
