@@ -1,0 +1,555 @@
+{
+  "site": {
+    "title": "ORCID-WACA",
+    "description": "ORCID na \u00c1frica Ocidental e Central — conectando pesquisadores ao seu identificador \u00fanico.",
+    "tagline": "Conectando Pesquisadores da \u00c1frica Ocidental e Central"
+  },
+  "nav": {
+    "home": "In\u00edcio",
+    "about": "Sobre",
+    "ambassadors": "Embaixadores",
+    "community": "Comunidade",
+    "resources": "Recursos",
+    "updates": "Not\u00edcias",
+    "contact": "Contacto",
+    "join": "Juntar-se \u00e0 CoP",
+    "joinCop": "Juntar-se \u00e0 comunidade de pr\u00e1tica",
+    "createOrcid": "Criar seu ORCID iD"
+  },
+  "home": {
+    "hero": {
+      "title": "A sua identidade de pesquisa \u00e9 importante",
+      "subtitle": "O ORCID-WACA est\u00e1 a promover identificadores persistentes em toda a \u00c1frica Ocidental e Central \u2014 para que os investigadores e as investiga\u00e7\u00f5es da regi\u00e3o apare\u00e7am onde o mundo est\u00e1 a olhar."
+    },
+    "stats": {
+      "title": "Nosso impacto na regi\u00e3o",
+      "ambassadors": "Embaixadores PID",
+      "members": "Membros CoP esperados",
+      "engagements": "Engajamentos planejados",
+      "researchers": "Pesquisadores impactados"
+    },
+    "about": {
+      "title": "Sobre o ORCID-WACA",
+      "body": "O ORCID\u2013WACA \u00e9 uma iniciativa liderada pela WACREN, apoiada pelo <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>Fundo Global de Participa\u00e7\u00e3o ORCID</a>, para impulsionar a ado\u00e7\u00e3o do ORCID em toda a \u00c1frica Ocidental e Central e tornar os investigadores e as investiga\u00e7\u00f5es da regi\u00e3o mais vis\u00edveis, cit\u00e1veis e conectados no palco global.\n\nOs motivos para agir s\u00e3o claros. A baixa ado\u00e7\u00e3o de identificadores persistentes (PIDs) como o ORCID limita a visibilidade da produ\u00e7\u00e3o acad\u00e9mica africana e refor\u00e7a a ideia errada de que o continente produz pouca pesquisa. A maioria dos investigadores africanos encontra o ORCID apenas ao submeter um artigo, as obriga\u00e7\u00f5es institucionais e editoriais continuam raras e a sensibiliza\u00e7\u00e3o \u00e9 especialmente baixa fora das STEM, dificultando a atribui\u00e7\u00e3o correta do trabalho, a demonstra\u00e7\u00e3o da produtividade institucional e a valoriza\u00e7\u00e3o do verdadeiro impacto da investiga\u00e7\u00e3o africana.\n\n<a href='https://katinamagazine.org/content/article/open-knowledge/2025/five-perspectives-on-state-of-open-science-africa' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>A WACREN tem vindo a preparar o terreno para a mudan\u00e7a</a>. Os resultados depositados no <a href='https://baobab.wacren.net/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>reposit\u00f3rio BAOBAB</a> recebem Archival Resource Keys (ARKs) para descobribilidade a longo prazo; uma s\u00e9rie de <a href='https://africaconnect3.net/scholarly-community-in-west-africa-enlightened-on-persistent-identifiers/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>workshops regionais</a> deram a conhecer a investigadores, bibliotec\u00e1rios e editores o valor dos PIDs; e o <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>programa de forma\u00e7\u00e3o COPPHA</a> equipou mais de 600 investigadores em in\u00edcio, meio e fim de carreira em publica\u00e7\u00e3o equitativa e transparente.\n\nCom base neste impulso, o ORCID\u2013WACA ir\u00e1 sensibilizar para os benef\u00edcios do ORCID, apoiar a sua integra\u00e7\u00e3o com reposit\u00f3rios institucionais e outras infraestruturas de investiga\u00e7\u00e3o, e aumentar a capacidade regional atrav\u00e9s do Programa de Embaixadores e da Comunidade de Pr\u00e1tica, colmatando as lacunas de participa\u00e7\u00e3o no Sul Global e integrando os PIDs na infraestrutura de investiga\u00e7\u00e3o de longo prazo da \u00c1frica Ocidental e Central.",
+      "readMore": "Ler mais"
+    },
+    "features": {
+      "title": "Nossas iniciativas",
+      "ambassadors": {
+        "title": "Embaixadores PID",
+        "desc": "Conhe\u00e7a os dedicados Embaixadores ansiosos por inspirar as suas comunidades e promover a ado\u00e7\u00e3o do ORCID e dos Identificadores Persistentes (PIDs) atrav\u00e9s de workshops envolventes e iniciativas de divulga\u00e7\u00e3o em toda a \u00c1frica Ocidental e Central!",
+        "cta": "Saber mais"
+      },
+      "community": {
+        "title": "Comunidade de pr\u00e1tica",
+        "desc": "Um f\u00f3rum colaborativo para investigadores, bibliotec\u00e1rios, editores e administradores partilharem experi\u00eancias e avan\u00e7arem na ado\u00e7\u00e3o de PID.",
+        "cta": "Juntar-se \u00e0 CoP"
+      },
+      "workshops": {
+        "title": "Workshops e divulga\u00e7\u00e3o",
+        "desc": "Workshops pr\u00e1ticos sobre registo ORCID, otimiza\u00e7\u00e3o de perfis e integra\u00e7\u00e3o com sistemas de investiga\u00e7\u00e3o.",
+        "cta": "Ver calend\u00e1rio"
+      }
+    },
+    "benefits": {
+      "title": "Benef\u00edcios do ORCID para investigadores africanos",
+      "ambiguity": {
+        "title": "Resolver ambiguidade de nomes",
+        "desc": "O seu ORCID iD distingue-o de forma \u00fanica de outros investigadores com nomes id\u00eanticos ou semelhantes nos ecossistemas internacionais de indexa\u00e7\u00e3o de publica\u00e7\u00f5es."
+      },
+      "time": {
+        "title": "Poupar tempo",
+        "desc": "Preencha automaticamente submiss\u00f5es de manuscritos, candidaturas a financiamento e relat\u00f3rios institucionais com o seu perfil de dados verificado."
+      },
+      "visibility": {
+        "title": "Aumentar a visibilidade",
+        "desc": "Torne os seus resultados de investiga\u00e7\u00e3o interdisciplinares descobr\u00edveis em bases de cita\u00e7\u00e3o globais, motores de busca institucionais e reposit\u00f3rios p\u00fablicos."
+      },
+      "connect": {
+        "title": "Conectar o seu trabalho",
+        "desc": "Ligue todas as suas contribui\u00e7\u00f5es\u2014publica\u00e7\u00f5es, conjuntos de dados, revis\u00f5es por pares e afilia\u00e7\u00f5es universit\u00e1rias\u2014num \u00fanico registo digital permanente."
+      },
+      "career": {
+        "title": "Continuidade de carreira",
+        "desc": "O seu ORCID iD acompanha-o ao longo do seu percurso, mantendo as cita\u00e7\u00f5es independentemente de mudan\u00e7as de institui\u00e7\u00e3o, pa\u00eds ou apelido."
+      },
+      "privacy": {
+        "title": "Controlo de privacidade",
+        "desc": "T\u00e9m total controlo sobre os seus par\u00e2metros. Defina n\u00edveis de visibilidade individuais: P\u00fablico, Limitado a sistemas de confian\u00e7a, ou completamente Privado."
+      }
+    },
+    "ambassadors": {
+      "title": "Nossos embaixadores",
+      "subtitle": "Conhe\u00e7a os pesquisadores que promovem a ado\u00e7\u00e3o do ORCID na regi\u00e3o.",
+      "cta": "Conhecer os embaixadores"
+    },
+    "timeline": {
+      "title": "Cronograma do programa",
+      "entries": [
+        { "period": "Dez. 2025 - Maio 2026", "title": "Recrutamento e sele\u00e7\u00e3o" },
+        { "period": "Junho 2026", "title": "Integra\u00e7\u00e3o e orienta\u00e7\u00e3o de embaixadores" },
+        { "period": "Junho - Agosto 2026", "title": "Implementa\u00e7\u00e3o" },
+        { "period": "Julho 2026", "title": "Lan\u00e7amento e implementa\u00e7\u00e3o da CoP" },
+        { "period": "Agosto - Outubro 2026", "title": "Avalia\u00e7\u00e3o e sustentabilidade" }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "items": [
+        {
+          "q": "O que \u00e9 o projeto ORCID-WACA?",
+          "a": "O ORCID-WACA \u00e9 uma iniciativa regional liderada pela West and Central African Research and Education Network (WACREN) para acelerar a ado\u00e7\u00e3o do ORCID e de outros identificadores persistentes (PIDs) na \u00c1frica Ocidental e Central. O projeto decorre de dezembro de 2025 a outubro de 2026 e \u00e9 financiado pelo Fundo Global de Participa\u00e7\u00e3o ORCID (GPF) Round 6.\n\nO projeto funciona atrav\u00e9s de uma <a href='https://wacren.net/en/orcid-waca/ambassadors' target='_blank' rel='noopener noreferrer' class='underline'>rede de 15 Embaixadores selecionados</a> que lideram atividades de divulga\u00e7\u00e3o, forma\u00e7\u00e3o e integra\u00e7\u00e3o nos seus pa\u00edses e institui\u00e7\u00f5es, apoiados por uma Comunidade de Pr\u00e1tica e um programa de comunica\u00e7\u00e3o bilingue (ingl\u00eas/franc\u00eas)."
+        },
+        {
+          "q": "Que problema o projeto procura resolver?",
+          "a": "Os investigadores africanos e os seus trabalhos s\u00e3o frequentemente sub-representados e dif\u00e9ceis de descobrir nas bases de dados acad\u00e9micas globais. A ambiguidade de nomes, os metadados de autor inconsistentes e a integra\u00e7\u00e3o limitada com a infraestrutura global de PID fazem com que as contribui\u00e7\u00f5es africanas leg\u00edtimas sejam por vezes perdidas, mal atribu\u00eddas ou subcitadas. O ORCID-WACA aborda esta quest\u00e3o ajudando investigadores, bibliotecas, revistas e editores a adotar ORCID iDs e a conect\u00e1-los aos sistemas que registam e disseminam os resultados da investiga\u00e7\u00e3o."
+        },
+        {
+          "q": "Quais s\u00e3o os principais objetivos do projeto?",
+          "a": "O projeto est\u00e1 organizado em torno de quatro pilares estrat\u00e9gicos:\n\nVisibilidade \u2014 tornar os investigadores africanos e o seu trabalho mais f\u00e1ceis de encontrar no cen\u00e1rio global.\nAdo\u00e7\u00e3o \u2014 impulsionar a integra\u00e7\u00e3o do ORCID em institui\u00e7\u00f5es, reposit\u00f3rios e revistas.\nComunidade \u2014 conectar pares entre pa\u00edses, idiomas e fun\u00e7\u00f5es atrav\u00e9s de uma Comunidade de Pr\u00e1tica regional.\nLegado \u2014 construir capacidade duradoura que continue para al\u00e9m do ciclo de vida do projeto."
+        },
+        {
+          "q": "Como posso envolver-me?",
+          "a": "Existem v\u00e1rias formas de participar: juntar-se \u00e0 Comunidade de Pr\u00e1tica; solicitar ser associado a um Embaixador no seu pa\u00eds. Escreva para <a href='mailto:orcid-waca@wacren.net' class='underline'>orcid-waca@wacren.net</a> para iniciar uma conversa."
+        },
+        {
+          "q": "Quem s\u00e3o os Embaixadores ORCID-WACA?",
+          "a": "Os Embaixadores s\u00e3o 15 indiv\u00edduos selecionados de toda a \u00c1frica Ocidental e Central que lideram a divulga\u00e7\u00e3o, forma\u00e7\u00e3o e integra\u00e7\u00e3o do ORCID nos seus pa\u00edses e institui\u00e7\u00f5es durante o per\u00edodo do programa. V\u00eam de bibliotecas, gabinetes de investiga\u00e7\u00e3o, universidades e revistas e representam a diversidade de fun\u00e7\u00f5es, pa\u00edses e idiomas da regi\u00e3o."
+        },
+        {
+          "q": "Haver\u00e1 outra fase de recrutamento de Embaixadores?",
+          "a": "A atual coorte trabalha at\u00e9 ao final do projeto (outubro de 2026). Estamos a explorar ativamente atividades de acompanhamento e uma rede alargada para al\u00e9m desta fase; inscreva-se na Comunidade de Pr\u00e1tica para se manter informado quando novas oportunidades surgirem."
+        },
+        {
+          "q": "Posso nomear algu\u00e9m (ou a minha institui\u00e7\u00e3o) para acolher atividades de Embaixador?",
+          "a": "Sim. Aceitamos institui\u00e7\u00f5es anfitri\u00e3s, coorganizadores e organiza\u00e7\u00f5es parceiras nos 22 pa\u00edses. Envie uma nota para <a href='mailto:orcid-waca@wacren.net' class='underline'>orcid-waca@wacren.net</a> com os detalhes da sua institui\u00e7\u00e3o, p\u00fablico-alvo e atividade proposta, e a equipa do projeto far\u00e1 o acompanhamento."
+        },
+        {
+          "q": "O que \u00e9 a Comunidade de Pr\u00e1tica?",
+          "a": "A Comunidade de Pr\u00e1tica (CoP) \u00e9 o tecido conjuntivo do projeto \u2014 uma rede regional de investigadores, bibliotec\u00e1rios, editores de revistas e editoras que partilham conhecimento, fazem perguntas e aprendem juntos. Est\u00e1 alojada no Google Groups para que os membros possam participar por e-mail ou web."
+        },
+        {
+          "q": "Quem pode juntar-se \u00e0 CoP?",
+          "a": "Qualquer pessoa na regi\u00e3o (ou a trabalhar com a regi\u00e3o) interessada em ORCID, identificadores persistentes e comunica\u00e7\u00e3o acad\u00e9mica. A ades\u00e3o \u00e9 gratuita e aberta a investigadores, profissionais de bibliotecas e informa\u00e7\u00e3o, editores de revistas, editoras, administradores de investiga\u00e7\u00e3o, NRENs, financiadores e partes interessadas pol\u00edticas. Visite a p\u00e1gina da Comunidade de Pr\u00e1tica no site do ORCID-WACA e clique em \u00abJuntar-se ao Google Group\u00bb. Necessitar\u00e1 de uma conta Google. Os pedidos de ades\u00e3o s\u00e3o analisados e aprovados num dia \u00fatil."
+        },
+        {
+          "q": "A CoP \u00e9 bilingue?",
+          "a": "Sim. Os membros s\u00e3o bem-vindos a publicar em ingl\u00eas ou franc\u00eas, e os principais recursos e an\u00fancios s\u00e3o produzidos em ambas as l\u00ednguas."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para se juntar?",
+      "subtitle": "Fa\u00e7a parte de uma comunidade crescente de pesquisadores na \u00c1frica Ocidental e Central.",
+      "button": "Juntar-se \u00e0 comunidade de pr\u00e1tica"
+    }
+  },
+  "footer": {
+    "tagline": "Avan\u00e7ando a identidade e a visibilidade da pesquisa na \u00c1frica Ocidental e Central.",
+    "quickLinks": "Links r\u00e1pidos",
+    "about": "Sobre o ORCID-WACA",
+    "ambassadorProgramme": "Programa de embaixadores",
+    "communityPractice": "Comunidade de pr\u00e1tica",
+    "resources": "Recursos",
+    "gettingStarted": "Come\u00e7ar com o ORCID",
+    "benefitsInfographic": "Infogr\u00e1fico de benef\u00edcios",
+    "workshopMaterials": "Materiais de workshop",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "copyright": "\u00a9 {year} WACREN. Apoiado pelo Fundo Global de Participa\u00e7\u00e3o ORCID. Todos os direitos reservados."
+  },
+  "common": {
+    "language": "Idioma",
+    "english": "Ingl\u00eas",
+    "french": "Franc\u00eas",
+    "portuguese": "Portugu\u00eas",
+    "copyright": "\u00a9 {year} ORCID-WACA. Todos os direitos reservados.",
+    "tagline": "Conectando Pesquisadores da \u00c1frica Ocidental e Central"
+  },
+  "about": {
+    "page": {
+      "title": "Sobre o ORCID-WACA",
+      "subtitle": "Avan\u00e7ando a identidade e a visibilidade da pesquisa na \u00c1frica Ocidental e Central",
+      "mission": {
+        "title": "Nossa miss\u00e3o",
+        "body": "O ORCID-WACA existe para garantir que todos os investigadores na \u00c1frica Ocidental e Central tenham a oportunidade de reivindicar, conectar e apresentar o seu trabalho no palco global. Acreditamos que a visibilidade impulsiona a colabora\u00e7\u00e3o, as cita\u00e7\u00f5es e o crescimento profissional \u2014 e que os identificadores persistentes s\u00e3o a base de um ecossistema de investiga\u00e7\u00e3o global equitativo."
+      },
+      "matters": {
+        "title": "Porque \u00e9 que o ORCID-WACA \u00e9 importante",
+        "challenge": {
+          "title": "O desafio",
+          "intro": "Os investigadores africanos enfrentam barreiras significativas ao reconhecimento global:",
+          "items": [
+            "Ambiguidade de nomes: Nomes comuns como Mohammed, Fatima e Ibrahim levam a frequentes erros de cita\u00e7\u00e3o e atribui\u00e7\u00e3o.",
+            "Baixa visibilidade: A investiga\u00e7\u00e3o africana \u00e9 frequentemente negligenciada ou n\u00e3o indexada nas bases de dados internacionais dominantes.",
+            "Lacunas institucionais: Falta de mandatos claros ou fluxos de trabalho para uma ado\u00e7\u00e3o abrangente do ORCID a n\u00edvel institucional.",
+            "Falta de sensibiliza\u00e7\u00e3o: Muitos investigadores regionais s\u00f3 descobrem as funcionalidades do ORCID tardiamente durante a submiss\u00e3o de manuscritos.",
+            "Divis\u00e3o disciplinar: As \u00e1reas n\u00e3o-STEM e os investigadores de ci\u00eancias humanas est\u00e3o especialmente sub-representados nas m\u00e9tricas globais."
+          ]
+        },
+        "approach": {
+          "title": "A nossa abordagem",
+          "intro": "O ORCID-WACA aborda sistematicamente estes desafios atrav\u00e9s de:",
+          "items": [
+            "Divulga\u00e7\u00e3o liderada por embaixadores: 15 embaixadores regionais formados a realizar workshops locais nas redes.",
+            "Constru\u00e7\u00e3o de comunidade: Estabelecimento de uma Comunidade de Pr\u00e1tica transfronteiri\u00e7a aberta para um envolvimento ecossist\u00e9mico sustentado.",
+            "Integra\u00e7\u00e3o t\u00e9cnica: Pilotagem de integra\u00e7\u00f5es estruturais de perfis ORCID com os reposit\u00f3rios institucionais RUMBU.",
+            "Desenvolvimento de capacidades: Forma\u00e7\u00e3o pr\u00e1tica cont\u00ednua para investigadores, bibliotec\u00e1rios institucionais e administradores acad\u00e9micos.",
+            "Defesa de pol\u00edticas: Trabalho conjunto com institui\u00e7\u00f5es de ensino superior para adotar mandatos ORCID expl\u00edcitos."
+          ]
+        }
+      },
+      "pillars": {
+        "title": "Nossos pilares estrat\u00e9gicos",
+        "items": [
+          {
+            "title": "Visibilidade",
+            "desc": "Tornar os investigadores africanos e o seu trabalho mais f\u00e1ceis de encontrar no cen\u00e1rio global."
+          },
+          {
+            "title": "Ado\u00e7\u00e3o",
+            "desc": "Impulsionar a integra\u00e7\u00e3o do ORCID em institui\u00e7\u00f5es, reposit\u00f3rios e revistas."
+          },
+          {
+            "title": "Comunidade",
+            "desc": "Conectar pares entre pa\u00edses, idiomas e fun\u00e7\u00f5es atrav\u00e9s de uma Comunidade de Pr\u00e1tica regional."
+          },
+          {
+            "title": "Legado",
+            "desc": "Construir capacidade duradoura que continue para al\u00e9m do ciclo de vida do projeto."
+          }
+        ]
+      }
+    }
+  },
+  "ambassadors": {
+    "page": {
+      "title": "Programa de Embaixadores ORCID-WACA",
+      "subtitle": "Saiba mais sobre o Programa de Embaixadores \u2013 o ve\u00edculo especial para aumentar a visibilidade, a sensibiliza\u00e7\u00e3o e a ado\u00e7\u00e3o do ORCID nos pa\u00edses.",
+      "whatTitle": "O que \u00e9 o Programa de Embaixadores ORCID-WACA?",
+      "intro": "O Programa de Embaixadores ORCID-WACA \u00e9 uma iniciativa emblem\u00e1tica concebida para criar capacidade regional e impulsionar a ado\u00e7\u00e3o do ORCID na \u00c1frica Ocidental e Central. Os Embaixadores atuam como campe\u00f5es, educadores e defensores da identidade de investiga\u00e7\u00e3o e dos identificadores persistentes nas suas institui\u00e7\u00f5es e redes profissionais.\n\nOs embaixadores selecionados recebem forma\u00e7\u00e3o abrangente, recursos e apoio para realizar workshops, envolver as partes interessadas e promover a ado\u00e7\u00e3o do ORCID. Esta \u00e9 uma oportunidade \u00fanica para moldar o futuro da visibilidade da investiga\u00e7\u00e3o em \u00c1frica, desenvolvendo simultaneamente as suas compet\u00eancias profissionais e expandindo a sua rede.",
+      "role": "Embaixador",
+      "countries": "Benim, Burquina Faso, Camar\u00f5es, Costa do Marfim, Gana, Guin\u00e9, Lib\u00e9ria, Mali, N\u00edger, Nig\u00e9ria, Senegal, Serra Leoa, G\u00e2mbia, Togo",
+      "doTitle": "O que far\u00e3o os Embaixadores?",
+      "doItems": [
+        {
+          "title": "Realizar workshops",
+          "desc": "Os Embaixadores organizar\u00e3o sess\u00f5es de forma\u00e7\u00e3o pr\u00e1ticas sobre ORCID para aumentar a ado\u00e7\u00e3o nas suas respetivas comunidades acad\u00e9micas"
+        },
+        {
+          "title": "Divulga\u00e7\u00e3o institucional",
+          "desc": "Os Embaixadores envolvem a hierarquia das institui\u00e7\u00f5es para ajudar a promover e adotar o ORCID nas suas institui\u00e7\u00f5es"
+        },
+        {
+          "title": "Lideran\u00e7a comunit\u00e1ria",
+          "desc": "Os Embaixadores participam ativamente nos f\u00f3runs da Comunidade de Pr\u00e1tica, partilhando experi\u00eancias e apoiando colegas na regi\u00e3o"
+        },
+        {
+          "title": "Comunica\u00e7\u00e3o",
+          "desc": "Os Embaixadores promovem eventos, a\u00e7\u00f5es de divulga\u00e7\u00e3o, conquistas e hist\u00f3rias de sucesso do projeto ORCID-WACA"
+        }
+      ],
+      "ambassadorListTitle": "Conhe\u00e7a os nossos embaixadores",
+      "ambassadorList": [
+        { "name": "Aminata Diallo", "role": "Embaixadora PID", "country": "Senegal", "image": "ambassador-1.jpg", "shortBio": "Bibliotec\u00e1ria na UCAD com vasta experi\u00eancia em gest\u00e3o de dados de investiga\u00e7\u00e3o e defesa da ci\u00eancia aberta.", "fullBio": "Aminata Diallo \u00e9 bibliotec\u00e1ria s\u00e9nior na Universit\u00e9 Cheikh Anta Diop (UCAD) em Dacar, Senegal, onde lidera a unidade de reposit\u00f3rio institucional e gest\u00e3o de dados de investiga\u00e7\u00e3o. Com mais de uma d\u00e9cada de experi\u00eancia em comunica\u00e7\u00e3o acad\u00e9mica, tem sido fundamental na promo\u00e7\u00e3o de identificadores persistentes e pr\u00e1ticas de ci\u00eancia aberta em toda a \u00c1frica Ocidental. Como Embaixadora ORCID-WACA, concentra-se na forma\u00e7\u00e3o de bibliotec\u00e1rios e investigadores sobre integra\u00e7\u00e3o ORCID com reposit\u00f3rios institucionais e sistemas de gest\u00e3o de peri\u00f3dicos." },
+        { "name": "Kofi Mensah", "role": "Embaixador PID", "country": "Gana", "image": "ambassador-2.jpg", "shortBio": "Gestor de informa\u00e7\u00e3o de investiga\u00e7\u00e3o na Universidade do Gana, apaixonado pela visibilidade da investiga\u00e7\u00e3o.", "fullBio": "Kofi Mensah \u00e9 Gestor de Informa\u00e7\u00e3o de Investiga\u00e7\u00e3o na Universidade do Gana, onde supervisiona os sistemas de acompanhamento e reporte da produ\u00e7\u00e3o acad\u00e9mica. Tem sido uma figura chave na ado\u00e7\u00e3o de sistemas de informa\u00e7\u00e3o de investiga\u00e7\u00e3o (CRIS) e identificadores persistentes no ensino superior gan\u00eas. O seu trabalho como embaixador ORCID-WACA centra-se na obten\u00e7\u00e3o de ades\u00e3o institucional para a integra\u00e7\u00e3o ORCID a n\u00edvel executivo." },
+        { "name": "Fatoumata Traor\u00e9", "role": "Embaixadora PID", "country": "Mali", "image": "ambassador-3.jpg", "shortBio": "Bibliotec\u00e1ria digital na Universit\u00e9 des Sciences, des Techniques et des Technologies de Bamako.", "fullBio": "Fatoumata Traor\u00e9 \u00e9 bibliotec\u00e1ria digital na Universit\u00e9 des Sciences, des Techniques et des Technologies de Bamako (USTTB). O seu trabalho centra-se na constru\u00e7\u00e3o de infraestruturas digitais para apoio \u00e0 investiga\u00e7\u00e3o. Como Embaixadora ORCID-WACA, realiza workshops de forma\u00e7\u00e3o sobre ORCID para docentes e estudantes de p\u00f3s-gradua\u00e7\u00e3o." },
+        { "name": "Chidi Okonkwo", "role": "Embaixador PID", "country": "Nig\u00e9ria", "image": "ambassador-4.jpg", "shortBio": "Defensor do acesso aberto e especialista em apoio \u00e0 investiga\u00e7\u00e3o na Universidade de Ibadan.", "fullBio": "Chidi Okonkwo \u00e9 especialista em apoio \u00e0 investiga\u00e7\u00e3o na Universidade de Ibadan, a principal universidade da Nig\u00e9ria. Tem estado na vanguarda da defesa do acesso aberto na regi\u00e3o. O seu mandato ORCID-WACA envolve a forma\u00e7\u00e3o de pessoal acad\u00e9mico e estudantes sobre otimiza\u00e7\u00e3o de perfis ORCID." },
+        { "name": "Mariam Bamba", "role": "Embaixadora PID", "country": "Costa do Marfim", "image": "ambassador-5.jpg", "shortBio": "Chefe de documenta\u00e7\u00e3o na Universit\u00e9 F\u00e9lix Houphou\u00ebt-Boigny, especializada em automa\u00e7\u00e3o de bibliotecas.", "fullBio": "Mariam Bamba \u00e9 chefe de documenta\u00e7\u00e3o na Universit\u00e9 F\u00e9lix Houphou\u00ebt-Boigny em Abidjan, Costa do Marfim, onde lidera a digitaliza\u00e7\u00e3o e automa\u00e7\u00e3o dos servi\u00e7os de biblioteca desde 2019. No seu papel de embaixadora, organiza campanhas de registo ORCID em confer\u00eancias acad\u00e9micas." },
+        { "name": "Abdoulaye Sow", "role": "Embaixador PID", "country": "Guin\u00e9", "image": "ambassador-6.jpg", "shortBio": "Diretor adjunto de documenta\u00e7\u00e3o cient\u00edfica na Universit\u00e9 Gamal Abdel Nasser de Conacri.", "fullBio": "Abdoulaye Sow \u00e9 diretor adjunto de documenta\u00e7\u00e3o cient\u00edfica na Universit\u00e9 Gamal Abdel Nasser de Conacri, Guin\u00e9. Como embaixador ORCID-WACA, concentra-se em investigadores em in\u00edcio de carreira." },
+        { "name": "Sierra Koroma", "role": "Embaixadora PID", "country": "Serra Leoa", "image": "ambassador-7.jpg", "shortBio": "Bibliotec\u00e1ria universit\u00e1ria no Fourah Bay College, Universidade de Serra Leoa, especialista em acesso aberto.", "fullBio": "Sierra Koroma \u00e9 bibliotec\u00e1ria universit\u00e1ria no Fourah Bay College, Universidade de Serra Leoa. Tem defendido iniciativas de acesso aberto e desenvolvimento de reposit\u00f3rios digitais na Serra Leoa. O seu trabalho ORCID-WACA inclui a elabora\u00e7\u00e3o de materiais de forma\u00e7\u00e3o multilingues." },
+        { "name": "B\u00e9n\u00e9dicte Tchinda", "role": "Embaixadora PID", "country": "Camar\u00f5es", "image": "ambassador-8.jpg", "shortBio": "Bibliotec\u00e1ria de dados de investiga\u00e7\u00e3o na Universidade de Yaound\u00e9 I, defensora dos princ\u00edpios FAIR.", "fullBio": "B\u00e9n\u00e9dicte Tchinda \u00e9 bibliotec\u00e1ria de dados de investiga\u00e7\u00e3o na Universidade de Yaound\u00e9 I, Camar\u00f5es. Como Embaixadora ORCID-WACA, concentra-se na liga\u00e7\u00e3o entre ORCID e os fluxos de trabalho de gest\u00e3o de dados de investiga\u00e7\u00e3o." },
+        { "name": "Ousmane Jallow", "role": "Embaixador PID", "country": "G\u00e2mbia", "image": "ambassador-9.jpg", "shortBio": "Professor e coordenador de investiga\u00e7\u00e3o na Universidade da G\u00e2mbia.", "fullBio": "Ousmane Jallow \u00e9 professor e coordenador de investiga\u00e7\u00e3o na Universidade da G\u00e2mbia (UTG). No seu papel de embaixador, trabalha com a administra\u00e7\u00e3o da UTG para desenvolver pol\u00edticas ORCID institucionais." },
+        { "name": "Yvette Kabore", "role": "Embaixadora PID", "country": "Burquina Faso", "image": "ambassador-10.jpg", "shortBio": "Agente de documenta\u00e7\u00e3o na Universit\u00e9 Joseph Ki-Zerbo, experiente em sistemas de bibliotecas digitais.", "fullBio": "Yvette Kabore \u00e9 agente de documenta\u00e7\u00e3o na Universit\u00e9 Joseph Ki-Zerbo em Ouagadougou, Burquina Faso. Como Embaixadora ORCID-WACA, realiza workshops pr\u00e1ticos de ORCID para docentes." },
+        { "name": "Lamine Ndiaye", "role": "Embaixador PID", "country": "N\u00edger", "image": "ambassador-11.jpg", "shortBio": "Chefe de servi\u00e7os de TI na Universit\u00e9 Abdou Moumouni, especialista em sistemas de informa\u00e7\u00e3o de investiga\u00e7\u00e3o.", "fullBio": "Lamine Ndiaye \u00e9 chefe de servi\u00e7os de TI na Universit\u00e9 Abdou Moumouni em Niamey, N\u00edger. Como embaixador ORCID-WACA, trabalha no lado t\u00e9cnico da ado\u00e7\u00e3o ORCID, ajudando institui\u00e7\u00f5es a configurar os seus sistemas." },
+        { "name": "Gb\u00e8toho Amoussou", "role": "Embaixador PID", "country": "Benim", "image": "ambassador-12.jpg", "shortBio": "Oficial de investiga\u00e7\u00e3o na Universit\u00e9 d'Abomey-Calavi, coordenando iniciativas de ci\u00eancia aberta.", "fullBio": "Gb\u00e8toho Amoussou \u00e9 oficial de investiga\u00e7\u00e3o na Universit\u00e9 d'Abomey-Calavi (UAC) no Benim, onde coordena iniciativas de ci\u00eancia aberta e identificadores persistentes." },
+        { "name": "Massa Kon\u00e9", "role": "Embaixadora PID", "country": "Lib\u00e9ria", "image": "ambassador-13.jpg", "shortBio": "Bibliotec\u00e1ria universit\u00e1ria na Universidade da Lib\u00e9ria, reconstruindo a infraestrutura acad\u00e9mica.", "fullBio": "Massa Kon\u00e9 \u00e9 bibliotec\u00e1ria universit\u00e1ria na Universidade da Lib\u00e9ria, onde supervisionou a reconstru\u00e7\u00e3o dos servi\u00e7os de biblioteca. Como Embaixadora ORCID-WACA, \u00e9 apaixonada por introduzir ORCID aos investigadores liberianos." },
+        { "name": "Togo Ad\u00e9w\u00e1l\u00e9", "role": "Embaixador PID", "country": "Togo", "image": "ambassador-14.jpg", "shortBio": "Diretor de apoio \u00e0 investiga\u00e7\u00e3o na Universidade de Lom\u00e9, promovendo a ci\u00eancia aberta.", "fullBio": "Togo Ad\u00e9w\u00e1l\u00e9 \u00e9 diretor de apoio \u00e0 investiga\u00e7\u00e3o na Universidade de Lom\u00e9, Togo. No seu papel ORCID-WACA, coordena com as institui\u00e7\u00f5es togolesas para criar uma abordagem unificada de ado\u00e7\u00e3o ORCID." },
+        { "name": "Halima Yusuf", "role": "Embaixadora PID", "country": "Nig\u00e9ria", "image": "ambassador-15.jpg", "shortBio": "Bibliotec\u00e1ria adjunta na Universidade Ahmadu Bello, promovendo ORCID entre mulheres em CTEM.", "fullBio": "Halima Yusuf \u00e9 bibliotec\u00e1ria adjunta na Universidade Ahmadu Bello em Zaria, Nig\u00e9ria. Como Embaixadora ORCID-WACA, lidera programas de sensibiliza\u00e7\u00e3o direcionados para mulheres investigadoras." }
+      ],
+      "outcomesTitle": "Resultados Esperados das Atividades dos Embaixadores",
+      "outcomesItems": [
+        {
+          "title": "Alta Taxa de Ado\u00e7\u00e3o do ORCID",
+          "desc": "Mais investigadores africanos registados, formados e equipados para tornar o seu trabalho vis\u00edvel no palco global."
+        },
+        {
+          "title": "Ades\u00e3o Institucional",
+          "desc": "Ades\u00e3o da alta dire\u00e7\u00e3o que se traduz em pol\u00edticas ORCID institucionais, integra\u00e7\u00f5es de sistemas e ado\u00e7\u00e3o duradoura em toda a regi\u00e3o."
+        },
+        {
+          "title": "Comunidade de Pr\u00e1tica Sustent\u00e1vel",
+          "desc": "Uma rede bilingue autossustent\u00e1vel onde a experi\u00eancia africana impulsiona solu\u00e7\u00f5es africanas muito al\u00e9m do projeto."
+        },
+        {
+          "title": "Maior Visibilidade e Apoio para Investigadores Africanos",
+          "desc": "Visibilidade regional e global mais forte para a investiga\u00e7\u00e3o africana, atraindo novos parceiros, financiadores e apoio pol\u00edtico."
+        }
+      ]
+    }
+  },
+  "community": {
+    "page": {
+      "title": "Comunidade de Pr\u00e1tica de PIDs",
+      "subtitle": "Um espa\u00e7o colaborativo para investigadores, bibliotec\u00e1rios, editores de revistas e editoras partilharem pr\u00e1ticas, resolverem problemas e promoverem identificadores persistentes na regi\u00e3o.",
+      "forumTitle": "Um F\u00f3rum Regional para Avan\u00e7ar a Ado\u00e7\u00e3o de PIDs",
+      "forumBody": "A Comunidade de Pr\u00e1tica (CoP) ORCID-WACA re\u00fane profissionais que trabalham para tornar a investiga\u00e7\u00e3o africana mais vis\u00edvel, descobr\u00edvel e cit\u00e1vel atrav\u00e9s do ORCID e de outros identificadores persistentes (PIDs).\n\nAlojada pela WACREN no \u00e2mbito do Fundo Global de Participa\u00e7\u00e3o ORCID (Round 6), a CoP \u00e9 o tecido conjuntivo entre os nossos 15 Embaixadores e a comunidade mais ampla de investiga\u00e7\u00e3o e educa\u00e7\u00e3o em 22 pa\u00edses da \u00c1frica Ocidental e Central.",
+      "forumButton": "Juntar-se \u00e0 Comunidade de Pr\u00e1tica",
+      "pillarsTitle": "Quatro Pilares da CoP",
+      "pillars": [
+        { "title": "Visibilidade", "desc": "Ajudar investigadores, institui\u00e7\u00f5es e revistas africanas a destacarem-se no palco global" },
+        { "title": "Ado\u00e7\u00e3o", "desc": "Impulsionar a ado\u00e7\u00e3o e integra\u00e7\u00e3o do ORCID em institui\u00e7\u00f5es e revistas" },
+        { "title": "Comunidade", "desc": "Conectar pares entre fun\u00e7\u00f5es, idiomas e fronteiras" },
+        { "title": "Legado", "desc": "Construir capacidade duradoura para al\u00e9m do ciclo de vida do projeto" }
+      ],
+      "membersTitle": "Membros da comunidade",
+      "members": [
+        { "title": "Investigadores", "desc": "Crie e mantenha o seu ORCID iD, ligue-o aos seus resultados e aumente a sua visibilidade." },
+        { "title": "Bibliotec\u00e1rios", "desc": "Lidere a implementa\u00e7\u00e3o institucional do ORCID, forme investigadores e integre PIDs com reposit\u00f3rios." },
+        { "title": "Editores de revistas", "desc": "Recolha ORCID iDs na submiss\u00e3o, melhore os metadados dos manuscritos e fortale\u00e7a a atribui\u00e7\u00e3o." },
+        { "title": "Editoras", "desc": "Integre ORCID nos fluxos de trabalho editoriais, conecte-se ao Crossref e DataCite e promova as melhores pr\u00e1ticas." }
+      ],
+      "aboutTitle": "O que \u00e9 a Comunidade de Pr\u00e1tica?",
+      "aboutBody": "A Comunidade de Pr\u00e1tica (CoP) ORCID-WACA \u00e9 o tecido conjuntivo do projeto \u2014 uma rede regional de investigadores, bibliotec\u00e1rios, editores de revistas, editoras e administradores de investiga\u00e7\u00e3o que partilham conhecimento, fazem perguntas e aprendem juntos.\n\nAlojada no Google Groups, a CoP permite que os membros participem por e-mail ou atrav\u00e9s da interface web, tornando-a acess\u00edvel mesmo em ambientes de baixa conectividade. As conversas e os recursos s\u00e3o bilingues (ingl\u00eas/portugu\u00eas), refletindo a diversidade lingu\u00edstica do panorama da investiga\u00e7\u00e3o na \u00c1frica Ocidental e Central.\n\nA CoP \u00e9 mais do que um f\u00f3rum de discuss\u00e3o. \u00c9 um espa\u00e7o de aprendizagem entre pares, resolu\u00e7\u00e3o de problemas e colabora\u00e7\u00e3o. Os membros partilham experi\u00eancias pr\u00e1ticas com a integra\u00e7\u00e3o do ORCID, discutem pol\u00edticas institucionais, anunciam oportunidades de forma\u00e7\u00e3o e constroem coletivamente a capacidade da regi\u00e3o para a ado\u00e7\u00e3o de identificadores persistentes.",
+      "benefitsTitle": "Porqu\u00ea juntar-se \u00e0 Comunidade de Pr\u00e1tica?",
+      "benefits": [
+        {
+          "title": "Aprendizagem entre pares",
+          "desc": "Aprenda com colegas de toda a regi\u00e3o que est\u00e3o a resolver os mesmos desafios \u2014 desde campanhas de registo ORCID at\u00e9 ao desenvolvimento de pol\u00edticas institucionais."
+        },
+        {
+          "title": "Apoio de especialistas",
+          "desc": "Obtenha apoio direto dos Embaixadores ORCID-WACA, membros da equipa do projeto e profissionais experientes em identificadores persistentes e comunica\u00e7\u00e3o acad\u00e9mica."
+        },
+        {
+          "title": "Acesso a recursos",
+          "desc": "Aceda a materiais de forma\u00e7\u00e3o exclusivos, grava\u00e7\u00f5es de workshops, modelos de pol\u00edticas ORCID institucionais e guias de melhores pr\u00e1ticas desenvolvidos pela comunidade."
+        },
+        {
+          "title": "Desenvolvimento de rede",
+          "desc": "Conecte-se com uma rede diversificada de profissionais de apoio \u00e0 investiga\u00e7\u00e3o, bibliotec\u00e1rios, editores e decisores pol\u00edticos que trabalham para fortalecer a visibilidade da investiga\u00e7\u00e3o africana."
+        }
+      ],
+      "activitiesTitle": "Atividades da comunidade",
+      "activities": [
+        { "month": "Julho", "title": "Chamada Comunit\u00e1ria 1", "desc": "Uma reuni\u00e3o regional da Comunidade de Pr\u00e1tica (CoP) para discutir a visibilidade e ado\u00e7\u00e3o do ORCID e outros PIDs em institui\u00e7\u00f5es de investiga\u00e7\u00e3o na \u00c1frica Ocidental e Central." },
+        { "month": "Agosto", "title": "Chamada Comunit\u00e1ria 2", "desc": "Uma reuni\u00e3o regional da Comunidade de Pr\u00e1tica (CoP) para discutir a visibilidade e ado\u00e7\u00e3o do ORCID e outros PIDs em institui\u00e7\u00f5es de investiga\u00e7\u00e3o na \u00c1frica Ocidental e Central." },
+        { "month": "Setembro", "title": "Chamada Comunit\u00e1ria 3", "desc": "Uma reuni\u00e3o regional da Comunidade de Pr\u00e1tica (CoP) para discutir a visibilidade e ado\u00e7\u00e3o do ORCID e outros PIDs em institui\u00e7\u00f5es de investiga\u00e7\u00e3o na \u00c1frica Ocidental e Central." }
+      ],
+      "joinTitle": "Juntar-se \u00e0 Comunidade de Pr\u00e1tica",
+      "joinBody": "A Comunidade de Pr\u00e1tica est\u00e1 aberta a qualquer pessoa interessada em ORCID e identificadores persistentes no contexto da \u00c1frica Ocidental e Central. A ades\u00e3o \u00e9 gratuita.\n\nPara aderir, basta enviar um pedido ao Google Group. Pode participar por e-mail ou atrav\u00e9s da interface web. Uma vez aprovado, receber\u00e1 uma mensagem de boas-vindas com uma vis\u00e3o geral das discuss\u00f5es e recursos em curso.",
+      "joinButton": "Juntar-se \u00e0 CoP",
+      "faqTitle": "Perguntas frequentes",
+      "faq": [
+        {
+          "q": "Quem pode juntar-se \u00e0 Comunidade de Pr\u00e1tica?",
+          "a": "A CoP est\u00e1 aberta a investigadores, bibliotec\u00e1rios, editores de revistas, editoras, administradores de investiga\u00e7\u00e3o e qualquer pessoa interessada em identificadores persistentes na \u00c1frica Ocidental e Central. N\u00e3o precisa de ser um Embaixador ORCID-WACA ou estar afiliado a uma institui\u00e7\u00e3o parceira para aderir."
+        },
+        {
+          "q": "H\u00e1 algum custo para aderir?",
+          "a": "N\u00e3o. A ades\u00e3o \u00e9 completamente gratuita."
+        },
+        {
+          "q": "Que idioma \u00e9 usado na CoP?",
+          "a": "A CoP funciona em ingl\u00eas, franc\u00eas e portugu\u00eas. Os membros s\u00e3o encorajados a publicar no idioma com que se sentem mais \u00e0 vontade."
+        },
+        {
+          "q": "Quanto tempo preciso de dedicar?",
+          "a": "N\u00e3o h\u00e1 compromisso m\u00ednimo. Pode participar tanto ou t\u00e3o pouco quanto desejar. Alguns membros juntam-se para discuss\u00f5es espec\u00edficas, enquanto outros s\u00e3o contribuidores ativos de forma cont\u00ednua."
+        },
+        {
+          "q": "Como aderir?",
+          "a": "Clique no bot\u00e3o 'Juntar-se \u00e0 CoP' nesta p\u00e1gina para aceder ao Google Group e solicitar ades\u00e3o. Receber\u00e1 uma confirma\u00e7\u00e3o assim que for aprovado."
+        }
+      ]
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Recursos",
+      "subtitle": "Todas as informações e recursos relevantes de que necessita sobre o projeto ORCID-WACA estão aqui."
+    },
+    "hub": {
+      "searchPlaceholder": "Pesquisar recursos por título, descrição ou tipo...",
+      "filterAll": "Todos os Recursos",
+      "filterVideos": "Vídeos",
+      "filterPhotos": "Fotos",
+      "filterInfographics": "Infográficos",
+      "filterDocuments": "Documentos",
+      "quickActions": {
+        "download": { "title": "Descarregar Todos os Materiais", "desc": "Aceda à biblioteca completa na plataforma Baobab." },
+        "ambassadors": { "title": "Conheça o Programa de Embaixadores", "desc": "Torne-se um campeão da transparência na investigação na WACA." },
+        "community": { "title": "Juntar-se à Comunidade de Prática", "desc": "Discuta, partilhe e conecte-se com outros investigadores." }
+      },
+      "sections": {
+        "videos": { "title": "Tutoriais em Vídeo", "desc": "Assista e aprenda ao seu próprio ritmo." },
+        "photos": { "title": "Fotos", "desc": "Fotos e galerias de eventos." },
+        "infographics": { "title": "Infográficos", "desc": "Ajudas visuais que explicam os benefícios e integrações do ORCID." },
+        "documents": { "title": "Documentos", "desc": "Guias, manuais e leituras essenciais." }
+      },
+      "loadMore": "Carregar Mais",
+      "emptyTitle": "Nenhum recurso encontrado",
+      "emptyDesc": "Não encontrámos nenhum recurso correspondente à sua pesquisa. Tente limpar os filtros ou alterar o termo de pesquisa.",
+      "download": "Descarregar",
+      "categoryLabel": "Formato/páginas",
+      "languageLabel": "Idioma"
+    }
+  },
+  "updates": {
+    "page": {
+      "title": "Not\u00edcias e actualiza\u00e7\u00f5es do ORCID-WACA",
+      "subtitle": "Todas as \u00faltimas actualiza\u00e7\u00f5es sobre ORCID-WACA"
+    },
+    "backToList": "Voltar \u00e0s not\u00edcias e actualiza\u00e7\u00f5es",
+    "readMore": "Ler Mais",
+    "years": ["2026", "2025"],
+    "posts": {
+      "2026": [
+        {
+          "title": "15 embaixadores seleccionados para impulsionar a adop\u00e7\u00e3o do ORCID na \u00c1frica Ocidental e Central",
+          "date": "10 Junho 2026",
+          "image": "/images/updates/ambassadors-selected.jpg",
+          "slug": "15-ambassadors-selected",
+          "body": [
+            "O projecto ORCID\u2013WACA alcan\u00e7ou mais um marco importante ao preparar-se para acolher os seus 15 embaixadores dedicados. Este passo aproxima-nos da dissemina\u00e7\u00e3o dos benef\u00edcios do ORCID em toda a \u00c1frica Ocidental e Central, ajudando a refor\u00e7ar as liga\u00e7\u00f5es e a colabora\u00e7\u00e3o na regi\u00e3o.",
+            "Gra\u00e7as ao generoso apoio do Fundo Global de Participa\u00e7\u00e3o da ORCID, a iniciativa ORCID\u2013WACA est\u00e1 empenhada em <a href='https://wacren.net/en/newsletter/wacren-secures-fund-to-accelerate-regional-orcid-adoption-and-drive-open-science/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>refor\u00e7ar a integra\u00e7\u00e3o e a utiliza\u00e7\u00e3o do ORCID no din\u00e2mico ecossistema de investiga\u00e7\u00e3o da regi\u00e3o</a>. O projecto est\u00e1 alinhado com a vis\u00e3o mais ampla da WACREN de desenvolver uma infra-estrutura p\u00fablica digital de confian\u00e7a, com o objectivo de tornar a produ\u00e7\u00e3o acad\u00e9mica africana mais vis\u00edvel, devidamente atribu\u00edda e duradouramente identific\u00e1vel.",
+            "Ap\u00f3s um <a href='https://libsense.ren.africa/news/6953adde203dbf3802292799' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>processo de selec\u00e7\u00e3o rigoroso</a>, 15 embaixadores foram escolhidos para actuar como defensores da adop\u00e7\u00e3o do ORCID junto de investigadores, institui\u00e7\u00f5es e comunidades. Ter\u00e3o um papel vital na divulga\u00e7\u00e3o do ORCID e de outros Identificadores Persistentes (PID), ajudando a melhorar a visibilidade e a descobribilidade da investiga\u00e7\u00e3o africana, ao mesmo tempo que apoiam as institui\u00e7\u00f5es no refor\u00e7o das pr\u00e1ticas de identifica\u00e7\u00e3o de investigadores. Atrav\u00e9s de actividades de sensibiliza\u00e7\u00e3o, workshops e interac\u00e7\u00f5es com investigadores, bibliotec\u00e1rios, editores, respons\u00e1veis de revistas e administradores de investiga\u00e7\u00e3o, estes embaixadores promover\u00e3o uma maior consciencializa\u00e7\u00e3o e inspirar\u00e3o a adop\u00e7\u00e3o de boas pr\u00e1ticas em toda a regi\u00e3o.",
+            "Tamb\u00e9m ajudar\u00e3o a construir a din\u00e2mica Comunidade de Pr\u00e1tica ORCID\u2013WACA, abrindo novas oportunidades de colabora\u00e7\u00e3o, aprendizagem entre pares e partilha de conhecimento entre todos os que se dedicam ao fortalecimento da infra-estrutura de investiga\u00e7\u00e3o em \u00c1frica.",
+            "A pr\u00f3xima sess\u00e3o de orienta\u00e7\u00e3o dos embaixadores apresentar\u00e1 oficialmente aos participantes os objectivos da iniciativa e fornecer-lhes-\u00e1 o conhecimento, os recursos e o apoio necess\u00e1rios para desempenharem eficazmente as suas fun\u00e7\u00f5es. A sess\u00e3o abordar\u00e1 as suas responsabilidades e resultados esperados, oportunidades de mentoria, abordagens de envolvimento comunit\u00e1rio e as ferramentas dispon\u00edveis para os ajudar a gerar um impacto significativo nas suas comunidades.",
+            "A WACREN considera uma infra-estrutura PID robusta crucial para garantir que a investiga\u00e7\u00e3o africana seja devidamente creditada, facilmente descoberta a n\u00edvel mundial e correctamente integrada na comunidade acad\u00e9mica global. \u00c0 medida que os embaixadores ORCID\u2013WACA iniciam este percurso, estamos ansiosos por colaborar com eles para criar um ambiente de investiga\u00e7\u00e3o mais vis\u00edvel, mais conectado e mais equitativo para a \u00c1frica Ocidental e Central."
+          ]
+        }
+      ],
+      "2025": [
+        {
+          "title": "WACREN lan\u00e7a convites para dar in\u00edcio ao projecto ORCID-WACA",
+          "date": "22 Dezembro 2025",
+          "image": "/images/updates/wacren-launches.jpg",
+          "slug": "wacren-launches-orcid-waca",
+          "body": [
+            "Na sequ\u00eancia do seu recente <a href='https://wacren.net/en/wacren-secures-fund-to-accelerate-regional-orcid-adoption-and-drive-open-science/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>an\u00fancio de que garantiu apoio do Fundo Global de Participa\u00e7\u00e3o da ORCID para acelerar a adop\u00e7\u00e3o do ORCID na \u00c1frica Ocidental e Central</a>, a WACREN deu oficialmente in\u00edcio ao projecto ORCID-WACA com dois convites estrat\u00e9gicos: um convite \u00e0 ades\u00e3o \u00e0 Comunidade de Pr\u00e1tica ORCID-WACA (CoP) e um convite \u00e0 apresenta\u00e7\u00e3o de candidaturas ao Programa de Embaixadores ORCID-WACA.",
+            "Estes dois convites assinalam o in\u00edcio de um esfor\u00e7o regional para refor\u00e7ar a identifica\u00e7\u00e3o de investigadores, melhorar a atribui\u00e7\u00e3o das produ\u00e7\u00f5es acad\u00e9micas e integrar de forma mais profunda os identificadores persistentes (PID) nos ecossistemas africanos de investiga\u00e7\u00e3o.",
+            "A CoP ORCID-WACA disponibiliza uma plataforma colaborativa para bibliotec\u00e1rios, investigadores, gestores de reposit\u00f3rios, editores de revistas, editoras e administradores de investiga\u00e7\u00e3o partilharem experi\u00eancias, enfrentarem desafios institucionais e co-criarem orienta\u00e7\u00f5es pr\u00e1ticas para a adop\u00e7\u00e3o do ORCID e dos PID. Atrav\u00e9s de sess\u00f5es regulares de aprendizagem e actividades colaborativas, a CoP apoiar\u00e1 institui\u00e7\u00f5es em diferentes fases da integra\u00e7\u00e3o do ORCID.",
+            "Em complemento, o Programa de Embaixadores ORCID-WACA capacitar\u00e1 uma coorte de embaixadores formados para liderar actividades de sensibiliza\u00e7\u00e3o, mobiliza\u00e7\u00e3o institucional e refor\u00e7o de capacidades em toda a regi\u00e3o. Os embaixadores desempenhar\u00e3o um papel fundamental na transforma\u00e7\u00e3o dos benef\u00edcios do ORCID em utiliza\u00e7\u00e3o pr\u00e1tica nas universidades, institutos de investiga\u00e7\u00e3o e revistas.",
+            "Em conjunto, estas iniciativas refor\u00e7ar\u00e3o significativamente a visibilidade, a credibilidade e a integridade da investiga\u00e7\u00e3o dos investigadores africanos, assegurando uma atribui\u00e7\u00e3o exacta, reduzindo deturpa\u00e7\u00f5es e fortalecendo a confian\u00e7a global na produ\u00e7\u00e3o acad\u00e9mica africana.",
+            "O projecto baseia-se no trabalho fundamental da LIBSENSE sobre identificadores persistentes, incluindo <a href='https://wacren.net/en/wacren-opens-new-possibilities-for-african-research-community-with-arks/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>o envolvimento da WACREN com ARKs</a>, reposit\u00f3rios, forma\u00e7\u00e3o em ci\u00eancia aberta e <a href='https://baobab.wacren.net/records/t72jd-p2583' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>promo\u00e7\u00e3o dos PID</a>. A LIBSENSE ser\u00e1 utilizada como plataforma estrat\u00e9gica para alinhar a adop\u00e7\u00e3o do ORCID com fluxos de trabalho PID mais amplos, sistemas institucionais e infra-estruturas de investiga\u00e7\u00e3o aberta.",
+            "Ao mobilizar comunidades e defensores, o projecto ORCID-WACA posiciona os investigadores e as institui\u00e7\u00f5es africanas para uma participa\u00e7\u00e3o mais forte no ecossistema global de investiga\u00e7\u00e3o.",
+            "Clique para se candidatar e juntar-se aos Embaixadores ORCID-WACA.",
+            "Candidate-se para aderir \u00e0 Comunidade de Pr\u00e1tica ORCID-WACA"
+          ]
+        },
+        {
+          "title": "Convite \u00e0 ades\u00e3o: Comunidade de Pr\u00e1tica ORCID-WACA (CoP)",
+          "date": "20 Dezembro 2025",
+          "image": "/images/updates/cop-membership.jpg",
+          "slug": "call-for-membership-cop",
+          "body": [
+            "A Comunidade de Pratica ORCID-WACA (CoP) e um forum regional de colaboracao estabelecido no ambito da Iniciativa ORCID-WACA, liderada pela <a href='https://wacren.net' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>West and Central African Research and Education Network (WACREN)</a> com o apoio do <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>Fundo Global de Participacao da ORCID</a>. A CoP tem como objetivo promover a adocao e a integracao do ORCID nas instituicoes da Africa Ocidental e Central, reforcar a identificacao de investigadores e aumentar a visibilidade e a descobribilidade da producao cientifica africana.",
+            "A CoP oferece uma plataforma colaborativa para investigadores, bibliotecarios, gestores de repositorios, editores de revistas, editoras e administradores de investigacao partilharem desafios, experiencias e estrategias praticas para a adocao de identificadores persistentes (PID) e a sua integracao em sistemas de gestao da investigacao, repositorios institucionais e fluxos de publicacao de revistas.",
+            "Ambito da adesao",
+            "A adesao a CoP ORCID-WACA esta aberta a bibliotecarios, gestores de repositorios, editores de revistas, editoras, administradores de investigacao, defensores da ciencia aberta, bem como a todos os investigadores e profissionais interessados em instituicoes de ensino superior e de investigacao em toda a Africa.",
+            "Areas de foco da comunidade",
+            "Mapear a adopcao do ORCID e de outros PID em toda a WACA para identificar regioes com baixa adesao, com oportunidades de coautoria e publicacao colaborativa dos estudos.",
+            "Proporcionar um espaco de apoio para discutir desafios institucionais relacionados com a adopcao de PID e identificar solucoes praticas.",
+            "Co-criar materiais de orientacao para que revistas cientificas africanas adoptem a integracao do ORCID nos processos editoriais e de publicacao.",
+            "Reunir e desenvolver recursos iniciais para instituicoes que estao a comecar a adopcao do ORCID e a sua integracao nas infra-estruturas de investigacao.",
+            "Organizar sessoes tematicas com base nos interesses dos membros, incluindo palestras convidadas da equipa da ORCID e de outros especialistas.",
+            "Realizar sessoes de aprendizagem sobre identidade de investigacao, visibilidade dos investigadores, adopcao de PID e temas relevantes.",
+            "Apoiar a traducao e localizacao de materiais-chave para aumentar a acessibilidade nas regioes anglofonas e francofonas.",
+            "Expectativas dos membros: participar nas reunioes mensais da CoP, nas discussoes e nas actividades colaborativas.",
+            "As pessoas interessadas devem preencher o formulario de adesao a CoP: https://survey.wacren.net/index.php/158976",
+            "Prazo: 16 de Fevereiro de 2026",
+            "Para questoes ou sugestoes, contacte a equipa ORCID-WACA atraves de orcid@wacren.net"
+          ]
+        },
+        {
+          "title": "Convite \u00e0 apresenta\u00e7\u00e3o de candidaturas: Programa de Embaixadores ORCID\u2013WACA",
+          "date": "20 Dezembro 2025",
+          "image": "/images/updates/ambassador-programme.jpg",
+          "slug": "call-for-applications-ambassador",
+          "body": [
+            "A iniciativa ORCID-WACA, liderada pela <a href='https://wacren.net' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>West and Central African Research and Education Network (WACREN)</a> com o apoio do <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>Fundo Global de Participacao da ORCID</a>, visa promover a adocao e a integracao do ORCID nas instituicoes da Africa Ocidental e Central. Baseia-se nos esforcos continuos da WACREN para reforcar a utilizacao de Identificadores Persistentes (PID) em Africa, um passo importante para melhorar a visibilidade dos investigadores, o impacto institucional e uma participacao mais equitativa no ecossistema global de investigacao. A iniciativa esta alinhada com a missao da WACREN e da ORCID de reduzir as lacunas de participacao no Sul Global.",
+            "A WACREN ha muito reconhece que a <a href='https://katinamagazine.org/content/article/open-knowledge/2025/five-perspectives-on-state-of-open-science-africa' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>baixa adopcao de PID</a>, como o ORCID, em Africa limita a visibilidade e a descobribilidade da producao cientifica da regiao, reforcando a ideia errada de baixa produtividade academica em Africa. Muitos investigadores e profissionais africanos apenas entram em contacto com o ORCID durante o processo de submissao a revistas, porque os editores muitas vezes o exigem. As exigencias institucionais ou editoriais relativas ao ORCID continuam baixas em Africa, e a sensibilizacao e o uso do ORCID sao particularmente limitados nas disciplinas nao STEM. Esta situacao dificulta a atribuicao correta do trabalho academico, a demonstracao da produtividade institucional e a valorizacao do verdadeiro impacto cientifico dos investigadores africanos.",
+            "Para responder a estes desafios, a WACREN ja estabeleceu uma base solida para a adopcao de PID atraves de varias iniciativas. Em particular, os resultados de investigacao divulgados atraves do <a href='https://baobab.wacren.net/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>repositorio BAOBAB</a>, operado pela WACREN, recebem Archival Resource Keys (ARK), garantindo a sua descobribilidade e acesso a longo prazo. A WACREN tambem organizou <a href='https://africaconnect3.net/scholarly-community-in-west-africa-enlightened-on-persistent-identifiers/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>workshops e sessoes de formacao sobre PID</a>, capacitando investigadores, bibliotecarios e editores africanos com conhecimentos sobre a importancia dos PID para uma melhor atribuicao e reconhecimento. Alem disso, os <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>cursos de formacao COPPHA</a> <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>liderados pela WACREN</a> envolveram mais de 600 participantes, incluindo investigadores africanos em inicio e meio de carreira (EMCR) e profissionais seniores, em modelos de publicacao equitativos que abrangeram discussoes sobre integridade da investigacao, transparencia e atribuicao adequada atraves de PID para mitigar praticas de publicacao predatorias.",
+            "Com base nesta fundacao, a iniciativa ORCID-WACA demonstrara como a adopcao do ORCID pode reforcar a integridade da investigacao, melhorar a identificacao dos investigadores, aumentar a visibilidade da producao cientifica africana e promover uma colaboracao institucional mais ampla em todo o continente. O projeto aumentara a sensibilizacao para os beneficios do ORCID, promovera a sua integracao com infra-estruturas de investigacao, como repositorios institucionais, e reforcara a capacidade comunitaria atraves do Programa de Embaixadores ORCID-WACA e da Comunidade de Pratica ORCID-WACA. Em conjunto, estes esforcos aumentarao a adopcao do ORCID nas instituicoes da Africa Ocidental e Central, farao avancar a missao da ORCID de reduzir as lacunas de participacao no Sul Global e reforcarao a integracao de longo prazo dos PID nas infra-estruturas regionais de investigacao.",
+            "Regioes abrangidas: Africa Ocidental e Central (paises anglofonos e francofonos)",
+            "Duracao do Programa de Embaixadores",
+            "O Programa de Embaixadores decorrera de Fevereiro de 2026 a Julho de 2026, com um compromisso esperado de aproximadamente 4 a 6 horas por mes para workshops, actividades de sensibilizacao e participacao na Comunidade de Pratica (CoP).",
+            "Papel dos Embaixadores",
+            "Os embaixadores desempenharao um papel central na promocao da consciencializacao e da adopcao do ORCID nas suas instituicoes e redes profissionais. Realizarao workshops e accoes de sensibilizacao institucional para envolver docentes, investigadores e administradores, ao mesmo tempo que apoiarao o desenvolvimento e a localizacao de materiais promocionais. Alem disso, os Embaixadores servirao como membros centrais da Comunidade de Pratica ORCID-WACA (CoP), contribuindo para a aprendizagem partilhada e para a colaboracao em toda a regiao.",
+            "Numero de Embaixadores a Seleccionar: 15",
+            "Criterios de Elegibilidade",
+            "Os candidatos devem:",
+            "Estar actualmente vinculados a uma instituicao reconhecida de ensino superior ou de investigacao num pais da Africa Ocidental ou Central.",
+            "Ter experiencia com sistemas de identificacao de investigadores (identificadores persistentes) e praticas de comunicacao academica (bibliotecarios, gestores de repositorios, administradores de investigacao, docentes, investigadores em inicio de carreira, editores de revistas e defensores da ciencia aberta).",
+            "Possuir um ORCID iD activo com utilizacao demonstrada (publicacoes, conjuntos de dados ou perfil institucional associados).",
+            "Ter experiencia na realizacao de formacoes, workshops ou outras actividades de sensibilizacao, e estar disposto a conduzir workshops e accoes de divulgacao.",
+            "Comunicar eficazmente em ingles ou frances.",
+            "Expectativas e Entregaveis",
+            "Espera-se que os embaixadores:",
+            "Participem activamente nas actividades dos embaixadores e da Comunidade de Pratica ORCID-WACA, e incentivem colegas e investigadores das suas instituicoes a aderirem e participarem na CoP.",
+            "Realizem workshops e accoes de sensibilizacao institucional para aumentar a adopcao do ORCID.",
+            "Promovam o programa e os eventos ORCID-WACA nas plataformas de redes sociais para aumentar a consciencializacao e o envolvimento.",
+            "Reportem as actividades de envolvimento e fornecam feedback a equipa ORCID-WACA.",
+            "Apoio, Subsidio e Reconhecimento",
+            "Os embaixadores receberao mentoria da equipa ORCID-WACA ao longo do programa. Receberao tambem um subsidio, bem como acesso a recursos de formacao e materiais de workshop para apoiar as suas actividades de sensibilizacao. Alem disso, ser-lhes-ao fornecidos materiais promocionais ORCID-WACA para ajudar a aumentar a consciencializacao e incentivar a adopcao do ORCID nas suas instituicoes e redes profissionais. Apos a conclusao bem-sucedida do programa, os embaixadores receberao reconhecimento formal atraves de um Certificado de Realizacao e de um perfil publico como Embaixador ORCID-WACA na pagina web ORCID-WACA.",
+            "Processo de Candidatura",
+            "Os candidatos interessados devem preencher e submeter o formulario de candidatura, fornecendo o seu ORCID iD e experiencia com ORCID, bem como uma breve declaracao explicando porque desejam tornar-se Embaixadores ORCID-WACA e como aumentariam a consciencializacao e a adopcao do ORCID na sua instituicao, juntamente com respostas a outras questoes do formulario. Candidaturas incompletas nao serao consideradas.",
+            "Candidate-se aqui: https://survey.wacren.net/index.php/619121",
+            "Prazo: 22 de Janeiro de 2026",
+            "Se tiver alguma questao ou sugestao, contacte-nos em orcid@wacren.net."
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Contate-nos",
+      "subtitle": "Entre em contato com ORCID-WACA"
+    },
+    "hero": {
+      "title": "Entre em Contato",
+      "subtitle": "Tem perguntas sobre ORCID-WACA? Estamos aqui para ajudar. Entre em contato conosco e responderemos o mais breve possível."
+    },
+    "connect": {
+      "title": "Vamos nos conectar",
+      "subtitle": "Se você estiver interessado em apoiar o alcance/workshop de um embaixador, juntar-se à nossa Comunidade de Prática, fazer parceria com ORCID-WACA, ou simplesmente aprender mais sobre ORCID, adoraríamos ouvir você.",
+      "emailUs": {
+        "title": "Envie-nos um E-mail",
+        "desc": "Para consultas gerais e suporte contínuo."
+      },
+      "visit": {
+        "title": "Visite WACREN",
+        "desc": "Saiba mais sobre WACREN - a organização implementadora."
+      },
+      "follow": {
+        "title": "Siga-nos",
+        "desc": "Mantenha-se atualizado em nossas mídias sociais."
+      }
+    },
+    "form": {
+      "title": "Envie-nos uma Mensagem",
+      "subtitle": "Preencha o formulário abaixo e nossa equipe entrará em contato com você em breve.",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Endereço de E-mail",
+      "institution": "Instituição / Organização",
+      "country": "País",
+      "countryPlaceholder": "Selecione o seu país",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Selecione um assunto",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "subjects": {
+        "general": "Consulta Geral",
+        "cop": "Comunidade de Prática",
+        "ambassador": "Programa de Embaixadores",
+        "support": "Apoio Institucional",
+        "training": "Pedido de Treinamento",
+        "partnership": "Oportunidade de Parceria",
+        "technical": "Suporte Técnico"
+      }
+    }
+  }
+}
