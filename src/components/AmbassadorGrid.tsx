@@ -64,7 +64,7 @@ export default function AmbassadorGrid({ ambassadors }: { ambassadors: Ambassado
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: (i % INITIAL_COUNT) * 0.05 }}
-            className="rounded-xl border bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col"
+            className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 rounded-full bg-gradient-to-br overflow-hidden shrink-0">
@@ -118,7 +118,7 @@ export default function AmbassadorGrid({ ambassadors }: { ambassadors: Ambassado
         {visibleCount > INITIAL_COUNT && (
           <button
             onClick={() => setVisibleCount(INITIAL_COUNT)}
-            className="h-11 rounded-full border border-primary/20 bg-white px-8 text-sm font-semibold text-zinc-600 hover:bg-zinc-50 transition-colors"
+            className="h-11 rounded-full border border-primary/20 border-primary/20 bg-white px-8 text-sm font-semibold text-zinc-600 hover:bg-zinc-50 transition-colors"
           >
             Show Less
           </button>

@@ -16,7 +16,7 @@ export default function FAQ({ items }: { items: FAQItem[] }) {
       {items.map((item, i) => (
         <div
           key={i}
-          className="rounded-xl border bg-white overflow-hidden self-start"
+          className="rounded-xl border border-primary/20 bg-white overflow-hidden self-start"
         >
           <button
             onClick={() => setOpen(open === i ? null : i)}

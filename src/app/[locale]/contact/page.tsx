@@ -158,7 +158,7 @@ export default async function ContactPage({
             <div className="grid md:grid-cols-3 gap-8">
               {/* Email Us */}
               <FadeIn delay={0.1}>
-              <div className="rounded-xl border bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
                 <div className="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center text-primary mb-6">
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -177,7 +177,7 @@ export default async function ContactPage({
 
               {/* Visit WACREN */}
               <FadeIn delay={0.2}>
-              <div className="rounded-xl border bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
                 <div className="w-14 h-14 mx-auto rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-6">
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10" />
@@ -197,7 +197,7 @@ export default async function ContactPage({
 
               {/* Follow Us */}
               <FadeIn delay={0.3}>
-              <div className="rounded-xl border bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow text-center h-full">
                 <div className="w-14 h-14 mx-auto rounded-full bg-zinc-100 flex items-center justify-center text-zinc-600 mb-6">
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="18" cy="5" r="3" />
@@ -234,7 +234,7 @@ export default async function ContactPage({
         {/* ─── Contact Form ─── */}
         <section className="py-16 md:py-24 bg-white">
           <div className="mx-auto max-w-4xl px-4">
-            <FadeIn delay={0.2} direction="up" className="rounded-2xl border bg-white shadow-sm p-6 md:p-10">
+            <FadeIn delay={0.2} direction="up" className="rounded-2xl border border-primary/20 bg-white shadow-sm p-6 md:p-10">
               <div className="text-center mb-10">
                 <h2 className="text-2xl md:text-3xl font-bold text-zinc-900 mb-4">
                   {t('form.title')}
@@ -275,7 +275,7 @@ export default async function ContactPage({
                   {/* Country */}
                   <div className="space-y-2">
                     <label htmlFor="country" className="block text-sm font-medium text-zinc-700">{t('form.country')}<span className="text-red-500">*</span></label>
-                    <select id="country" name="country" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
+                    <select id="country" name="country" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border border-primary/20 outline-none bg-white">
                       <option value="" disabled>{t('form.countryPlaceholder')}</option>
                       {translatedCountries.map(c => <option key={c.code} value={c.name}>{c.name}</option>)}
                     </select>
@@ -283,7 +283,7 @@ export default async function ContactPage({
                   {/* Subject */}
                   <div className="space-y-2">
                     <label htmlFor="subject" className="block text-sm font-medium text-zinc-700">{t('form.subject')}<span className="text-red-500">*</span></label>
-                    <select id="subject" name="subject" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
+                    <select id="subject" name="subject" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border border-primary/20 outline-none bg-white">
                       <option value="" disabled>{t('form.subjectPlaceholder')}</option>
                       {subjectKeys.map(key => <option key={key} value={t(`form.subjects.${key}`)}>{t(`form.subjects.${key}`)}</option>)}
                     </select>

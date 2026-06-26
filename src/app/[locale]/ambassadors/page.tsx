@@ -133,7 +133,7 @@ export default async function AmbassadorsPage({
                 return (
                   <div
                     key={i}
-                    className="rounded-xl border bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
+                    className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
                   >
                     <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center text-secondary mb-5">
                       {meta.icon}
@@ -199,7 +199,7 @@ export default async function AmbassadorsPage({
                 return (
                   <div
                     key={i}
-                    className="rounded-xl border bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
+                    className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
                   >
                     <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center text-secondary mb-5">
                       {meta.icon}

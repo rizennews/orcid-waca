@@ -166,7 +166,7 @@ export default async function CommunityPage({
                 return (
                   <div
                     key={i}
-                    className="rounded-xl border bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col items-center text-center"
+                    className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col items-center text-center"
                   >
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-secondary mb-5">
                       {meta.icon}
@@ -194,7 +194,7 @@ export default async function CommunityPage({
               {(t.raw('community.page.activities') as { month: string; title: string; desc: string }[]).map((call, i) => (
                 <div
                   key={i}
-                  className="rounded-xl overflow-hidden border bg-white hover:shadow-lg transition-shadow"
+                  className="rounded-xl overflow-hidden border border-primary/20 bg-white hover:shadow-lg transition-shadow"
                 >
                   <div className={`px-6 py-5 ${i % 2 === 0 ? 'bg-primary' : 'bg-secondary'} text-white text-center`}>
                     <p className="text-2xl font-bold leading-tight">{call.month}</p>

@@ -45,7 +45,7 @@ export default function NewsGrid({ years, posts, readMore }: NewsGridProps) {
                 {(posts[year] || []).map((post, i) => (
                   <article
                     key={i}
-                    className="group rounded-xl overflow-hidden border bg-white hover:shadow-lg transition-shadow flex flex-col md:flex-row"
+                    className="group rounded-xl overflow-hidden border border-primary/20 bg-white hover:shadow-lg transition-shadow flex flex-col md:flex-row"
                   >
                     <div className="relative w-full md:w-56 h-52 md:h-auto shrink-0 overflow-hidden bg-zinc-100">
                       <Image

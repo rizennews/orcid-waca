@@ -113,7 +113,7 @@ export default async function HomePage({
               ].map((stat) => (
                 <div
                   key={stat.key}
-                  className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
+                  className="rounded-xl border border-primary/20 border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
                 >
                   <p className="text-4xl font-bold text-primary mb-2">
                     {stat.value}
@@ -196,7 +196,7 @@ export default async function HomePage({
               ].map((card, idx) => (
                 <FadeIn key={card.key} delay={0.1 * idx}>
                   <div
-                    className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 text-left flex flex-col hover:shadow-lg transition-shadow h-full"
+                    className="rounded-xl border border-primary/20 border-primary/20 bg-white p-6 md:p-8 text-left flex flex-col hover:shadow-lg transition-shadow h-full"
                   >
                   <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center text-secondary mb-5">
                     {card.icon}
@@ -287,7 +287,7 @@ export default async function HomePage({
               ].map((item) => (
                 <div
                   key={item.key}
-                  className="rounded-xl border border-primary/20 bg-white p-6 hover:shadow-lg transition-shadow"
+                  className="rounded-xl border border-primary/20 border-primary/20 bg-white p-6 hover:shadow-lg transition-shadow"
                 >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-secondary mb-4">
                     {item.icon}

@@ -37,7 +37,7 @@ export default function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-50 w-full border-b border-primary/20 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3">
         <Link href={`/${locale}`} className="flex-shrink-0">
           <Image
@@ -63,7 +63,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <div className="hidden sm:flex items-center gap-1 border rounded-lg px-2 py-1">
+          <div className="hidden sm:flex items-center gap-1 border border-primary/20 rounded-lg px-2 py-1">
             {routing.locales.map((l) => (
               <button
                 key={l}
@@ -107,7 +107,7 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <div className="lg:hidden border-t bg-white">
+        <div className="lg:hidden border-t border-primary/20 bg-white">
           <nav className="mx-auto max-w-7xl px-4 py-4 flex flex-col gap-3 text-sm font-medium text-zinc-700">
             {links.map((link) => (
               <Link
