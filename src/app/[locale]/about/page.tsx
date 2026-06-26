@@ -96,8 +96,8 @@ export default async function AboutPage({
             </h2>
             <div className="grid sm:grid-cols-2 gap-8">
               {/* Challenge */}
-              <div className="rounded-xl border-2 border-primary bg-white p-8 md:p-10 hover:shadow-lg transition-shadow">
-                <div className="w-11 h-11 rounded-xl bg-red-100 flex items-center justify-center text-red-600 mb-6">
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow">
+                <div className="w-11 h-11 rounded-xl bg-primary flex items-center justify-center text-white mb-6">
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10" />
                     <line x1="12" y1="8" x2="12" y2="12" />
@@ -121,8 +121,8 @@ export default async function AboutPage({
               </div>
 
               {/* Approach */}
-              <div className="rounded-xl border-2 border-secondary bg-white p-8 md:p-10 hover:shadow-lg transition-shadow">
-                <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center text-secondary mb-6">
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow">
+                <div className="w-11 h-11 rounded-xl bg-secondary flex items-center justify-center text-white mb-6">
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                     <polyline points="22 4 12 14.01 9 11.01" />
