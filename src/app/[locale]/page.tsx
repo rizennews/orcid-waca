@@ -63,7 +63,7 @@ export default async function HomePage({
       <main className="flex-1">
         {/* ─── Hero ─── */}
         <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white">
-          <div className="mx-auto max-w-4xl px-4 py-20 md:py-36 text-center">
+          <div className="mx-auto max-w-4xl px-4 py-12 md:py-20 text-center">
             <FadeIn delay={0.1}>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 {t('home.hero.title')}
@@ -113,7 +113,7 @@ export default async function HomePage({
               ].map((stat) => (
                 <div
                   key={stat.key}
-                  className="rounded-xl border border-zinc-200 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
+                  className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
                 >
                   <p className="text-4xl font-bold text-primary mb-2">
                     {stat.value}

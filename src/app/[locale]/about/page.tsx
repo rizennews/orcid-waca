@@ -57,7 +57,7 @@ export default async function AboutPage({
       <main className="flex-1">
         {/* ─── Hero ─── */}
         <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white">
-          <div className="mx-auto max-w-4xl px-4 py-20 md:py-36 text-center">
+          <div className="mx-auto max-w-4xl px-4 py-12 md:py-20 text-center">
             <FadeIn delay={0.1}>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 {t('about.page.title')}

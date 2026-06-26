@@ -255,11 +255,11 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               value={search}
               onChange={e => { setSearch(e.target.value); setViewLimits({ videos: 3, photos: 3, infographics: 3, documents: 3 }) }}
               placeholder={labels.searchPlaceholder}
-              className="w-full rounded-full border border-zinc-200 bg-white py-3.5 pl-14 pr-6 text-sm outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
+              className="w-full rounded-full border border-primary/20 bg-white py-3.5 pl-14 pr-6 text-sm outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
             />
           </div>
 
-          <div className="flex w-full max-w-2xl overflow-x-auto gap-2 rounded-xl border border-zinc-200 bg-white/80 p-1.5 scrollbar-none md:rounded-full md:flex-wrap md:justify-center md:overflow-visible">
+          <div className="flex w-full max-w-2xl overflow-x-auto gap-2 rounded-xl border border-primary/20 bg-white/80 p-1.5 scrollbar-none md:rounded-full md:flex-wrap md:justify-center md:overflow-visible">
             {([
               { key: 'all' as TabKey, icon: <ListIcon />, label: labels.filterAll },
               { key: 'videos' as TabKey, icon: <VideoIcon />, label: labels.filterVideos },
@@ -291,7 +291,7 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="rounded-xl border border-dashed border-zinc-300 bg-white py-16 px-6 text-center"
+              className="rounded-xl border border-dashed border-primary/20 bg-white py-16 px-6 text-center"
             >
               <p className="text-lg font-semibold text-zinc-900 mb-2">{labels.emptyTitle}</p>
               <p className="text-sm text-zinc-500 max-w-sm mx-auto">{labels.emptyDesc}</p>
@@ -420,7 +420,7 @@ function renderSection(
                 </div>
                 <h3 className="text-base font-bold text-zinc-900 mb-2 leading-snug">{item.title}</h3>
                 {item.desc && <p className="text-sm text-zinc-500 leading-relaxed mb-4 flex-1">{item.desc}</p>}
-                <div className="border-t border-zinc-100 pt-3 mt-auto space-y-1 text-[0.75rem] text-zinc-400 mb-4">
+                <div className="border-t border-primary/20 pt-3 mt-auto space-y-1 text-[0.75rem] text-zinc-400 mb-4">
                   {item.pages && <div>{labels.categoryLabel}: {item.pages}</div>}
                   {item.lang && <div>{labels.languageLabel}: {item.lang}</div>}
                 </div>

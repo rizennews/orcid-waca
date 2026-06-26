@@ -30,7 +30,7 @@ export default function NewsGrid({ years, posts, readMore }: NewsGridProps) {
               className={`h-10 px-5 rounded-full text-sm font-semibold border transition-colors ${
                 activeYear === year
                   ? 'bg-primary text-white border-primary'
-                  : 'bg-white text-zinc-600 border-zinc-300 hover:border-primary hover:text-primary'
+                  : 'bg-white text-zinc-600 border-primary/20 hover:border-primary hover:text-primary'
               }`}
             >
               {year}

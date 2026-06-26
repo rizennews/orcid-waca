@@ -123,7 +123,7 @@ export default async function PostPage({
 
       <main className="flex-1">
         {/* Back link */}
-        <section className="bg-zinc-50 border-b border-zinc-200">
+        <section className="bg-zinc-50 border-b border-primary/20">
           <div className="mx-auto max-w-4xl px-4 py-4">
             <a
               href={`/${locale}/updates`}

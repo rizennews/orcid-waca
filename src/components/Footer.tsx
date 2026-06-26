@@ -155,7 +155,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-16 pt-8 border-t border-zinc-300 text-center text-xs md:text-sm text-zinc-500">
+        <div className="mt-16 pt-8 border-t border-primary/20 text-center text-xs md:text-sm text-zinc-500">
           <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </div>

@@ -118,7 +118,7 @@ export default function AmbassadorGrid({ ambassadors }: { ambassadors: Ambassado
         {visibleCount > INITIAL_COUNT && (
           <button
             onClick={() => setVisibleCount(INITIAL_COUNT)}
-            className="h-11 rounded-full border border-zinc-300 bg-white px-8 text-sm font-semibold text-zinc-600 hover:bg-zinc-50 transition-colors"
+            className="h-11 rounded-full border border-primary/20 bg-white px-8 text-sm font-semibold text-zinc-600 hover:bg-zinc-50 transition-colors"
           >
             Show Less
           </button>

@@ -125,7 +125,7 @@ export default async function ContactPage({
       <main className="flex-1 bg-zinc-50">
         {/* ─── Hero ─── */}
         <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white">
-          <div className="mx-auto max-w-4xl px-4 py-20 md:py-36 text-center">
+          <div className="mx-auto max-w-4xl px-4 py-12 md:py-20 text-center">
             <FadeIn delay={0.1}>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 {t('hero.title')}
@@ -249,12 +249,12 @@ export default async function ContactPage({
                   {/* First Name */}
                   <div className="space-y-2">
                     <label htmlFor="firstName" className="block text-sm font-medium text-zinc-700">{t('form.firstName')}<span className="text-red-500">*</span></label>
-                    <input type="text" id="firstName" name="firstName" required className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
+                    <input type="text" id="firstName" name="firstName" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
                   </div>
                   {/* Last Name */}
                   <div className="space-y-2">
                     <label htmlFor="lastName" className="block text-sm font-medium text-zinc-700">{t('form.lastName')}<span className="text-red-500">*</span></label>
-                    <input type="text" id="lastName" name="lastName" required className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
+                    <input type="text" id="lastName" name="lastName" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
                   </div>
                 </div>
 
@@ -262,12 +262,12 @@ export default async function ContactPage({
                   {/* Email */}
                   <div className="space-y-2">
                     <label htmlFor="email" className="block text-sm font-medium text-zinc-700">{t('form.email')}<span className="text-red-500">*</span></label>
-                    <input type="email" id="email" name="email" required className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
+                    <input type="email" id="email" name="email" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
                   </div>
                   {/* Institution */}
                   <div className="space-y-2">
                     <label htmlFor="institution" className="block text-sm font-medium text-zinc-700">{t('form.institution')}</label>
-                    <input type="text" id="institution" name="institution" className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
+                    <input type="text" id="institution" name="institution" className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none" />
                   </div>
                 </div>
 
@@ -275,7 +275,7 @@ export default async function ContactPage({
                   {/* Country */}
                   <div className="space-y-2">
                     <label htmlFor="country" className="block text-sm font-medium text-zinc-700">{t('form.country')}<span className="text-red-500">*</span></label>
-                    <select id="country" name="country" defaultValue="" required className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
+                    <select id="country" name="country" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
                       <option value="" disabled>{t('form.countryPlaceholder')}</option>
                       {translatedCountries.map(c => <option key={c.code} value={c.name}>{c.name}</option>)}
                     </select>
@@ -283,7 +283,7 @@ export default async function ContactPage({
                   {/* Subject */}
                   <div className="space-y-2">
                     <label htmlFor="subject" className="block text-sm font-medium text-zinc-700">{t('form.subject')}<span className="text-red-500">*</span></label>
-                    <select id="subject" name="subject" defaultValue="" required className="w-full rounded-lg border-zinc-300 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
+                    <select id="subject" name="subject" defaultValue="" required className="w-full rounded-lg border-primary/20 px-4 py-2.5 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none bg-white">
                       <option value="" disabled>{t('form.subjectPlaceholder')}</option>
                       {subjectKeys.map(key => <option key={key} value={t(`form.subjects.${key}`)}>{t(`form.subjects.${key}`)}</option>)}
                     </select>
@@ -293,7 +293,7 @@ export default async function ContactPage({
                 {/* Message */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="block text-sm font-medium text-zinc-700">{t('form.message')}<span className="text-red-500">*</span></label>
-                  <textarea id="message" name="message" rows={5} required className="w-full rounded-lg border-zinc-300 px-4 py-3 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none resize-y"></textarea>
+                  <textarea id="message" name="message" rows={5} required className="w-full rounded-lg border-primary/20 px-4 py-3 text-zinc-900 focus:border-primary focus:ring-primary transition-colors border outline-none resize-y"></textarea>
                 </div>
 
                 <div className="pt-4">

@@ -63,7 +63,7 @@ export default function ShareButtons({ title }: { title: string }) {
   }
 
   return (
-    <div className="flex items-center gap-2 pt-8 border-t border-zinc-200">
+    <div className="flex items-center gap-2 pt-8 border-t border-primary/20">
       <span className="text-sm font-semibold text-zinc-500 mr-2">Share</span>
       {shareLinks.map(link => (
         <a
