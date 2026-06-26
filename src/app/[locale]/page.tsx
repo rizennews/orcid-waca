@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { locale } = await params
   const t = await getTranslations({ locale })
   const site = await getTranslations({ locale, namespace: 'site' })
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net'
+  const siteUrl = 'https://orcid.wacren.net'
 
   return {
     title: t('home.hero.title'),

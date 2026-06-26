@@ -64,7 +64,7 @@ export default async function PostPage({
   const { locale, slug } = await params
   const t = await getTranslations({ locale })
   const site = await getTranslations({ locale, namespace: 'site' })
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net'
+  const siteUrl = 'https://orcid.wacren.net'
 
   const posts = t.raw('updates.posts') as Record<string, Post[]>
   const allPosts = Object.values(posts).flat()
@@ -215,7 +215,7 @@ export async function generateMetadata({
   const { locale, slug } = await params
   const t = await getTranslations({ locale })
   const site = await getTranslations({ locale, namespace: 'site' })
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net'
+  const siteUrl = 'https://orcid.wacren.net'
 
   const posts = t.raw('updates.posts') as Record<string, Post[]>
   const allPosts = Object.values(posts).flat()

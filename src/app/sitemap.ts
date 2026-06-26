@@ -1,7 +1,7 @@
 import { routing } from '@/i18n/routing'
 
 export default function sitemap() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net'
+  const baseUrl = 'https://orcid.wacren.net'
   const lastModified = new Date()
 
   const staticPages = ['', 'about', 'ambassadors', 'community', 'resources', 'updates']

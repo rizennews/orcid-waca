@@ -15,8 +15,8 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'ORCID-WACA',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net',
-  logo: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net'}/orcid-waca.png`,
+  url: 'https://orcid.wacren.net',
+  logo: `${'https://orcid.wacren.net'}/orcid-waca.png`,
   description: 'ORCID in West and Central Africa — connecting researchers to their unique identifier.',
   sameAs: [
     'https://twitter.com/wacren',
@@ -29,7 +29,7 @@ const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'ORCID-WACA',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://orcid.wacren.net',
+  url: 'https://orcid.wacren.net',
   description: 'ORCID in West and Central Africa — connecting researchers to their unique identifier.',
 }
 
