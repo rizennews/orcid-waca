@@ -224,7 +224,7 @@
   },
   "ambassadors": {
     "page": {
-      "title": "ORCID-WACA Ambassador Programme",
+      "title": "Ambassador Programme",
       "subtitle": "Learn more about the Ambassadors Programme \u2013 the special purpose vehicle to enhance the visibility, awareness and adoption of ORCID in-country.",
       "whatTitle": "What is the ORCID-WACA Ambassador Programme?",
       "intro": "The ORCID-WACA Ambassador Programme is a flagship initiative designed to build regional capacity and drive ORCID adoption across West and Central Africa. Ambassadors serve as champions, educators, and advocates for research identity and persistent identifiers within their institutions and professional networks.\n\nSelected ambassadors receive comprehensive training, resources, and support to conduct workshops, engage stakeholders, and promote ORCID adoption. This is a unique opportunity to shape the future of research visibility in Africa while developing your professional skills and expanding your network.",
@@ -511,22 +511,6 @@
     "hero": {
       "title": "Get in Touch",
       "subtitle": "Have questions about ORCID-WACA? We’re here to help. Reach out to us and we’ll get back to you as soon as possible."
-    },
-    "connect": {
-      "title": "Let's Connect",
-      "subtitle": "Whether you're interested in supporting an Ambassador’s outreach/workshop, joining our Community of Practice, partnering with ORCID-WACA, or simply learning more about ORCID, we'd love to hear from you.",
-      "emailUs": {
-        "title": "Email Us",
-        "desc": "For general inquiries and continuous support lines."
-      },
-      "visit": {
-        "title": "Visit WACREN",
-        "desc": "Learn more about WACREN - the implementing organisation."
-      },
-      "follow": {
-        "title": "Follow Us",
-        "desc": "Stay updated across our social media."
-      }
     },
     "form": {
       "title": "Send us a Message",
