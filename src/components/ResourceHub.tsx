@@ -255,11 +255,11 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               value={search}
               onChange={e => { setSearch(e.target.value); setViewLimits({ videos: 3, photos: 3, infographics: 3, documents: 3 }) }}
               placeholder={labels.searchPlaceholder}
-              className="w-full rounded-full border border-primary/20 border-primary/20 bg-white py-3.5 pl-14 pr-6 text-sm outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
+              className="w-full rounded-full border border-primary/20 bg-white py-3.5 pl-14 pr-6 text-sm outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
             />
           </div>
 
-          <div className="flex w-full max-w-2xl overflow-x-auto gap-2 rounded-xl border border-primary/20 border-primary/20 bg-white/80 p-1.5 scrollbar-none md:rounded-full md:flex-wrap md:justify-center md:overflow-visible">
+          <div className="flex w-full max-w-2xl overflow-x-auto gap-2 rounded-xl border border-primary/20 bg-white/80 p-1.5 scrollbar-none md:rounded-full md:flex-wrap md:justify-center md:overflow-visible">
             {([
               { key: 'all' as TabKey, icon: <ListIcon />, label: labels.filterAll },
               { key: 'videos' as TabKey, icon: <VideoIcon />, label: labels.filterVideos },
@@ -291,7 +291,7 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="rounded-xl border border-primary/20 border-dashed border-primary/20 bg-white py-16 px-6 text-center"
+              className="rounded-xl border border-dashed border-primary/20 bg-white py-16 px-6 text-center"
             >
               <p className="text-lg font-semibold text-zinc-900 mb-2">{labels.emptyTitle}</p>
               <p className="text-sm text-zinc-500 max-w-sm mx-auto">{labels.emptyDesc}</p>
@@ -436,7 +436,7 @@ function renderSection(
             ) : (
               /* Video / Photo card */
               <div
-                className={`group rounded-xl border bg-white overflow-hidden hover:shadow-lg hover:border-secondary/40 transition-all duration-300 ${key === 'videos' ? 'cursor-pointer' : ''}`}
+                className={`group rounded-xl border border-primary/20 bg-white overflow-hidden hover:shadow-lg hover:border-secondary/40 transition-all duration-300 ${key === 'videos' ? 'cursor-pointer' : ''}`}
                 onClick={() => {
                   if (key !== 'videos' || !item.url) return
                   if (item.url.includes('video.wacren.net')) {
