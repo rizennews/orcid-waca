@@ -76,11 +76,8 @@ export default async function AboutPage({
         </section>
 
         {/* ─── What is ORCID-WACA ─── */}
-        <section className="py-16 md:py-20 bg-white">
+        <section className="pt-20 pb-16 md:pt-24 md:pb-20 bg-white">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              {t('home.about.title')}
-            </h2>
             <div
               className="text-zinc-600 leading-relaxed whitespace-pre-line"
               dangerouslySetInnerHTML={{ __html: t.raw('home.about.body') }}

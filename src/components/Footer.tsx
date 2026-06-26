@@ -66,96 +66,88 @@ export default function Footer() {
   const t = useTranslations()
   const locale = useLocale()
 
-  const quickLinks = [
+  const quickLinksTop = [
     { label: t('footer.about'), href: `/${locale}/about` },
     { label: t('footer.ambassadorProgramme'), href: `/${locale}/ambassadors` },
     { label: t('footer.communityPractice'), href: `/${locale}/community` },
-    { label: t('footer.resources'), href: `/${locale}/resources` },
   ]
 
-  const resourceLinks = [
-    { label: t('footer.gettingStarted'), href: `/${locale}/resources/getting-started` },
-    { label: t('footer.benefitsInfographic'), href: `/${locale}/resources/infographic` },
-    { label: t('footer.workshopMaterials'), href: `/${locale}/resources/workshops` },
-    { label: t('footer.faq'), href: `/${locale}/resources/faq` },
+  const quickLinksBottom = [
+    { label: t('footer.resources'), href: `/${locale}/resources` },
+    { label: t('footer.faq'), href: `/${locale}#faq` },
     { label: t('footer.contact'), href: `/${locale}/contact` },
   ]
 
   return (
-    <footer className="bg-zinc-100 text-zinc-500">
-      <div className="mx-auto max-w-7xl px-6 md:px-8 py-20 md:py-24">
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12 md:gap-16">
+    <footer className="bg-primary text-white">
+      <div className="mx-auto max-w-7xl px-6 md:px-8 py-10 md:py-12">
+        {/* First Row: Brand & Quick Links */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 mb-8">
           {/* Brand */}
-          <div className="md:col-span-2">
+          <div className="flex-shrink-0">
             <Image
               src="/orcid-waca.png"
               alt="ORCID-WACA"
               width={160}
               height={50}
-              className="h-11 w-auto mb-5"
+              className="h-10 w-auto mb-3 brightness-0 invert"
             />
-            <p className="text-sm md:text-base text-zinc-600 max-w-md leading-relaxed mb-8">
+            <p className="text-xs md:text-sm text-white/80 max-w-md leading-relaxed mb-4">
               {t('footer.tagline')}
             </p>
 
-            <div className="flex flex-wrap items-center gap-3 mb-3">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
               {socials.map((s) => (
                 <a
                   key={s.label}
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-11 h-11 rounded-full bg-zinc-300 text-zinc-600 hover:bg-primary hover:text-white transition-all"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-white/20 text-white hover:bg-secondary hover:text-primary transition-all"
                   title={s.label}
                 >
                   {s.svg}
                 </a>
               ))}
             </div>
-
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold text-zinc-900 mb-5">
+          {/* Quick Links (Centered) */}
+          <div className="flex flex-col items-center flex-grow">
+            <h4 className="font-semibold text-white mb-3 text-sm md:text-base">
               {t('footer.quickLinks')}
             </h4>
-            <ul className="space-y-3 text-sm md:text-base">
-              {quickLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-secondary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h4 className="font-semibold text-zinc-900 mb-5">
-              {t('footer.resources')}
-            </h4>
-            <ul className="space-y-3 text-sm md:text-base">
-              {resourceLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-secondary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <div className="flex flex-wrap justify-center gap-8">
+              <ul className="space-y-2 text-xs md:text-sm text-center">
+                {quickLinksTop.map((link) => (
+                  <li key={link.label}>
+                    <Link
+                      href={link.href}
+                      className="text-white/80 hover:text-secondary transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <ul className="space-y-2 text-xs md:text-sm text-center">
+                {quickLinksBottom.map((link) => (
+                  <li key={link.label}>
+                    <Link
+                      href={link.href}
+                      className="text-white/80 hover:text-secondary transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="mt-16 pt-8 border-t border-primary/20 text-center text-xs md:text-sm text-zinc-500">
+        <div className="pt-4 border-t border-white/20 text-center text-xs text-white/70">
           <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </div>
