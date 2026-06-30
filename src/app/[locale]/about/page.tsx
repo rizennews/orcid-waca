@@ -80,7 +80,7 @@ export default async function AboutPage({
           <div className="mx-auto max-w-6xl px-4">
             <div
               className="text-zinc-600 leading-relaxed whitespace-pre-line"
-              dangerouslySetInnerHTML={{ __html: t.raw('home.about.body') }}
+              dangerouslySetInnerHTML={{ __html: t.raw('about.page.aboutBody') }}
             />
           </div>
         </section>
