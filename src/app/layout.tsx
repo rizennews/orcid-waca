@@ -16,7 +16,7 @@ const jsonLd = {
   '@type': 'Organization',
   name: 'ORCID-WACA',
   url: 'https://orcid.wacren.net',
-  logo: `${'https://orcid.wacren.net'}/orcid-waca.png`,
+  logo: `${'https://orcid.wacren.net'}/orcid-waca-new.png`,
   description: 'ORCID in West and Central Africa — connecting researchers to their unique identifier.',
   sameAs: [
     'https://twitter.com/wacren',

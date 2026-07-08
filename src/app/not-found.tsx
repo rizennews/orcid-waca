@@ -25,7 +25,7 @@ export default function NotFound() {
 
         {/* Logo */}
         <Link href="/en" style={{ marginBottom: '2.5rem', display: 'inline-block' }}>
-          <Image src="/orcid-waca.png" alt="ORCID-WACA" width={140} height={40} priority />
+          <Image src="/orcid-waca-new.png" alt="ORCID-WACA" width={140} height={40} priority />
         </Link>
 
         {/* Big 404 */}

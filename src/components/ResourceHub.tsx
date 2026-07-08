@@ -245,7 +245,9 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
         </div>
 
         {/* ─── Search & Filter ─── */}
-        <div className="flex flex-col items-center gap-5 mb-12">
+        {false && (
+          <>
+            <div className="flex flex-col items-center gap-5 mb-12">
           <div className="relative w-full max-w-lg">
             <span className="absolute left-5 top-1/2 -translate-y-1/2 text-primary pointer-events-none">
               <SearchIcon />
@@ -314,6 +316,8 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
             </motion.div>
           )}
         </AnimatePresence>
+          </>
+        )}
       </div>
 
       {/* ─── Video Modal ─── */}

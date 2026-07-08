@@ -218,14 +218,16 @@ export default async function AmbassadorsPage({
         </section>
 
         {/* ─── Ambassador Cards ─── */}
-        <section className="bg-zinc-50 py-16 md:py-20">
-          <div className="mx-auto max-w-7xl px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              {t('ambassadors.page.ambassadorListTitle')}
-            </h2>
-            <AmbassadorGrid ambassadors={t.raw('ambassadors.page.ambassadorList')} />
-          </div>
-        </section>
+        {false && (
+          <section className="bg-zinc-50 py-16 md:py-20">
+            <div className="mx-auto max-w-7xl px-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
+                {t('ambassadors.page.ambassadorListTitle')}
+              </h2>
+              <AmbassadorGrid ambassadors={t.raw('ambassadors.page.ambassadorList')} />
+            </div>
+          </section>
+        )}
 
         {/* ─── CTA ─── */}
         <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-16 md:py-20">

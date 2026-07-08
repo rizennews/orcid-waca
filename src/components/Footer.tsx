@@ -86,7 +86,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex-shrink-0">
             <Image
-              src="/orcid-waca.png"
+              src="/orcid-waca-new.png"
               alt="ORCID-WACA"
               width={160}
               height={50}

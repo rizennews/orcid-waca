@@ -90,7 +90,7 @@ export default async function PostPage({
       name: site('title'),
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/orcid-waca.png`,
+        url: `${siteUrl}/orcid-waca-new.png`,
       },
     },
     mainEntityOfPage: {

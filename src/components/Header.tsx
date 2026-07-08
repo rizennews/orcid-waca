@@ -41,7 +41,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3">
         <Link href={`/${locale}`} className="flex-shrink-0">
           <Image
-            src="/orcid-waca.png"
+            src="/orcid-waca-new.png"
             alt="ORCID-WACA"
             width={160}
             height={50}
