@@ -1,0 +1,706 @@
+{
+  "site": {
+    "title": "ORCID-WACA",
+    "description": "ORCID in West and Central Africa — connecting researchers to their unique identifier.",
+    "tagline": "Connecting West and Central African Researchers"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "ambassadors": "Ambassadors",
+    "community": "Community",
+    "resources": "Resources",
+    "updates": "Updates & News",
+    "contact": "Contact",
+    "join": "Join CoP",
+    "joinCop": "Join Community of Practice",
+    "createOrcid": "Create Your ORCID iD"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Research Identity Matters",
+      "subtitle": "ORCID-WACA is driving persistent identifiers across West and Central Africa — so the region’s researchers and research show up where the world is looking."
+    },
+    "stats": {
+      "title": "Our Impact in the Region",
+      "ambassadors": "PIDs Ambassadors",
+      "members": "CoP Members Expected",
+      "engagements": "Engagements Planned",
+      "researchers": "Researchers to be Impacted"
+    },
+    "about": {
+      "title": "About ORCID-WACA",
+      "body": "ORCID–WACA is a WACREN-led initiative, supported by the <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>ORCID Global Participation Fund</a>, to drive the adoption of ORCID across West and Central Africa and make the region’s researchers and research more visible, citable, and connected on the global stage.\n\nThe case for action is clear. Low adoption of persistent identifiers (PIDs) such as ORCID limits the visibility of African scholarship and reinforces the misconception that the continent produces little research. Most African researchers encounter ORCID only when submitting to a journal, institutional and journal mandates remain rare, and awareness is especially low outside STEM, making it difficult to attribute work accurately, demonstrate institutional productivity, or showcase the true impact of African scholarship.",
+      "readMore": "Read More"
+    },
+    "features": {
+      "title": "Our Initiatives",
+      "ambassadors": {
+        "title": "PIDs Ambassadors",
+        "desc": "Meet the dedicated Ambassadors eager to inspire their communities and foster ORCID adoption and the use of Persistent Identifiers (PIDs) through engaging workshops and outreach initiatives across West and Central Africa!",
+        "cta": "Learn More"
+      },
+      "community": {
+        "title": "Community of Practice",
+        "desc": "A collaborative forum for researchers, librarians, publishers, and administrators to share experiences and advance PID adoption.",
+        "cta": "Join the CoP"
+      },
+      "workshops": {
+        "title": "Workshops & Outreach",
+        "desc": "Hands-on workshops covering ORCID registration, profile optimization, and integration with research systems.",
+        "cta": "View Schedule"
+      }
+    },
+    "benefits": {
+      "title": "Benefits of ORCID for African Researchers",
+      "ambiguity": {
+        "title": "Solve Name Ambiguity",
+        "desc": "Your ORCID iD uniquely distinguishes you from other researchers with identical or similar names across international publication index ecosystems."
+      },
+      "time": {
+        "title": "Save Time",
+        "desc": "Auto-fill manuscript submissions, grant funding applications, and institutional reporting fields automatically with your verified dataset profile."
+      },
+      "visibility": {
+        "title": "Increase Visibility",
+        "desc": "Make your cross-disciplinary research outputs discoverable in global citation databases, institutional search vectors, and public engine repositories."
+      },
+      "connect": {
+        "title": "Connect Your Work",
+        "desc": "Link all your diverse contributions—publications, datasets, peer reviews, and university affiliations—in one permanent digital record."
+      },
+      "career": {
+        "title": "Career Continuity",
+        "desc": "Your structural ORCID iD stays with you throughout your path, maintaining citations regardless of changes in your institution, country, or last name."
+      },
+      "privacy": {
+        "title": "Privacy Control",
+        "desc": "You hold complete jurisdiction over your parameters. Set individual visibility scopes to Public, Limited to Trusted Systems, or completely Private."
+      }
+    },
+    "ambassadors": {
+      "title": "Our Ambassadors",
+      "subtitle": "Meet the researchers championing ORCID adoption across the region.",
+      "cta": "Meet the Ambassadors"
+    },
+    "timeline": {
+      "title": "Programme Timeline",
+      "entries": [
+        {
+          "period": "Dec. 2025 - May 2026",
+          "title": "Recruitment & Selection"
+        },
+        {
+          "period": "June 2026",
+          "title": "Ambassadors Onboarding & Orientation"
+        },
+        {
+          "period": "June - August 2026",
+          "title": "Implementation"
+        },
+        {
+          "period": "July 2026",
+          "title": "CoP Launch & Implementation"
+        },
+        {
+          "period": "August - October 2026",
+          "title": "Evaluation & Sustainability"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is the ORCID-WACA project?",
+          "a": "ORCID-WACA is a regional initiative led by the West and Central African Research and Education Network (WACREN) to accelerate the adoption of ORCID and other persistent identifiers (PIDs) across West and Central Africa. It runs from December 2025 to October 2026 and is funded by the ORCID Global Participation Fund (GPF) Round 6.\n\nThe project works through a <a href='https://wacren.net/en/orcid-waca/ambassadors' target='_blank' rel='noopener noreferrer' class='underline'>network of 15 selected Ambassadors</a> who lead outreach, training, and integration activities in their countries and institutions, supported by a Community of Practice and a comprehensive bilingual (English/French) communications programme."
+        },
+        {
+          "q": "What problem is the project trying to solve?",
+          "a": "African researchers and their work are often underrepresented and difficult to discover in global scholarly databases. Name ambiguity, inconsistent author metadata, and limited integration with global PID infrastructure mean that legitimate African contributions are sometimes missed, miscredited, or under-cited. ORCID-WACA addresses this by helping researchers, libraries, journals, and publishers adopt ORCID iDs and connect them to the systems that record and disseminate research outputs."
+        },
+        {
+          "q": "What are the project’s main objectives?",
+          "a": "The project is organised around four strategic pillars:\n\nVisibility — make African researchers and their work easier to find on the global stage.\nAdoption — drive ORCID integration across institutions, repositories, and journals.\nCommunity — connect peers across countries, languages, and roles through a regional Community of Practice.\nLegacy — build durable capacity that continues beyond the project lifecycle."
+        },
+        {
+          "q": "How can I get involved?",
+          "a": "There are several ways to engage: join the Community of Practice; request to be matched with an Ambassador in your country. Write to <a href='mailto:orcid-waca@wacren.net' class='underline'>orcid-waca@wacren.net</a> to start a conversation."
+        },
+        {
+          "q": "Who are the ORCID-WACA Ambassadors?",
+          "a": "The Ambassadors are 15 individuals selected from across West and Central Africa who lead ORCID outreach, training, and integration in their countries and institutions during the programme period. They come from libraries, research offices, universities and journals and represent the diversity of roles, countries, and languages in the region."
+        },
+        {
+          "q": "Is there another round of Ambassador recruitment?",
+          "a": "The current cohort runs through the end of the project (October 2026). We are actively exploring follow-on activities and an expanded network beyond this round; sign up to the Community of Practice to stay informed when new opportunities open."
+        },
+        {
+          "q": "Can I nominate someone (or my institution) to host Ambassador activities?",
+          "a": "Yes. We welcome host institutions, co-organisers, and partner organisations across the 22 countries. Send a short note to <a href='mailto:orcid-waca@wacren.net' class='underline'>orcid-waca@wacren.net</a> with details of your institution, audience, and proposed activity, and the project team will follow up."
+        },
+        {
+          "q": "What is the Community of Practice?",
+          "a": "The Community of Practice (CoP) is the connective tissue of the project — a regional network of researchers, librarians, journal editors, and publishers who share knowledge, ask questions, and learn together. It is hosted on Google Groups so that members can participate by email or web."
+        },
+        {
+          "q": "Who can join the CoP?",
+          "a": "Anyone in the region (or working with the region) who is interested in ORCID, persistent identifiers, and scholarly communication. Membership is free and open to researchers, library and information professionals, journal editors, publishers, research administrators, NRENs, funders, and policy stakeholders. Visit the Community of Practice page on the ORCID-WACA website and click “Join the Google Group”. You will need a Google account. Membership requests are reviewed and approved within one working day."
+        },
+        {
+          "q": "Is the CoP bilingual?",
+          "a": "Yes. Members are welcome to post in English or French, and key resources and announcements are produced in both languages."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Join?",
+      "subtitle": "Become part of a growing community of researchers in West and Central Africa.",
+      "button": "Join the Community of Practice"
+    }
+  },
+  "footer": {
+    "tagline": "Advancing research identity and visibility in West and Central Africa.",
+    "quickLinks": "Quick Links",
+    "about": "About ORCID-WACA",
+    "ambassadorProgramme": "Ambassador Programme",
+    "communityPractice": "Community of Practice",
+    "resources": "Resources",
+    "gettingStarted": "Getting Started with ORCID",
+    "benefitsInfographic": "Benefits Infographic",
+    "workshopMaterials": "Workshop Materials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "copyright": "© {year} WACREN. Supported by the ORCID Global Participation Fund. All rights reserved."
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "french": "Français",
+    "portuguese": "Português",
+    "copyright": "© {year} ORCID-WACA. All rights reserved.",
+    "tagline": "Connecting West and Central African Researchers"
+  },
+  "about": {
+    "page": {
+      "title": "About ORCID-WACA",
+      "subtitle": "Advancing research identity and visibility across West and Central Africa",
+      "aboutBody": "ORCID–WACA is a WACREN-led initiative, supported by the <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>ORCID Global Participation Fund</a>, to drive the adoption of ORCID across West and Central Africa and make the region’s researchers and research more visible, citable, and connected on the global stage.\n\nThe case for action is clear. Low adoption of persistent identifiers (PIDs) such as ORCID limits the visibility of African scholarship and reinforces the misconception that the continent produces little research. Most African researchers encounter ORCID only when submitting to a journal, institutional and journal mandates remain rare, and awareness is especially low outside STEM, making it difficult to attribute work accurately, demonstrate institutional productivity, or showcase the true impact of African scholarship.\n\n<a href='https://katinamagazine.org/content/article/open-knowledge/2025/five-perspectives-on-state-of-open-science-africa' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>WACREN has been steadily laying the foundation for change</a>. Outputs deposited in the <a href='https://baobab.wacren.net/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>BAOBAB repository</a> are assigned Archival Resource Keys (ARKs) for long-term discoverability; a series of <a href='https://africaconnect3.net/scholarly-community-in-west-africa-enlightened-on-persistent-identifiers/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>regional workshops</a> have introduced researchers, librarians, and publishers to the value of PIDs; and the <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>COPPHA training programme</a> has equipped more than 600 early-, mid-career, and senior researchers in equitable and transparent publishing.\n\nBuilding on this momentum, ORCID–WACA will raise awareness of ORCID’s benefits, support its integration with institutional repositories and other research infrastructure, and grow regional capacity through the Ambassadors Programme and the Community of Practice, closing participation gaps in the Global South and embedding PIDs in the long-term research infrastructure of West and Central Africa.",
+      "mission": {
+        "title": "Our Mission",
+        "body": "ORCID-WACA exists to ensure that every researcher in West and Central Africa has the opportunity to claim, connect, and showcase their work on the global stage. We believe that visibility drives collaboration, citation, and career growth — and that persistent identifiers are the foundation of an equitable global research ecosystem."
+      },
+      "matters": {
+        "title": "Why ORCID-WACA Matters",
+        "challenge": {
+          "title": "The Challenge",
+          "intro": "African researchers face significant barriers to global recognition:",
+          "items": [
+            "Name Ambiguity: Common names like Mohammed, Fatima, and Ibrahim lead to frequent citation and attribution errors.",
+            "Low Visibility: Deep African scholarship is often structurally overlooked or unindexed in dominant international databases.",
+            "Institutional Gaps: Limited clear mandates or tracking workflows for comprehensive ORCID adoption at institutional levels.",
+            "Awareness Gap: Many regional researchers unfortunately only learn about utility features late during manuscript submission.",
+            "Disciplinary Divide: Non-STEM academic fields and humanities researchers are especially underrepresented inside global metrics."
+          ]
+        },
+        "approach": {
+          "title": "Our Approach",
+          "intro": "ORCID-WACA systematically addresses these challenges through:",
+          "items": [
+            "Ambassador-Led Outreach: 15 carefully trained regional ambassadors actively conducting local workshops across networks.",
+            "Community Building: Establishing an open, cross-border Community of Practice for sustained long-term ecosystem engagement.",
+            "Technical Integration: Piloting direct structural ORCID profile integrations with state-of-the-art RUMBU institutional repositories.",
+            "Capacity Development: Continuous hands-on training for active researchers, institutional librarians, and academic administrators.",
+            "Policy Advocacy: Working shoulder-to-shoulder with higher education institutions to adopt explicit ORCID mandates."
+          ]
+        }
+      },
+      "pillars": {
+        "title": "Our Strategic Pillars",
+        "items": [
+          {
+            "title": "Visibility",
+            "desc": "Make African researchers and their work easier to find on the global stage."
+          },
+          {
+            "title": "Adoption",
+            "desc": "Drive ORCID integration across institutions, repositories, and journals."
+          },
+          {
+            "title": "Community",
+            "desc": "Connect peers across countries, languages, and roles through a regional Community of Practice."
+          },
+          {
+            "title": "Legacy",
+            "desc": "Build durable capacity that continues beyond the project lifecycle."
+          }
+        ]
+      }
+    }
+  },
+  "ambassadors": {
+    "page": {
+      "title": "Ambassador Programme",
+      "subtitle": "Learn more about the Ambassadors Programme – the special purpose vehicle to enhance the visibility, awareness and adoption of ORCID in-country.",
+      "whatTitle": "What is the ORCID-WACA Ambassador Programme?",
+      "intro": "The ORCID-WACA Ambassador Programme is a flagship initiative designed to build regional capacity and drive ORCID adoption across West and Central Africa. Ambassadors serve as champions, educators, and advocates for research identity and persistent identifiers within their institutions and professional networks.\n\nSelected ambassadors receive comprehensive training, resources, and support to conduct workshops, engage stakeholders, and promote ORCID adoption. This is a unique opportunity to shape the future of research visibility in Africa while developing your professional skills and expanding your network.",
+      "role": "Ambassador",
+      "countries": "Benin, Burkina Faso, Cameroon, Côte d’Ivoire, Ghana, Guinea, Liberia, Mali, Niger, Nigeria, Senegal, Sierra Leone, The Gambia, Togo",
+      "doTitle": "What will Ambassadors do?",
+      "doItems": [
+        {
+          "title": "Conduct Workshops",
+          "desc": "Ambassadors will organise hands-on training sessions on ORCID to increase adoption in their respective academic communities"
+        },
+        {
+          "title": "Institutional Outreach",
+          "desc": "Ambassadors engage the hierarchy of the institutions to help promote and adopt ORCID in their institutions"
+        },
+        {
+          "title": "Community Leadership",
+          "desc": "Ambassadors participate actively in Community of Practice forums by sharing experiences and supporting peers in the region"
+        },
+        {
+          "title": "Communications",
+          "desc": "Ambassadors promote events, outreaches, achievements and success stories of the ORCID-WACA project"
+        }
+      ],
+      "ambassadorListTitle": "Meet Our Ambassadors",
+      "ambassadorList": [
+        {
+          "name": "Dr Olanike Adelakun",
+          "role": "ORCID–WACA Ambassador",
+          "country": "Nigeria",
+          "image": "olanike_adelakun.jpeg",
+          "shortBio": "Dr Olanike Adelakun is an Associate Professor and Dean of Law at Lead City University, Nigeria, with over 18 years of distinguished experience in legal academia and practice.",
+          "fullBio": "Dr Olanike Adelakun is an Associate Professor and Dean of Law at Lead City University, Nigeria, with over 18 years of distinguished experience in legal academia and practice. She holds two doctorates, from the University of South Africa and Rivers State University, and specialises in family law, child rights, clinical legal education, conflict studies, reproductive health rights, gender studies, and bioethics.\n\nShe has extensive experience in curriculum development, gender-based violence case management, and addressing issues of internal displacement. Her research and litigation focus on human rights, particularly the rights of women and children in Africa, and she has published widely in reputable national and international journals. Dr Adelakun has contributed significantly to policy development and capacity building through consultancy work with organisations including the United Nations and various NGOs, and was nominated for the mandate of Special Rapporteur on the sale, sexual exploitation and sexual abuse of children in 2026. She is an active member of several prestigious professional bodies.",
+          "orcid": "https://orcid.org/0000-0002-1781-3302"
+        },
+        {
+          "name": "Dr Kossi-Messan Jacques AGBOKA",
+          "role": "ORCID–WACA Ambassador",
+          "country": "",
+          "image": "kossi_messan_jacques_agboka.jpeg",
+          "shortBio": "Dr Kossi-Messan Jacques Agboka brings over ten years of experience in climate finance, climate change mitigation and adaptation, climate justice, sustainable agriculture, and the protection of nature and the environment.",
+          "fullBio": "Dr Kossi-Messan Jacques Agboka brings over ten years of experience in climate finance, climate change mitigation and adaptation, climate justice, sustainable agriculture, and the protection of nature and the environment. He holds a PhD in Climate Change, Biodiversity and Sustainable Agriculture from WASCAL (the West African Science Service Centre on Climate Change and Adapted Land Use), a research institute funded by the German Federal Ministry of Education and Research (BMBF) working to reduce the impact of climate change in West Africa through targeted climate action.\n\nFor the past ten years, he has served as National Director of the International Student Environmental Coalition (ISEC), a youth-led global network spanning more than 30 countries that equips young people with the resources, community, and organisational power to drive grassroots movements for climate justice.",
+          "orcid": "https://orcid.org/0009-0002-3518-7779"
+        },
+        {
+          "name": "Dr Khali Allahmagani",
+          "role": "ORCID–WACA Ambassador",
+          "country": "Nigeria",
+          "image": "khali_allahmagani.png",
+          "shortBio": "Dr Khali Allahmagani is a librarian and lecturer at Kaduna State University, Nigeria, specialising in archives and records management.",
+          "fullBio": "Dr Khali Allahmagani is a librarian and lecturer at Kaduna State University, Nigeria, an alumna of Babcock University and the University of Ibadan, Nigeria, specialising in archives and records management. Her research interests include digital archiving, records preservation, scholarly communication, artificial intelligence for low-resource African languages, and open knowledge initiatives. She has presented her research at national and international conferences.\n\nBeyond academia, she is actively involved in community outreach through capacity-building workshops and training programmes for librarians, researchers, students, and information professionals with the African Women Entrepreneurship Cooperative (AWEC). Passionate about knowledge sharing and innovation, she works to strengthen research ecosystems, promote digital inclusion, and preserve Africa's documentary and linguistic heritage through collaborative research, advocacy, and professional development. Her strong commitment to advancing scholarly communication, digital preservation, and research visibility led her to become an ORCID–WACA Ambassador, where she advocates for the adoption of persistent researcher identifiers and best practices in research management across West and Central Africa.",
+          "orcid": "https://orcid.org/0000-0001-5759-5226"
+        },
+        {
+          "name": "Dr Bawa Boya",
+          "role": "Researcher in Microbiology and Molecular Biology | ORCID–WACA Ambassador",
+          "country": "Benin",
+          "image": "bawa_boya.jpg",
+          "shortBio": "Dr Bawa Boya is a researcher in microbiology and molecular biology at the University of Abomey-Calavi (UAC), Benin.",
+          "fullBio": "Dr Bawa Boya is a researcher in microbiology and molecular biology at the University of Abomey-Calavi (UAC), Benin. He is a member of the Omics and Biomarkers of Living Systems Research Unit (UROBioV), affiliated with the Department of Biochemistry and Cell Biology, Faculty of Science and Technology (FAST), UAC. He earned his PhD in Microbiology and Molecular Biology in 2020.\n\nHis career reflects a strong commitment to research and teaching, including service as mentor biologist on the regional TBLab project (Global Fund, 2024) and as an evaluator for National Reference Laboratories in Gabon and Mauritania. Since 2020, he has been an active member of the AMR Think Do Tank in Geneva, and since 2024, of the Xpert OneHealth Patient Safety Institute. A recipient of multiple awards and fellowships, he has authored or co-authored 41 publications in international indexed journals (PubMed, Scopus), reflecting his impact in biomedical and food research.",
+          "orcid": "https://orcid.org/0000-0002-9769-7400"
+        },
+        {
+          "name": "Dr Yahaya Coulibaly",
+          "role": "ORCID–WACA Ambassador, Republic of Mali",
+          "country": "Mali",
+          "image": "yahaya_coulibaly.jpg",
+          "shortBio": "Dr Yahaya Coulibaly earned his PhD in Computer Science in 2012, receiving the Best Student Award from Universiti Teknologi Malaysia.",
+          "fullBio": "Dr Yahaya Coulibaly earned his PhD in Computer Science in 2012, receiving the Best Student Award from Universiti Teknologi Malaysia, one of the top five research universities in Malaysia. Upon graduation, he was appointed a researcher in the Faculty of Computing (now the School of Computing) and subsequently Senior Lecturer (2012–2015) in the same faculty. His research interests span optical communication and networking, grid and cloud computing, and the Internet of Things. He has supervised, and continues to supervise, graduate students at Bachelor's, Master's, and PhD level, and has co-authored more than 40 conference and journal papers in these areas.\n\nHe currently serves at the Agence des Technologies de l'Information et de la Communication (AGETIC) as Senior Researcher and Head of the Research Unit in Digital Systems and Technological Innovation, Centre of Research and Innovation. Since 14 May 2026, he has served as the ORCID–WACA Ambassador to the Republic of Mali. He is fluent in three international languages: English, Arabic, and French.",
+          "orcid": "https://orcid.org/0000-0002-5940-3168"
+        },
+        {
+          "name": "Dr Bernard Dione",
+          "role": "ORCID–WACA Ambassador",
+          "country": "Senegal",
+          "image": "bernard_dione.jpg",
+          "shortBio": "Dr Bernard Dione is a Senior Lecturer in Library and Information Science at the School of Library, Archives and Documentation at Cheikh Anta Diop University in Dakar, Senegal.",
+          "fullBio": "Dr Bernard Dione is a Senior Lecturer in Library and Information Science at the School of Library, Archives and Documentation (École de bibliothécaires, Archivistes et Documentalistes) at Cheikh Anta Diop University (UCAD) in Dakar, Senegal. He also serves as Director of the Senegalese National Information and Documentation Centre at the Ministry of Higher Education, Research and Innovation in Dakar, Senegal.",
+          "orcid": "http://orcid.org/0000-0001-8315-1338"
+        },
+        {
+          "name": "Paapa Kwamina Fynn",
+          "role": "ORCID–WACA Ambassador",
+          "country": "Ghana",
+          "image": "paapa_kwamina_fynn.jpeg",
+          "shortBio": "Paapa Kwamina Fynn is a Ghanaian librarian at Takoradi Technical University, where he has worked for many years with experience in cataloguing and classification.",
+          "fullBio": "Paapa Kwamina Fynn is a Ghanaian librarian at Takoradi Technical University, where he has worked for many years with experience in cataloguing and classification, teaching information literacy, digitisation and repository work, and connecting researchers with information resources. His academic and professional interests include knowledge management, information ethics, institutional repositories, and, more recently, persistent identifiers.\n\nHe is a forward-looking professional with a strong sense of duty to God and humanity, and is currently pursuing a PhD in Information Science at the University of South Africa (UNISA).",
+          "orcid": "https://orcid.org/0000-0001-8652-0362"
+        },
+        {
+          "name": "Osakue Omoera, PhD",
+          "role": "Chair Professor & Dean, Faculty of Humanities, Federal University Otuoke | ORCID–WACA Ambassador",
+          "country": "Nigeria",
+          "image": "osakue_omoera.jpg",
+          "shortBio": "Osakue Omoera, PhD, is Chair Professor in the Department of Theatre and Film Studies, and Dean of the Faculty of Humanities, Federal University Otuoke, Bayelsa State, Nigeria.",
+          "fullBio": "Osakue Omoera, PhD, is Chair Professor in the Department of Theatre and Film Studies, and Dean of the Faculty of Humanities, Federal University Otuoke, Bayelsa State, Nigeria. He is a leading scholar in applied media, film, and theatre studies, with research spanning Nollywood studies (indigenous-language films), media sociology (the social impacts of media), and cultural dynamics (theatre and African performance studies, cultural communication, African literature, and development communication).\n\nCredited with pioneering scholarly inquiry into Benin films within Nollywood studies, Professor Omoera developed the 'Active Volcano Paradigm' for studying English as a language of mass communication in Nigerian broadcast media news. He is well travelled and has published extensively in leading journals and specialist books, and is a recipient of the Centre for Advanced Study (CAS) at The Norwegian Academy of Science and Letters, Oslo, Norway, Scholarship (2023) and the Goethe University Frankfurt Travel Grant (2024), among other honours.",
+          "orcid": "https://orcid.org/0000-0003-1086-7874"
+        },
+        {
+          "name": "Dr Sotonye Orji",
+          "role": "Vice Chairperson, Nigerian Library Association | ORCID–WACA Ambassador",
+          "country": "Nigeria",
+          "image": "sotonye_orji.jpg",
+          "shortBio": "Dr Sotonye Orji is a librarian at the Donald E. U. Ekong Library, University of Port Harcourt, with expertise in training, library automation, systems and database administration.",
+          "fullBio": "Dr Sotonye Orji is a librarian at the Donald E. U. Ekong Library, University of Port Harcourt, with expertise in training, library automation, systems and database administration, electronic resources management, and library software solutions. She holds a BSc in Computer Science/Mathematics, a Postgraduate Diploma, a Master's degree, and a PhD, all in Library and Information Science.\n\nShe is a certified IT professional holding CompTIA A+ and Microsoft Azure AI Fundamentals credentials, an associate of the Mortenson Center for International Library Programs, Illinois, USA, a Certified Librarian of Nigeria (CLN), a Local Network Lead (LNL) of the African Reproducibility Network, and an open science enthusiast. She currently serves as Vice Chairperson of the Nigerian Library Association and Secretary of the Association of Women Librarians in Nigeria (AWLIN), Rivers State Chapter, combining technical expertise with a passion for research, innovation, and capacity building in libraries.",
+          "orcid": "https://orcid.org/0000-0001-8609-7592"
+        },
+        {
+          "name": "Dr George Clifford Yamson",
+          "role": "Head Librarian, University of Environment and Sustainable Development | ORCID–WACA Ambassador",
+          "country": "Ghana",
+          "image": "george_clifford_yamson.jpg",
+          "shortBio": "Dr George Clifford Yamson is a scholar-practitioner in library and information science, holding a PhD from the University of South Africa.",
+          "fullBio": "Dr George Clifford Yamson is a scholar-practitioner in library and information science, holding a PhD from the University of South Africa. He is Head Librarian at the University of Environment and Sustainable Development, where he led the establishment of the university library and provides strategic leadership in research support and digital resource management.\n\nHis research focuses on health literacy, information-seeking behaviour, AI in higher education, green technology adoption, and sustainable e-resource subscriptions. He actively promotes research data management, open science, green libraries, and innovation to strengthen research ecosystems and institutional development.",
+          "orcid": "https://orcid.org/0000-0001-8539-7331"
+        }
+      ],
+      "outcomesTitle": "Expected Outcomes of Ambassadors' Activities",
+      "outcomesItems": [
+        {
+          "title": "High Rate of ORCID Adoption",
+          "desc": "More African researchers registered, trained, and equipped to make their work visible on the global stage."
+        },
+        {
+          "title": "Institutional Buy-In",
+          "desc": "Senior leadership buy-in that turns into institutional ORCID policies, system integrations, and durable, region-wide adoption."
+        },
+        {
+          "title": "Sustainable Community of Practice",
+          "desc": "A self-sustaining, bilingual peer network where African experience drives African solutions long beyond the project."
+        },
+        {
+          "title": "Greater Visibility and Support for African Researchers",
+          "desc": "Stronger regional and global visibility for African research, attracting new partners, funders, and policy support."
+        }
+      ]
+    }
+  },
+  "community": {
+    "page": {
+      "title": "PIDs Community of Practice",
+      "subtitle": "A collaborative space for researchers, librarians, journal editors, and publishers to share practice, solve problems, and advance persistent identifiers across the region.",
+      "forumTitle": "A Regional Forum for Advancing PIDs Adoption",
+      "forumBody": "The ORCID-WACA Community of Practice (CoP) brings together professionals working to make African scholarship more visible, discoverable, and citable through ORCID and other persistent identifiers (PIDs).\n\nHosted by WACREN under the ORCID Global Participation Fund (Round 6), the CoP is the connective tissue between our 15 Ambassadors and the wider research and education community across 22 countries in West and Central Africa.",
+      "forumButton": "Join the Community of Practice",
+      "pillarsTitle": "Four Pillars of the CoP",
+      "pillars": [
+        {
+          "title": "Visibility",
+          "desc": "Help African researchers, scholars, institutions and journals to stand out on the global stage"
+        },
+        {
+          "title": "Adoption",
+          "desc": "Drive ORCID adoption and integration across institutions and journals"
+        },
+        {
+          "title": "Community",
+          "desc": "Connect peers across roles, languages, and borders"
+        },
+        {
+          "title": "Legacy",
+          "desc": "Build lasting capacity beyond the project lifecycle"
+        }
+      ],
+      "membersTitle": "Community Members",
+      "members": [
+        {
+          "title": "Researchers",
+          "desc": "Create and maintain your ORCID iD, link it to your outputs, and increase your visibility."
+        },
+        {
+          "title": "Librarians",
+          "desc": "Lead institutional ORCID rollouts, train researchers, and integrate PIDs with repositories."
+        },
+        {
+          "title": "Journal Editors",
+          "desc": "Collect ORCID iDs at submission, improve manuscript metadata, and strengthen attribution."
+        },
+        {
+          "title": "Publishers",
+          "desc": "Embed ORCID in editorial workflows, connect to Crossref & DataCite, and push best practice."
+        }
+      ],
+      "aboutTitle": "What is the Community of Practice?",
+      "aboutBody": "The ORCID-WACA Community of Practice (CoP) is the connective tissue of the project — a regional network of researchers, librarians, journal editors, publishers, and research administrators who share knowledge, ask questions, and learn together.\n\nHosted on Google Groups, the CoP enables members to participate by email or web, making it accessible even in low-connectivity environments. Conversations and resources are bilingual (English/French), reflecting the linguistic diversity of the West and Central African research landscape.\n\nThe CoP is more than a discussion forum. It is a space for peer learning, problem-solving, and collaboration. Members share practical experiences with ORCID integration, discuss institutional policies, announce training opportunities, and collectively build the region’s capacity for persistent identifier adoption.",
+      "benefitsTitle": "Why Join the Community of Practice?",
+      "benefits": [
+        {
+          "title": "Peer Learning",
+          "desc": "Learn from colleagues across the region who are solving the same challenges — from ORCID registration drives to institutional policy development."
+        },
+        {
+          "title": "Expert Support",
+          "desc": "Get direct support from ORCID-WACA Ambassadors, project team members, and experienced practitioners in persistent identifiers and scholarly communication."
+        },
+        {
+          "title": "Resource Access",
+          "desc": "Access exclusive training materials, workshop recordings, templates for institutional ORCID policies, and best-practice guides developed by the community."
+        },
+        {
+          "title": "Network Building",
+          "desc": "Connect with a diverse network of research support professionals, librarians, editors, and policymakers working to strengthen African research visibility."
+        }
+      ],
+      "activitiesTitle": "Community Activities",
+      "activities": [
+        {
+          "month": "July",
+          "title": "Community Call 1",
+          "desc": "A regional Community of Practice (CoP) meeting to discuss the visibility and adoption of ORCID and other PIDs in research institutions in West and Central Africa."
+        },
+        {
+          "month": "August",
+          "title": "Community Call 2",
+          "desc": "A regional Community of Practice (CoP) meeting to discuss the visibility and adoption of ORCID and other PIDs in research institutions in West and Central Africa."
+        },
+        {
+          "month": "September",
+          "title": "Community Call 3",
+          "desc": "A regional Community of Practice (CoP) meeting to discuss the visibility and adoption of ORCID and other PIDs in research institutions in West and Central Africa."
+        }
+      ],
+      "joinTitle": "Join the Community of Practice",
+      "joinBody": "The Community of Practice is open to anyone interested in ORCID and persistent identifiers in the West and Central African context. Membership is free.\n\nTo join, simply send a request to the Google Group. You can participate by email or through the web interface. Once approved, you will receive a welcome message with an overview of ongoing discussions and resources.",
+      "joinButton": "Join the CoP",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "q": "Who can join the Community of Practice?",
+          "a": "The CoP is open to researchers, librarians, journal editors, publishers, research administrators, and anyone interested in persistent identifiers in West and Central Africa. You do not need to be an ORCID-WACA Ambassador or affiliated with a partner institution to join."
+        },
+        {
+          "q": "Is there a cost to join?",
+          "a": "No. Membership is completely free."
+        },
+        {
+          "q": "What language is used in the CoP?",
+          "a": "The CoP operates in both English and French. Members are encouraged to post in whichever language they are most comfortable with."
+        },
+        {
+          "q": "How much time do I need to commit?",
+          "a": "There is no minimum commitment. You can participate as much or as little as you like. Some members join for specific discussions, while others are active contributors on an ongoing basis."
+        },
+        {
+          "q": "How do I join?",
+          "a": "Click the 'Join the CoP' button on this page to access the Google Group and request membership. You will receive a confirmation once approved."
+        }
+      ]
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Resources",
+      "subtitle": "All relevant information and resources you need to have about the ORCID-WACA project are here."
+    },
+    "hub": {
+      "searchPlaceholder": "Search resources by title, description or type...",
+      "filterAll": "All Resources",
+      "filterVideos": "Videos",
+      "filterPhotos": "Photos",
+      "filterInfographics": "Infographics",
+      "filterDocuments": "Documents",
+      "quickActions": {
+        "download": {
+          "title": "Download All Materials",
+          "desc": "Access the full library on the Baobab platform."
+        },
+        "ambassadors": {
+          "title": "Learn About Ambassadors Programme",
+          "desc": "Become a champion of research transparency in WACA."
+        },
+        "community": {
+          "title": "Join Community of Practice",
+          "desc": "Discuss, share, and connect with peer researchers."
+        }
+      },
+      "sections": {
+        "videos": {
+          "title": "Video Tutorials",
+          "desc": "Watch and learn at your own pace."
+        },
+        "photos": {
+          "title": "Photos",
+          "desc": "Event photos and galleries."
+        },
+        "infographics": {
+          "title": "Infographics",
+          "desc": "Visual aids and posters explaining ORCID benefits and integrations."
+        },
+        "documents": {
+          "title": "Documents",
+          "desc": "Guides, manuals, and essential reading materials."
+        }
+      },
+      "loadMore": "Load More",
+      "emptyTitle": "No resources found",
+      "emptyDesc": "We couldn't find any resources matching your search query or selected tab. Try clearing filters or typing another term.",
+      "download": "Download",
+      "categoryLabel": "File format/pages",
+      "languageLabel": "Language"
+    }
+  },
+  "updates": {
+    "page": {
+      "title": "ORCID-WACA News & Updates",
+      "subtitle": "All latest updates on ORCID-WACA"
+    },
+    "backToList": "Back to News & Updates",
+    "readMore": "Read More",
+    "years": [
+      "2026",
+      "2025"
+    ],
+    "posts": {
+      "2025": [
+        {
+          "title": "WACREN launches calls to kickstart the ORCID-WACA Project",
+          "date": "December 22, 2025",
+          "image": "/images/updates/wacren-launches.jpg",
+          "slug": "wacren-launches-orcid-waca",
+          "body": [
+            "Following its recent <a href='https://wacren.net/en/wacren-secures-fund-to-accelerate-regional-orcid-adoption-and-drive-open-science/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>announcement of securing support from the ORCID Global Participation Fund to accelerate ORCID adoption in West and Central Africa</a>, WACREN has officially commenced the ORCID-WACA project with two strategic calls: a Call for Membership to the ORCID-WACA Community of Practice (CoP) and a Call for Applications to the ORCID-WACA Ambassador Programme.",
+            "These two calls mark the start of a regional effort to strengthen researcher identification, improve attribution of scholarly outputs, and embed persistent identifiers (PIDs) more deeply within African research ecosystems.",
+            "The ORCID-WACA CoP provides a collaborative platform for librarians, researchers, repository managers, journal editors, publishers, and research administrators to share experiences, address institutional challenges, and co-create practical guidance for ORCID and PID adoption. Through regular learning sessions and collaborative activities, the CoP will support institutions at different stages of ORCID integration.",
+            "Complementing this, the ORCID-WACA Ambassador Programme will empower a cohort of trained ambassadors to lead awareness-raising, institutional outreach, and capacity-building activities across the region. Ambassadors will play a key role in translating ORCID benefits into practical use within universities, research institutes, and journals.",
+            "Together, these initiatives will significantly enhance African researchers’ visibility, credibility, and research integrity, ensuring accurate attribution, reducing misrepresentation, and strengthening global trust in African scholarship.",
+            "The project builds on LIBSENSE’s foundational work on persistent identifiers, including <a href='https://wacren.net/en/wacren-opens-new-possibilities-for-african-research-community-with-arks/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>WACREN’s engagement with ARKs</a>, repositories, open science training, and <a href='https://baobab.wacren.net/records/t72jd-p2583' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>PID advocacy</a>. LIBSENSE will be leveraged as a strategic platform to align ORCID adoption with broader PID workflows, institutional systems, and open research infrastructures.",
+            "By mobilising communities and champions, the ORCID-WACA project positions African researchers and institutions for stronger participation in the global research ecosystem.",
+            "Click to apply to join the ORCID-WACA Ambassadors.",
+            "Apply to join the ORCID-WACA Community of Practice"
+          ]
+        },
+        {
+          "title": "Call for Membership: ORCID-WACA Community of Practice (CoP)",
+          "date": "December 20, 2025",
+          "image": "/images/updates/cop-membership.jpg",
+          "slug": "call-for-membership-cop",
+          "body": [
+            "The ORCID-WACA Community of Practice (CoP) is a regional collaborative forum established under the ORCID-WACA Initiative, led by the <a href='https://wacren.net' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>West and Central African Research and Education Network (WACREN)</a> with support from the <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>ORCID Global Participation Fund</a>. The CoP aims to advance ORCID adoption and integration across institutions in West and Central Africa, strengthen researcher identification, and enhance the visibility and discoverability of African scholarship.",
+            "The CoP provides a collaborative platform for researchers, librarians, repository managers, journal editors, publishers, and research administrators to share challenges, experiences, and practical strategies for persistent identifier (PID) adoption and integration into research management systems, institutional repositories, and journal publication workflows.",
+            "Membership Scope",
+            "Membership in the ORCID-WACA CoP is open to librarians, repository managers, journal editors, publishers, research administrators, open-science advocates, and all interested researchers and professionals in higher education and research institutions across Africa.",
+            "Focus Areas of the Community",
+            "Mapping ORCID and other PIDs adoption across WACA to identify regions with low uptake, with opportunities for co-authorship and collaborative publication of the studies.",
+            "Providing a supportive space to discuss institutional challenges related to PID adoption and to identify practical solutions.",
+            "Co-creating guidance materials for African scholarly journals to adopt ORCID integration within editorial and publishing processes.",
+            "Curating and developing starter resources for institutions beginning their ORCID adoption and integration into research infrastructures.",
+            "Organising special-topic sessions based on member interests, including invited talks from the ORCID team and other experts.",
+            "Hosting learning sessions on research identity, researcher visibility, PID adoption, and relevant topics.",
+            "Supporting translation and localisation of key materials to increase accessibility across Anglophone and Francophone regions.",
+            "Member Expectations: Participate in monthly CoP meetings, discussions, and collaborative activities.",
+            "Interested individuals should complete the CoP membership form: https://survey.wacren.net/index.php/158976",
+            "Deadline: February 16, 2026",
+            "For questions or suggestions, please contact the ORCID-WACA team at orcid@wacren.net"
+          ]
+        },
+        {
+          "title": "Call for Applications: ORCID–WACA Ambassador Programme",
+          "date": "December 20, 2025",
+          "image": "/images/updates/ambassador-programme.jpg",
+          "slug": "call-for-applications-ambassador",
+          "body": [
+            "The ORCID-WACA initiative, led by the <a href='https://wacren.net' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>West and Central African Research and Education Network (WACREN)</a> with support from the <a href='https://info.orcid.org/global-participation-program/global-participation-fund/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>ORCID Global Participation Fund</a>, aims to advance the adoption and integration of ORCID across institutions in West and Central Africa. It builds on WACREN's ongoing efforts to strengthen the use of Persistent Identifiers (PIDs) in Africa, which is an important step toward enhancing researcher visibility, institutional impact, and equitable participation in the global research ecosystem. The initiative aligns with WACREN's and ORCID's mission to close participation gaps in the Global South.",
+            "WACREN has long recognised that the <a href='https://katinamagazine.org/content/article/open-knowledge/2025/five-perspectives-on-state-of-open-science-africa' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>low adoption of PIDs</a>, such as ORCID, across Africa limits the visibility and discoverability of the region's scholarly outputs, reinforcing the misconception of low scholarly productivity in Africa. Many African researchers and professionals only encounter ORCID during the journal submission process because publishers often require it. Institutional or journal-level mandates for ORCID are still low in Africa, and awareness and use of ORCID are particularly limited in non-STEM disciplines. This situation makes it difficult to attribute scholarly work accurately, showcase institutional research productivity, and highlight the true scholarly impact of African researchers.",
+            "To address these challenges, WACREN has already laid a strong foundation for PID adoption through several initiatives. Notably, research outputs disseminated via the <a href='https://baobab.wacren.net/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>BAOBAB repository</a>, operated by WACREN, are assigned Archival Resource Keys (ARKs), ensuring their long-term discoverability and access. WACREN has also organised <a href='https://africaconnect3.net/scholarly-community-in-west-africa-enlightened-on-persistent-identifiers/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>workshops and training sessions on PIDs</a>, equipping African researchers, librarians, and publishers with knowledge about the importance of PIDs for improved attribution and recognition. In addition, the <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>COPPHA training courses</a> <a href='https://wacren.net/en/establishing-a-diamond-oa-publishing-ecosystem-for-public-health-research-in-africa-the-coalition-for-open-access-publishing-of-public-health-in-africa-coppha/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>spearheaded by WACREN</a> have engaged more than 600 participants, including African early- and mid-career researchers (EMCRs) and senior professionals, in equitable publishing models which covered discussions on research integrity, transparency, and proper attribution through PIDs to mitigate predatory publishing practices.",
+            "Building on this foundation, the ORCID-WACA Initiative will demonstrate how ORCID adoption can strengthen research integrity, improve researcher identification, increase the visibility of African scholarly outputs, and enhance broader institutional collaboration across the continent. The project will raise awareness of the benefits of ORCID, promote its integration with research infrastructures such as institutional repositories, and build community capacity through the ORCID-WACA Ambassadors Programme and the ORCID-WACA Community of Practice. Together, these efforts will increase ORCID adoption across West and Central African institutions, advance ORCID's mission to close participation gaps in the Global South, and strengthen the long-term integration of PIDs within regional research infrastructures.",
+            "Regions Covered: West and Central Africa (Anglophone and Francophone countries)",
+            "Duration of the Ambassadors Programme",
+            "The Ambassador Programme will run from February 2026 to July 2026, with an expected commitment of approximately 4 to 6 hours per month for workshops, outreach, and participation in the Community of Practice (CoP).",
+            "Role of Ambassadors",
+            "Ambassadors will play a leading role in promoting ORCID awareness and adoption within their institutions and professional networks. They will conduct workshops and institutional outreach to engage faculty, researchers, and administrators, while also supporting the development and localisation of promotional materials. In addition, Ambassadors will serve as core members of the ORCID-WACA Community of Practice (CoP), contributing to shared learning and collaboration across the region.",
+            "Number of Ambassadors to be Selected: 15",
+            "Eligibility Criteria",
+            "Applicants must:",
+            "Be currently based at a recognised higher education or research institution in a West or Central African country.",
+            "Have experience with researcher identification systems (persistent identifiers) and scholarly communication practices (librarians, repository managers, research administrators, faculty members, early-career researchers, journal editors, and open science advocates).",
+            "Hold an active ORCID iD with demonstrated use (linked publications, datasets, or institutional profile).",
+            "Have experience delivering training, workshops, or other outreach activities, and be willing to conduct workshops and outreach.",
+            "Communicate effectively in English or French.",
+            "Expectations & Deliverables",
+            "Ambassadors are expected to:",
+            "Actively participate in ambassador activities and the ORCID-WACA Community of Practice, and encourage colleagues and researchers in their institutions to join and engage with the CoP.",
+            "Conduct workshops and institutional outreach to increase ORCID adoption.",
+            "Promote the ORCID-WACA programme and events on social media platforms to increase awareness and engagement.",
+            "Report engagement activities and provide feedback to the ORCID-WACA team.",
+            "Support, Stipend & Recognition",
+            "Ambassadors will receive mentorship from the ORCID-WACA team throughout the programme. They will also receive a stipend, along with access to training resources and workshop materials to support their outreach activities. In addition, Ambassadors will be provided with ORCID-WACA promotional materials to help them raise awareness and encourage ORCID adoption within their institutions and professional networks. Upon successful completion of the programme, Ambassadors will receive formal recognition through a Certificate of Achievement and a public profile as an ORCID-WACA Ambassador on the ORCID-WACA webpage.",
+            "Application Process",
+            "Interested candidates should complete and submit the application form, providing their ORCID iD and experience with ORCID, as well as a short statement explaining why they wish to become an ORCID-WACA Ambassador and how they would increase ORCID awareness and adoption in their institution, along with responses to other questions in the form. Incomplete applications will not be considered.",
+            "Apply here: https://survey.wacren.net/index.php/619121",
+            "Deadline: January 22, 2026",
+            "If you have any questions or suggestions, please contact us at orcid@wacren.net."
+          ]
+        }
+      ],
+      "2026": [
+        {
+          "title": "15 Ambassadors Selected to Advance ORCID Adoption in West and Central Africa",
+          "date": "June 10, 2026",
+          "image": "/images/updates/ambassadors-selected.jpg",
+          "slug": "15-ambassadors-selected",
+          "body": [
+            "The ORCID–WACA project has reached another important milestone as it prepares to welcome its 15 dedicated Ambassadors. This step brings us closer to spreading the benefits of ORCID throughout West and Central Africa, helping to build stronger connections and collaboration in the region.",
+            "Thanks to the generous support from the ORCID Global Participation Fund, the ORCID–WACA initiative is dedicated to <a href='https://wacren.net/en/newsletter/wacren-secures-fund-to-accelerate-regional-orcid-adoption-and-drive-open-science/' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>boosting the integration and use of ORCID across the region’s vibrant research ecosystem</a>. The project aligns with WACREN’s broader vision of developing a trusted digital public infrastructure, aimed at making African scholarly works more discoverable, properly attributed, and lasting in visibility.",
+            "After a thorough <a href='https://libsense.ren.africa/news/6953adde203dbf3802292799' target='_blank' rel='noopener noreferrer' class='underline hover:text-primary transition-colors'>selection process</a>, 15 Ambassadors have been chosen to serve as champions for ORCID adoption among researchers, institutions and communities. They will play a vital role in spreading the word about ORCID and other Persistent Identifiers (PIDs), helping improve the visibility and discoverability of African research while supporting institutions in strengthening researcher identification practices. Through outreach activities, workshops, and interactions with researchers, librarians, publishers, journal editors, and research administrators, these Ambassadors will foster greater awareness and inspire the adoption of best practices throughout the region.",
+            "They will also help build the vibrant ORCID–WACA Community of Practice, opening up new opportunities for collaboration, peer learning, and sharing knowledge among everyone dedicated to enhancing Africa’s research infrastructure.",
+            "The forthcoming Ambassadors’ Orientation will officially introduce participants to the initiative's objectives and equip them with the knowledge, resources, and support needed to fulfil their roles effectively. The session will cover their responsibilities and expected outcomes, mentorship opportunities, community engagement approaches, and the tools available to help them drive meaningful impact within their communities.",
+            "WACREN considers a strong PID infrastructure crucial for ensuring that African research is properly credited, easily discoverable worldwide, and accurately integrated into the global scholarly community. As the ORCID–WACA Ambassadors embark on this path, we are eager to collaborate with them to create a more visible, connected, and equitable research environment for West and Central Africa."
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with ORCID-WACA"
+    },
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions about ORCID-WACA? We’re here to help. Reach out to us and we’ll get back to you as soon as possible."
+    },
+    "connect": {
+      "title": "Let's Connect",
+      "subtitle": "Whether you're interested in supporting an Ambassador’s outreach/workshop, joining our Community of Practice, partnering with ORCID-WACA, or simply learning more about ORCID, we'd love to hear from you.",
+      "emailUs": {
+        "title": "Email Us",
+        "desc": "For general inquiries and continuous support lines."
+      },
+      "visit": {
+        "title": "Visit WACREN",
+        "desc": "Learn more about WACREN - the implementing organisation."
+      },
+      "follow": {
+        "title": "Follow Us",
+        "desc": "Stay updated across our social media."
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and our team will get back to you shortly.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "institution": "Institution / Organization",
+      "country": "Country",
+      "countryPlaceholder": "Select your country",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "subjects": {
+        "general": "General Inquiry",
+        "cop": "Community of Practice",
+        "ambassador": "Ambassador Programme",
+        "support": "Institutional Support",
+        "training": "Training Request",
+        "partnership": "Partnership Opportunity",
+        "technical": "Technical Support"
+      }
+    }
+  }
+}
