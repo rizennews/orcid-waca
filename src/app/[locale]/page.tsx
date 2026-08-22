@@ -77,7 +77,7 @@ export default async function HomePage({
             <FadeIn delay={0.3}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
-                  href="https://groups.google.com/g/orcid-waca-cop?pli=1"
+                  href="https://groups.google.com/g/orcid-waca-cop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center rounded-full bg-secondary px-8 text-sm font-semibold text-white hover:bg-secondary-dark transition-colors"
@@ -169,7 +169,7 @@ export default async function HomePage({
                 },
                 {
                   key: 'community',
-                  href: 'https://groups.google.com/g/orcid-waca-cop?pli=1',
+                  href: 'https://groups.google.com/g/orcid-waca-cop',
                   target: '_blank',
                   icon: (
                     <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">

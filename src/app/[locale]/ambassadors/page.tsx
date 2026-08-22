@@ -237,7 +237,7 @@ export default async function AmbassadorsPage({
               {t('home.cta.subtitle')}
             </p>
             <a
-              href="https://groups.google.com/g/orcid-waca-cop?pli=1"
+              href="https://groups.google.com/g/orcid-waca-cop"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-11 items-center justify-center rounded-full bg-secondary px-6 text-sm font-semibold text-white hover:bg-secondary-dark transition-colors"
