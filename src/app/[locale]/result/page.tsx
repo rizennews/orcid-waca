@@ -282,16 +282,16 @@ export default async function ResultPage() {
                     </div>
                   </div>
 
-                  {/* Bilingual split */}
-                  <div className="flex items-center gap-3 mb-6">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      8 Anglophone
-                    </span>
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary/15 text-secondary-dark text-xs font-semibold">
-                      <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
-                      7 Francophone
-                    </span>
+                  {/* Bilingual split bar */}
+                  <div className="mb-6">
+                    <div className="w-full flex h-10 rounded-lg overflow-hidden border border-zinc-200/50">
+                      <div className="w-[53.33%] bg-primary flex items-center justify-center text-white font-bold text-sm px-3 border-r border-zinc-900">
+                        8 Anglophone
+                      </div>
+                      <div className="w-[46.67%] bg-secondary flex items-center justify-center text-zinc-900 font-semibold text-sm px-3">
+                        7 Francophone
+                      </div>
+                    </div>
                   </div>
 
                   {/* Country List */}
