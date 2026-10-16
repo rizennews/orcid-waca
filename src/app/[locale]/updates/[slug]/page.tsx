@@ -177,7 +177,7 @@ export default async function PostPage({
                 return (
                   <p key={i} className="mb-4">
                     <a
-                      href="https://groups.google.com/a/ren.africa/g/orcid-waca"
+                      href="https://groups.google.com/g/orcid-waca-cop"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 h-11 rounded-full bg-primary px-6 text-sm font-semibold text-white hover:bg-primary-dark transition-colors"

@@ -10,6 +10,7 @@ type Ambassador = {
   image: string
   shortBio: string
   fullBio: string
+  orcid?: string
 }
 
 const INITIAL_COUNT = 6
@@ -88,9 +89,11 @@ export default function AmbassadorGrid({ ambassadors }: { ambassadors: Ambassado
                 <p className="text-xs text-secondary font-medium truncate">
                   {amb.role}
                 </p>
-                <p className="text-xs text-zinc-400 truncate">
-                  {amb.country}
-                </p>
+                {amb.country && (
+                  <p className="text-xs text-zinc-400 truncate">
+                    {amb.country}
+                  </p>
+                )}
               </div>
             </div>
             <p className="text-sm text-zinc-500 leading-relaxed flex-1">
@@ -166,9 +169,24 @@ export default function AmbassadorGrid({ ambassadors }: { ambassadors: Ambassado
                     <p className="text-sm text-secondary font-medium">
                       {selected.role}
                     </p>
-                    <p className="text-sm text-zinc-400">
-                      {selected.country}
-                    </p>
+                    {selected.country && (
+                      <p className="text-sm text-zinc-400">
+                        {selected.country}
+                      </p>
+                    )}
+                    {selected.orcid && (
+                      <a
+                        href={selected.orcid}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 mt-2 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
+                      >
+                        <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                          <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/>
+                        </svg>
+                        ORCID iD
+                      </a>
+                    )}
                   </div>
                 </div>
                 <button

@@ -219,7 +219,7 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
           {[
             { href: 'https://baobab.wacren.net/communities/orcid-waca/records?q=&l=list&p=1&s=10&sort=newest', icon: <CloudDownloadIcon />, title: labels.quickActions.download.title, desc: labels.quickActions.download.desc },
             { href: 'https://wacren.net/en/orcid-waca/ambassadors', icon: <GraduationIcon />, title: labels.quickActions.ambassadors.title, desc: labels.quickActions.ambassadors.desc },
-            { href: 'https://groups.google.com/a/ren.africa/g/orcid-waca', icon: <UsersIcon />, title: labels.quickActions.community.title, desc: labels.quickActions.community.desc },
+            { href: 'https://groups.google.com/g/orcid-waca-cop', icon: <UsersIcon />, title: labels.quickActions.community.title, desc: labels.quickActions.community.desc },
           ].map((action, i) => (
             <motion.a
               key={i}
