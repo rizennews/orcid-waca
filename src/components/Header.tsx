@@ -32,6 +32,7 @@ export default function Header() {
     { key: 'ambassadors', href: `/${locale}/ambassadors` },
     { key: 'community', href: `/${locale}/community` },
     { key: 'resources', href: `/${locale}/resources` },
+    { key: 'result', href: `/${locale}/result` },
     { key: 'updates', href: `/${locale}/updates` },
     { key: 'contact', href: `/${locale}/contact` },
   ]

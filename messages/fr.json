@@ -10,6 +10,7 @@
     "ambassadors": "Ambassadeurs",
     "community": "Communauté",
     "resources": "Ressources",
+    "result": "Résultats",
     "updates": "Actualités",
     "contact": "Contact",
     "join": "Rejoindre CoP",
@@ -700,6 +701,107 @@
         "training": "Demande de formation",
         "partnership": "Opportunité de partenariat",
         "technical": "Support technique"
+      }
+    }
+  },
+  "result": {
+    "page": {
+      "badge": "Impact & Résultats",
+      "heroTitle": "Rendre la recherche africaine visible, un identifiant ORCID à la fois",
+      "heroSubtitle": "Des ambassadeurs, une communauté régionale et des formations pratiques à travers l'Afrique de l'Ouest et Centrale.",
+      "featuredStat": {
+        "value": "1 330",
+        "label": "participants aux événements de formation ORCID",
+        "targetLabel": "Cible 1 000",
+        "badge": "Objectif dépassé (+33%)"
+      },
+      "stats": [
+        {
+          "value": "15",
+          "label": "Ambassadeurs régionaux formés",
+          "subtext": "Actifs dans les institutions"
+        },
+        {
+          "value": "10+",
+          "label": "Pays représentés",
+          "subtext": "Afrique de l'Ouest et Centrale"
+        },
+        {
+          "value": "100+",
+          "label": "Membres de la communauté de pratique",
+          "subtext": "Échange de connaissances"
+        },
+        {
+          "value": "3",
+          "label": "Cohortes linguistiques",
+          "subtext": "Anglais, Français et Portugais"
+        }
+      ],
+      "pillarsTitle": "Piliers d'impact et résultats mesurables",
+      "pillarsSubtitle": "Progrès tangibles obtenus sur nos axes stratégiques en Afrique de l'Ouest et Centrale.",
+      "pillars": [
+        {
+          "tag": "Renforcement des capacités",
+          "title": "Formations et ateliers pratiques",
+          "desc": "Donner aux chercheurs, bibliothécaires et administrateurs les compétences pour créer, gérer et optimiser leurs profils ORCID, résoudre l'ambiguïté des noms et connecter leurs travaux aux registres mondiaux.",
+          "stat": "1 330+",
+          "statLabel": "Chercheurs formés dans la région"
+        },
+        {
+          "tag": "Leadership de terrain",
+          "title": "Ambassadeurs ORCID-WACA",
+          "desc": "Une cohorte dévouée de 15 champions régionaux menant l'adoption au sein de leurs institutions, organisant des formations locales et servant de relais régionaux.",
+          "stat": "15",
+          "statLabel": "Champions institutionnels"
+        },
+        {
+          "tag": "Collaboration régionale",
+          "title": "Communauté de pratique (CoP)",
+          "desc": "Un forum transfrontalier dynamique reliant les professionnels d'Afrique de l'Ouest et Centrale pour partager des stratégies pratiques et lever les freins institutionnels.",
+          "stat": "Actif",
+          "statLabel": "Plateforme trilingue"
+        },
+        {
+          "tag": "Infrastructure",
+          "title": "Intégration PID et dépôts institutionnels",
+          "desc": "Harmoniser l'adoption d'ORCID avec les plateformes de science ouverte telles que LIBSENSE, les ARKs du dépôt BAOBAB et les archives universitaires.",
+          "stat": "De bout en bout",
+          "statLabel": "Infrastructure savante ouverte"
+        }
+      ],
+      "timelineTitle": "Jalons majeurs du projet",
+      "milestones": [
+        {
+          "status": "Achevé",
+          "title": "Lancement du projet et soutien GPF",
+          "desc": "Obtention du soutien de l'ORCID Global Participation Fund pour accélérer l'adoption des identifiants persistants."
+        },
+        {
+          "status": "Achevé",
+          "title": "Appels régionaux et lancement de la communauté",
+          "desc": "Publication des appels à candidatures pour le programme des ambassadeurs et la communauté de pratique."
+        },
+        {
+          "status": "Achevé",
+          "title": "15 Ambassadeurs sélectionnés et intégrés",
+          "desc": "Sélection rigoureuse de 15 champions suivie d'une orientation complète et du déploiement des outils."
+        },
+        {
+          "status": "Objectif dépassé",
+          "title": "1 330 participants formés mobilisés",
+          "desc": "Dépassement de la cible de 1 000 grâce à des ateliers, webinaires et sessions institutionnelles à fort impact."
+        },
+        {
+          "status": "En cours",
+          "title": "Intégration institutionnelle et pérennité",
+          "desc": "Ancrage des identifiants persistants dans les politiques universitaires et dépôts institutionnels."
+        }
+      ],
+      "cta": {
+        "title": "Participez à l'impact",
+        "subtitle": "Rejoignez la communauté de pratique ORCID-WACA ou contactez un ambassadeur pour organiser des ateliers dans votre institution.",
+        "joinButton": "Rejoindre la communauté de pratique",
+        "ambassadorsButton": "Rencontrer les ambassadeurs"
       }
     }
   }

@@ -9,24 +9,22 @@ export const metadata = {
 
 export default function NotFound() {
   return (
-    <html lang="en">
-      <body style={{
-        margin: 0,
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#f9fafb',
-        fontFamily: 'system-ui, -apple-system, sans-serif',
-        padding: '2rem',
-        textAlign: 'center',
-      }}>
-
-        {/* Logo */}
-        <Link href="/en" style={{ marginBottom: '2.5rem', display: 'inline-block' }}>
-          <Image src="/orcid-waca-new.png" alt="ORCID-WACA" width={140} height={40} priority />
-        </Link>
+    <div style={{
+      margin: 0,
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#f9fafb',
+      fontFamily: 'system-ui, -apple-system, sans-serif',
+      padding: '2rem',
+      textAlign: 'center',
+    }}>
+      {/* Logo */}
+      <Link href="/en" style={{ marginBottom: '2.5rem', display: 'inline-block' }}>
+        <Image src="/orcid-waca-new.png" alt="ORCID-WACA" width={140} height={40} priority />
+      </Link>
 
         {/* Big 404 */}
         <p style={{
@@ -103,8 +101,6 @@ export default function NotFound() {
             Contact us
           </Link>
         </div>
-
-      </body>
-    </html>
+      </div>
   )
 }

@@ -10,6 +10,7 @@
     "ambassadors": "Ambassadors",
     "community": "Community",
     "resources": "Resources",
+    "result": "Result",
     "updates": "Updates & News",
     "contact": "Contact",
     "join": "Join CoP",
@@ -700,6 +701,107 @@
         "training": "Training Request",
         "partnership": "Partnership Opportunity",
         "technical": "Technical Support"
+      }
+    }
+  },
+  "result": {
+    "page": {
+      "badge": "Impact & Results",
+      "heroTitle": "Making African research visible, one ORCID iD at a time",
+      "heroSubtitle": "Ambassadors, a regional community and hands-on training across West and Central Africa.",
+      "featuredStat": {
+        "value": "1,330",
+        "label": "participants at ORCID training events",
+        "targetLabel": "Target 1,000",
+        "badge": "Target Exceeded (+33%)"
+      },
+      "stats": [
+        {
+          "value": "15",
+          "label": "Trained Regional Ambassadors",
+          "subtext": "Active across academic institutions"
+        },
+        {
+          "value": "10+",
+          "label": "Countries Represented",
+          "subtext": "West & Central Africa"
+        },
+        {
+          "value": "100+",
+          "label": "Community of Practice Members",
+          "subtext": "Peer knowledge exchange"
+        },
+        {
+          "value": "3",
+          "label": "Language Cohorts",
+          "subtext": "English, French & Portuguese"
+        }
+      ],
+      "pillarsTitle": "Pillars of Impact & Measurable Outcomes",
+      "pillarsSubtitle": "Measurable progress delivered across our core intervention tracks in West and Central Africa.",
+      "pillars": [
+        {
+          "tag": "Capacity Building",
+          "title": "Hands-on Training & Workshops",
+          "desc": "Empowering researchers, librarians, and research administrators with practical skills to register, curate, and optimize their ORCID profiles, resolve name ambiguity, and connect their research with global registries.",
+          "stat": "1,330+",
+          "statLabel": "Researchers trained across region"
+        },
+        {
+          "tag": "Grassroots Leadership",
+          "title": "ORCID-WACA Ambassadors",
+          "desc": "A dedicated cohort of 15 regional champions driving adoption from within their home institutions, organizing localized training, and serving as regional reference points for persistent identifiers.",
+          "stat": "15",
+          "statLabel": "Institutional champions appointed"
+        },
+        {
+          "tag": "Regional Collaboration",
+          "title": "Community of Practice (CoP)",
+          "desc": "A vibrant cross-border forum connecting professionals across West and Central Africa to share practical implementation strategies, address institutional roadblocks, and establish sustainable PID policies.",
+          "stat": "Active",
+          "statLabel": "Trilingual regional platform"
+        },
+        {
+          "tag": "Infrastructure",
+          "title": "PID & Repository Integration",
+          "desc": "Aligning ORCID adoption with regional open science platforms including LIBSENSE, ARKs via the BAOBAB repository, and university institutional repositories for persistent attribution.",
+          "stat": "End-to-End",
+          "statLabel": "Open scholarly infrastructure"
+        }
+      ],
+      "timelineTitle": "Key Project Milestones",
+      "milestones": [
+        {
+          "status": "Completed",
+          "title": "Project Kickoff & GPF Support",
+          "desc": "Secured ORCID Global Participation Fund support to accelerate persistent identifier adoption in West and Central Africa."
+        },
+        {
+          "status": "Completed",
+          "title": "Regional Calls & Community Launch",
+          "desc": "Published open calls for the Ambassador Programme and Community of Practice membership."
+        },
+        {
+          "status": "Completed",
+          "title": "15 Ambassadors Selected & Onboarded",
+          "desc": "Rigorous selection of 15 champions followed by comprehensive orientation and toolkit rollout."
+        },
+        {
+          "status": "Target Exceeded",
+          "title": "1,330 Training Participants Mobilised",
+          "desc": "Surpassed the 1,000 target through high-impact workshops, webinars, and institutional engagement sessions."
+        },
+        {
+          "status": "In Progress",
+          "title": "Institutional PID Integration & Sustainability",
+          "desc": "Embedding persistent identifiers into university policies, institutional repositories, and regional workflows."
+        }
+      ],
+      "cta": {
+        "title": "Be Part of the Impact",
+        "subtitle": "Join the ORCID-WACA Community of Practice or connect with an ambassador to bring ORCID workshops to your institution.",
+        "joinButton": "Join the Community of Practice",
+        "ambassadorsButton": "Meet the Ambassadors"
       }
     }
   }
