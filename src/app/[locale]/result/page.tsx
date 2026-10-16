@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import CountryGraph from '@/components/CountryGraph'
 import { routing } from '@/i18n/routing'
+import { getTranslations } from 'next-intl/server'
 
 export async function generateMetadata({
   params,
@@ -11,10 +12,11 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
+  const t = await getTranslations({ locale })
   const siteUrl = 'https://orcid.wacren.net'
 
-  const title = 'Making African research visible, one ORCID iD at a time'
-  const description = 'Ambassadors, a regional community and hands-on training across West and Central Africa.'
+  const title = t('result.page.title')
+  const description = t('result.page.subtitle')
 
   return {
     title: `${title} | ORCID-WACA`,
@@ -30,7 +32,7 @@ export async function generateMetadata({
       description,
       url: `${siteUrl}/${locale}/result`,
       siteName: 'ORCID-WACA',
-      locale: 'en_US',
+      locale: locale === 'fr' ? 'fr_FR' : locale === 'pt' ? 'pt_PT' : 'en_US',
       type: 'website',
     },
     twitter: {
@@ -50,28 +52,71 @@ export async function generateMetadata({
   }
 }
 
-export default async function ResultPage() {
-  const stats = [
-    {
-      value: '15',
-      label: 'ORCID-WACA Ambassadors',
-      sub: 'in 10 countries',
-    },
-    {
-      value: '217',
-      label: 'Community of Practice members',
-      sub: 'from 24 countries',
-    },
-    {
-      value: '24',
-      label: 'training events',
-      sub: 'in 7 countries',
-    },
-    {
-      value: '613',
-      label: 'ORCID records created or updated',
-      sub: 'during hands-on sessions',
-    },
+export default async function ResultPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const t = await getTranslations({ locale })
+
+  const stats = t.raw('result.page.stats') as {
+    value: string
+    label: string
+    sub: string
+  }[]
+
+  const objectives = t.raw('result.page.objectives') as {
+    num: string
+    title: string
+    detail: string
+    status: string
+  }[]
+
+  const recordMetrics = t.raw('result.page.recordMetrics') as {
+    value: string
+    label: string
+    sub: string
+  }[]
+
+  const priorities = t.raw('result.page.copCard.priorities') as {
+    label: string
+    percent: number
+  }[]
+
+  const testimonials = t.raw('result.page.testimonials') as {
+    quote: string
+    role: string
+    country: string
+    code: string
+  }[]
+
+  const milestones = t.raw('result.page.milestones') as {
+    period: string
+    title: string
+    desc: string
+  }[]
+
+  const anglophoneCountries = (t.raw('result.page.ambassadorsCard.anglophoneCountries') as {
+    name: string
+    code: string
+  }[]) || [
+    { name: 'Nigeria', code: 'ng' },
+    { name: 'Ghana', code: 'gh' },
+    { name: 'Cameroon', code: 'cm' },
+    { name: 'The Gambia', code: 'gm' },
+  ]
+
+  const francophoneCountries = (t.raw('result.page.ambassadorsCard.francophoneCountries') as {
+    name: string
+    code: string
+  }[]) || [
+    { name: 'Benin', code: 'bj' },
+    { name: 'Burkina Faso', code: 'bf' },
+    { name: "Côte d'Ivoire", code: 'ci' },
+    { name: 'Mali', code: 'ml' },
+    { name: 'Senegal', code: 'sn' },
+    { name: 'Togo', code: 'tg' },
   ]
 
   return (
@@ -83,24 +128,24 @@ export default async function ResultPage() {
         <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white">
           <div className="mx-auto max-w-4xl px-4 py-12 md:py-20 text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Making African research visible, one ORCID iD at a time
+              {t('result.page.title')}
             </h1>
             <p className="text-base md:text-lg text-white/75 max-w-3xl mx-auto leading-relaxed mb-6">
-              Ambassadors, a regional community and hands-on training across West and Central Africa.
+              {t('result.page.subtitle')}
             </p>
 
             {/* Pure Typography Metric (No card / No box) */}
             <div className="mt-8 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 text-white">
               <span className="text-4xl sm:text-5xl font-extrabold text-secondary tracking-tight">
-                1,330
+                {t('result.page.featuredStat.value')}
               </span>
               <div className="hidden sm:block w-px h-10 bg-white/20" />
               <div className="text-center sm:text-left">
                 <p className="text-base sm:text-lg font-semibold text-white leading-tight">
-                  participants at ORCID training events
+                  {t('result.page.featuredStat.label')}
                 </p>
                 <p className="text-xs sm:text-sm text-white/75 mt-1">
-                  Target 1,000
+                  {t('result.page.featuredStat.target')}
                 </p>
               </div>
             </div>
@@ -139,35 +184,10 @@ export default async function ResultPage() {
         <section className="bg-zinc-50 py-16 md:py-20">
           <div className="mx-auto max-w-4xl px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              What we set out to do
+              {t('result.page.objectivesTitle')}
             </h2>
             <div className="divide-y divide-zinc-200">
-              {[
-                {
-                  num: '01',
-                  title: 'Train 15 regional Ambassadors',
-                  detail: '15 trained, 10 countries',
-                  status: 'Achieved',
-                },
-                {
-                  num: '02',
-                  title: 'Build a regional Community of Practice',
-                  detail: '217 members, 24 countries',
-                  status: 'Achieved',
-                },
-                {
-                  num: '03',
-                  title: 'Engage 1,000+ people on ORCID',
-                  detail: '1,330 engaged',
-                  status: 'Exceeded',
-                },
-                {
-                  num: '04',
-                  title: 'Lay foundations for a shared ORCID Integration Hub',
-                  detail: 'Nigeria ORCID Hub under way',
-                  status: 'In progress',
-                },
-              ].map((item) => (
+              {objectives.map((item) => (
                 <div
                   key={item.num}
                   className="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
@@ -187,7 +207,7 @@ export default async function ResultPage() {
                   </div>
                   <span
                     className={`self-start sm:self-center shrink-0 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
-                      item.status === 'In progress'
+                      item.status === 'In progress' || item.status === 'En cours' || item.status === 'Em curso'
                         ? 'bg-primary/10 text-primary'
                         : 'bg-secondary/15 text-secondary-dark'
                     }`}
@@ -204,50 +224,39 @@ export default async function ResultPage() {
         <section className="bg-white py-16 md:py-20">
           <div className="mx-auto max-w-6xl px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-4">
-              Participants left with a working ORCID record
+              {t('result.page.participantsTitle')}
             </h2>
             <p className="text-base text-zinc-500 text-center max-w-2xl mx-auto mb-12">
-              People engaged, by country and direct outcomes during hands-on sessions.
+              {t('result.page.participantsSubtitle')}
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
               {/* Summary Cards */}
               <div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6">
-                <div className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow">
-                  <p className="text-4xl md:text-5xl font-bold text-primary mb-2">
-                    355
-                  </p>
-                  <p className="text-base font-semibold text-zinc-900 leading-snug mb-1">
-                    new ORCID iDs created
-                  </p>
-                  <p className="text-sm text-zinc-500">
-                    during hands-on sessions
-                  </p>
-                </div>
-
-                <div className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow">
-                  <p className="text-4xl md:text-5xl font-bold text-secondary mb-2">
-                    258
-                  </p>
-                  <p className="text-base font-semibold text-zinc-900 leading-snug mb-1">
-                    existing ORCID records updated
-                  </p>
-                  <p className="text-sm text-zinc-500">
-                    during hands-on sessions
-                  </p>
-                </div>
-
-                <div className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow">
-                  <p className="text-4xl md:text-5xl font-bold text-zinc-900 mb-2">
-                    7
-                  </p>
-                  <p className="text-base font-semibold text-zinc-900 leading-snug mb-1">
-                    countries
-                  </p>
-                  <p className="text-sm text-zinc-500">
-                    Nigeria, Ghana, Togo, Côte d&apos;Ivoire, Benin, Mali, Burkina Faso
-                  </p>
-                </div>
+                {recordMetrics.map((metric, i) => (
+                  <div
+                    key={i}
+                    className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow"
+                  >
+                    <p
+                      className={`text-4xl md:text-5xl font-bold mb-2 ${
+                        i === 0
+                          ? 'text-primary'
+                          : i === 1
+                          ? 'text-secondary'
+                          : 'text-zinc-900'
+                      }`}
+                    >
+                      {metric.value}
+                    </p>
+                    <p className="text-base font-semibold text-zinc-900 leading-snug mb-1">
+                      {metric.label}
+                    </p>
+                    <p className="text-sm text-zinc-500">
+                      {metric.sub}
+                    </p>
+                  </div>
+                ))}
               </div>
 
               {/* Country Breakdown Graph */}
@@ -262,7 +271,7 @@ export default async function ResultPage() {
         <section className="bg-zinc-50 py-16 md:py-20">
           <div className="mx-auto max-w-7xl px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              A bilingual network of champions and practitioners
+              {t('result.page.networkTitle')}
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -271,10 +280,10 @@ export default async function ResultPage() {
                 <div>
                   <div className="flex items-center justify-between mb-6">
                     <h3 className="text-2xl font-bold text-zinc-900">
-                      Ambassadors
+                      {t('result.page.ambassadorsCard.title')}
                     </h3>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary/10 text-primary">
-                      10 Countries
+                      {t('result.page.ambassadorsCard.badge')}
                     </span>
                   </div>
 
@@ -282,18 +291,18 @@ export default async function ResultPage() {
                   <div className="grid grid-cols-2 gap-4 mb-8">
                     <div>
                       <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
-                        102
+                        {t('result.page.ambassadorsCard.appsValue')}
                       </p>
                       <p className="text-xs sm:text-sm text-zinc-500">
-                        applications, 20 countries
+                        {t('result.page.ambassadorsCard.appsLabel')}
                       </p>
                     </div>
                     <div>
                       <p className="text-3xl sm:text-4xl font-bold text-secondary mb-1">
-                        15
+                        {t('result.page.ambassadorsCard.selectedCount')}
                       </p>
                       <p className="text-xs sm:text-sm text-zinc-500">
-                        selected champions
+                        {t('result.page.ambassadorsCard.selectedLabel')}
                       </p>
                     </div>
                   </div>
@@ -302,10 +311,10 @@ export default async function ResultPage() {
                   <div className="mb-8">
                     <div className="w-full flex h-11 rounded-lg overflow-hidden border border-zinc-900/10 shadow-xs">
                       <div className="w-[53.33%] bg-[#006bb6] flex items-center justify-center text-white font-bold text-sm sm:text-base px-3 border-r border-zinc-800">
-                        8 Anglophone
+                        {t('result.page.ambassadorsCard.anglophoneLabel')}
                       </div>
                       <div className="w-[46.67%] bg-[#9bc53d] flex items-center justify-center text-zinc-900 font-semibold text-sm sm:text-base px-3">
-                        7 Francophone
+                        {t('result.page.ambassadorsCard.francophoneLabel')}
                       </div>
                     </div>
                   </div>
@@ -313,17 +322,12 @@ export default async function ResultPage() {
                   {/* Represented Countries - Placed directly under each bar segment */}
                   <div>
                     <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-4">
-                      REPRESENTED COUNTRIES
+                      {t('result.page.ambassadorsCard.representedTitle')}
                     </p>
                     <div className="grid grid-cols-2 gap-6 sm:gap-8">
                       {/* Under 8 Anglophone */}
                       <div className="space-y-3">
-                        {[
-                          { name: 'Nigeria', code: 'ng' },
-                          { name: 'Ghana', code: 'gh' },
-                          { name: 'Cameroon', code: 'cm' },
-                          { name: 'The Gambia', code: 'gm' },
-                        ].map((c) => (
+                        {anglophoneCountries.map((c) => (
                           <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-700">
                             <Image
                               src={`https://flagcdn.com/24x18/${c.code}.png`}
@@ -340,14 +344,7 @@ export default async function ResultPage() {
 
                       {/* Under 7 Francophone */}
                       <div className="space-y-3">
-                        {[
-                          { name: 'Benin', code: 'bj' },
-                          { name: 'Burkina Faso', code: 'bf' },
-                          { name: "Côte d'Ivoire", code: 'ci' },
-                          { name: 'Mali', code: 'ml' },
-                          { name: 'Senegal', code: 'sn' },
-                          { name: 'Togo', code: 'tg' },
-                        ].map((c) => (
+                        {francophoneCountries.map((c) => (
                           <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-700">
                             <Image
                               src={`https://flagcdn.com/24x18/${c.code}.png`}
@@ -371,10 +368,10 @@ export default async function ResultPage() {
                 <div>
                   <div className="flex items-center justify-between mb-6">
                     <h3 className="text-2xl font-bold text-zinc-900">
-                      Community of Practice
+                      {t('result.page.copCard.title')}
                     </h3>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-secondary/15 text-secondary-dark">
-                      Regional CoP
+                      {t('result.page.copCard.badge')}
                     </span>
                   </div>
 
@@ -382,26 +379,26 @@ export default async function ResultPage() {
                   <div className="grid grid-cols-3 gap-4 pb-6 mb-6 border-b border-zinc-100">
                     <div>
                       <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
-                        217
+                        {t('result.page.copCard.membersValue')}
                       </p>
                       <p className="text-xs sm:text-sm text-zinc-500">
-                        members
+                        {t('result.page.copCard.membersLabel')}
                       </p>
                     </div>
                     <div>
                       <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
-                        24
+                        {t('result.page.copCard.countriesValue')}
                       </p>
                       <p className="text-xs sm:text-sm text-zinc-500">
-                        countries
+                        {t('result.page.copCard.countriesLabel')}
                       </p>
                     </div>
                     <div>
                       <p className="text-3xl sm:text-4xl font-bold text-secondary mb-1">
-                        91%
+                        {t('result.page.copCard.regionValue')}
                       </p>
                       <p className="text-xs sm:text-sm text-zinc-500 leading-tight">
-                        from West & Central Africa
+                        {t('result.page.copCard.regionLabel')}
                       </p>
                     </div>
                   </div>
@@ -409,23 +406,10 @@ export default async function ResultPage() {
                   {/* Members' top priorities */}
                   <div>
                     <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-4">
-                      Members&apos; top priorities
+                      {t('result.page.copCard.prioritiesTitle')}
                     </p>
                     <div className="space-y-4">
-                      {[
-                        {
-                          label: 'Mapping ORCID and PID adoption in the region',
-                          percent: 79,
-                        },
-                        {
-                          label: 'Expert-led special-topic sessions',
-                          percent: 73,
-                        },
-                        {
-                          label: 'Learning on research identity and PIDs',
-                          percent: 72,
-                        },
-                      ].map((priority) => (
+                      {priorities.map((priority) => (
                         <div key={priority.label} className="space-y-1.5">
                           <div className="flex items-center justify-between text-sm">
                             <span className="text-zinc-700 font-medium leading-snug">
@@ -455,69 +439,48 @@ export default async function ResultPage() {
         <section className="bg-white py-16 md:py-20">
           <div className="mx-auto max-w-5xl px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              Voices from the Region
+              {t('result.page.testimonialsTitle')}
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Quote 1 */}
-              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between relative">
-                <div>
-                  <svg className="w-8 h-8 text-primary/20 mb-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                  </svg>
-                  <p className="text-xl md:text-2xl font-bold text-zinc-900 leading-snug mb-6">
-                    &ldquo;Practical learning, not just talk.&rdquo;
-                  </p>
-                </div>
-                <div className="flex items-center gap-3 pt-4 border-t border-zinc-100">
-                  <Image
-                    src="https://flagcdn.com/24x18/gh.png"
-                    alt="Ghana"
-                    width={20}
-                    height={15}
-                    className="rounded-xs shadow-xs flex-shrink-0"
-                    unoptimized
-                  />
+              {testimonials.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between relative"
+                >
                   <div>
-                    <p className="text-sm font-semibold text-zinc-900">
-                      Research support staff
-                    </p>
-                    <p className="text-xs text-zinc-500">
-                      Ghana
+                    <svg
+                      className={`w-8 h-8 mb-4 fill-current ${
+                        i === 0 ? 'text-primary/20' : 'text-secondary/30'
+                      }`}
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                    </svg>
+                    <p className="text-xl md:text-2xl font-bold text-zinc-900 leading-snug mb-6">
+                      {item.quote}
                     </p>
                   </div>
-                </div>
-              </div>
-
-              {/* Quote 2 */}
-              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between relative">
-                <div>
-                  <svg className="w-8 h-8 text-secondary/30 mb-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                  </svg>
-                  <p className="text-xl md:text-2xl font-bold text-zinc-900 leading-snug mb-6">
-                    &ldquo;I would be glad to be part of the bridge between francophone and anglophone.&rdquo;
-                  </p>
-                </div>
-                <div className="flex items-center gap-3 pt-4 border-t border-zinc-100">
-                  <Image
-                    src="https://flagcdn.com/24x18/ci.png"
-                    alt="Côte d'Ivoire"
-                    width={20}
-                    height={15}
-                    className="rounded-xs shadow-xs flex-shrink-0"
-                    unoptimized
-                  />
-                  <div>
-                    <p className="text-sm font-semibold text-zinc-900">
-                      Assistant Professor
-                    </p>
-                    <p className="text-xs text-zinc-500">
-                      Côte d&apos;Ivoire
-                    </p>
+                  <div className="flex items-center gap-3 pt-4 border-t border-zinc-100">
+                    <Image
+                      src={`https://flagcdn.com/24x18/${item.code}.png`}
+                      alt={item.country}
+                      width={20}
+                      height={15}
+                      className="rounded-xs shadow-xs flex-shrink-0"
+                      unoptimized
+                    />
+                    <div>
+                      <p className="text-sm font-semibold text-zinc-900">
+                        {item.role}
+                      </p>
+                      <p className="text-xs text-zinc-500">
+                        {item.country}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -526,27 +489,11 @@ export default async function ResultPage() {
         <section className="bg-zinc-50 py-16 md:py-20">
           <div className="mx-auto max-w-6xl px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
-              From individual iDs to institutional integration
+              {t('result.page.integrationTitle')}
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">
-              {[
-                {
-                  period: 'Q4 2026',
-                  title: 'Nigeria ORCID Hub',
-                  desc: 'Shared integration service led by Eko-Konnect. Covenant University is the first pilot.',
-                },
-                {
-                  period: 'OCTOBER 2026',
-                  title: 'Open training resources',
-                  desc: 'English/French toolkit released on BAOBAB.',
-                },
-                {
-                  period: 'Q4 2026',
-                  title: 'ORCID-WACA White Paper',
-                  desc: 'Open access, in English and French.',
-                },
-              ].map((item, i) => (
+              {milestones.map((item, i) => (
                 <div
                   key={i}
                   className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between"
@@ -578,7 +525,7 @@ export default async function ResultPage() {
                 rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center rounded-full bg-secondary px-8 text-sm font-semibold text-white hover:bg-secondary-dark transition-colors"
               >
-                Join the Community of Practice
+                {t('result.page.cta.joinButton')}
               </a>
               <a
                 href="https://orcid.org/register"
@@ -586,11 +533,11 @@ export default async function ResultPage() {
                 rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center rounded-full border-2 border-white px-8 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
               >
-                Create your ORCID iD
+                {t('result.page.cta.createButton')}
               </a>
             </div>
             <p className="text-xs text-white/70">
-              Figures as at 30 September 2026. &ldquo;Engaged&rdquo; counts event attendances.
+              {t('result.page.cta.footnote')}
             </p>
           </div>
         </section>

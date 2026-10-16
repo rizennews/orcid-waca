@@ -706,102 +706,185 @@
   },
   "result": {
     "page": {
-      "badge": "Impact & Results",
-      "heroTitle": "Making African research visible, one ORCID iD at a time",
-      "heroSubtitle": "Ambassadors, a regional community and hands-on training across West and Central Africa.",
+      "title": "Making African research visible, one ORCID iD at a time",
+      "subtitle": "Ambassadors, a regional community and hands-on training across West and Central Africa.",
       "featuredStat": {
         "value": "1,330",
         "label": "participants at ORCID training events",
-        "targetLabel": "Target 1,000",
-        "badge": "Target Exceeded (+33%)"
+        "target": "Target 1,000"
       },
       "stats": [
         {
           "value": "15",
-          "label": "Trained Regional Ambassadors",
-          "subtext": "Active across academic institutions"
+          "label": "ORCID-WACA Ambassadors",
+          "sub": "in 10 countries"
         },
         {
-          "value": "10+",
-          "label": "Countries Represented",
-          "subtext": "West & Central Africa"
+          "value": "217",
+          "label": "Community of Practice members",
+          "sub": "from 24 countries"
         },
         {
-          "value": "100+",
-          "label": "Community of Practice Members",
-          "subtext": "Peer knowledge exchange"
+          "value": "24",
+          "label": "training events",
+          "sub": "in 7 countries"
         },
         {
-          "value": "3",
-          "label": "Language Cohorts",
-          "subtext": "English, French & Portuguese"
+          "value": "613",
+          "label": "ORCID records created or updated",
+          "sub": "during hands-on sessions"
         }
       ],
-      "pillarsTitle": "Pillars of Impact & Measurable Outcomes",
-      "pillarsSubtitle": "Measurable progress delivered across our core intervention tracks in West and Central Africa.",
-      "pillars": [
+      "objectivesTitle": "What we set out to do",
+      "objectives": [
         {
-          "tag": "Capacity Building",
-          "title": "Hands-on Training & Workshops",
-          "desc": "Empowering researchers, librarians, and research administrators with practical skills to register, curate, and optimize their ORCID profiles, resolve name ambiguity, and connect their research with global registries.",
-          "stat": "1,330+",
-          "statLabel": "Researchers trained across region"
+          "num": "01",
+          "title": "Train 15 regional Ambassadors",
+          "detail": "15 trained, 10 countries",
+          "status": "Achieved"
         },
         {
-          "tag": "Grassroots Leadership",
-          "title": "ORCID-WACA Ambassadors",
-          "desc": "A dedicated cohort of 15 regional champions driving adoption from within their home institutions, organizing localized training, and serving as regional reference points for persistent identifiers.",
-          "stat": "15",
-          "statLabel": "Institutional champions appointed"
+          "num": "02",
+          "title": "Build a regional Community of Practice",
+          "detail": "217 members, 24 countries",
+          "status": "Achieved"
         },
         {
-          "tag": "Regional Collaboration",
-          "title": "Community of Practice (CoP)",
-          "desc": "A vibrant cross-border forum connecting professionals across West and Central Africa to share practical implementation strategies, address institutional roadblocks, and establish sustainable PID policies.",
-          "stat": "Active",
-          "statLabel": "Trilingual regional platform"
+          "num": "03",
+          "title": "Engage 1,000+ people on ORCID",
+          "detail": "1,330 engaged",
+          "status": "Exceeded"
         },
         {
-          "tag": "Infrastructure",
-          "title": "PID & Repository Integration",
-          "desc": "Aligning ORCID adoption with regional open science platforms including LIBSENSE, ARKs via the BAOBAB repository, and university institutional repositories for persistent attribution.",
-          "stat": "End-to-End",
-          "statLabel": "Open scholarly infrastructure"
+          "num": "04",
+          "title": "Lay foundations for a shared ORCID Integration Hub",
+          "detail": "Nigeria ORCID Hub under way",
+          "status": "In progress"
         }
       ],
-      "timelineTitle": "Key Project Milestones",
+      "participantsTitle": "Participants left with a working ORCID record",
+      "participantsSubtitle": "People engaged, by country and direct outcomes during hands-on sessions.",
+      "recordMetrics": [
+        {
+          "value": "355",
+          "label": "new ORCID iDs created",
+          "sub": "during hands-on sessions"
+        },
+        {
+          "value": "258",
+          "label": "existing ORCID records updated",
+          "sub": "during hands-on sessions"
+        },
+        {
+          "value": "7",
+          "label": "countries",
+          "sub": "Nigeria, Ghana, Togo, Côte d'Ivoire, Benin, Mali, Burkina Faso"
+        }
+      ],
+      "countryGraph": {
+        "title": "People engaged, by country",
+        "subtitle": "Breakdown across 7 participating nations",
+        "totalLabel": "Total Engaged",
+        "footerCount": "7 Countries in West & Central Africa",
+        "footerTotal": "Total: 1,330 participants",
+        "countries": {
+          "ng": "Nigeria",
+          "gh": "Ghana",
+          "tg": "Togo",
+          "ci": "Côte d'Ivoire",
+          "bj": "Benin",
+          "ml": "Mali",
+          "bf": "Burkina Faso"
+        }
+      },
+      "networkTitle": "A bilingual network of champions and practitioners",
+      "ambassadorsCard": {
+        "title": "Ambassadors",
+        "badge": "10 Countries",
+        "appsValue": "102",
+        "appsLabel": "applications, 20 countries",
+        "selectedCount": "15",
+        "selectedLabel": "selected champions",
+        "anglophoneLabel": "8 Anglophone",
+        "francophoneLabel": "7 Francophone",
+        "representedTitle": "REPRESENTED COUNTRIES",
+        "anglophoneCountries": [
+          { "name": "Nigeria", "code": "ng" },
+          { "name": "Ghana", "code": "gh" },
+          { "name": "Cameroon", "code": "cm" },
+          { "name": "The Gambia", "code": "gm" }
+        ],
+        "francophoneCountries": [
+          { "name": "Benin", "code": "bj" },
+          { "name": "Burkina Faso", "code": "bf" },
+          { "name": "Côte d'Ivoire", "code": "ci" },
+          { "name": "Mali", "code": "ml" },
+          { "name": "Senegal", "code": "sn" },
+          { "name": "Togo", "code": "tg" }
+        ]
+      },
+      "copCard": {
+        "title": "Community of Practice",
+        "badge": "Regional CoP",
+        "membersValue": "217",
+        "membersLabel": "members",
+        "countriesValue": "24",
+        "countriesLabel": "countries",
+        "regionValue": "91%",
+        "regionLabel": "from West & Central Africa",
+        "prioritiesTitle": "Members' top priorities",
+        "priorities": [
+          {
+            "label": "Mapping ORCID and PID adoption in the region",
+            "percent": 79
+          },
+          {
+            "label": "Expert-led special-topic sessions",
+            "percent": 73
+          },
+          {
+            "label": "Learning on research identity and PIDs",
+            "percent": 72
+          }
+        ]
+      },
+      "testimonialsTitle": "Voices from the Region",
+      "testimonials": [
+        {
+          "quote": "“Practical learning, not just talk.”",
+          "role": "Research support staff",
+          "country": "Ghana",
+          "code": "gh"
+        },
+        {
+          "quote": "“I would be glad to be part of the bridge between francophone and anglophone.”",
+          "role": "Assistant Professor",
+          "country": "Côte d'Ivoire",
+          "code": "ci"
+        }
+      ],
+      "integrationTitle": "From individual iDs to institutional integration",
       "milestones": [
         {
-          "status": "Completed",
-          "title": "Project Kickoff & GPF Support",
-          "desc": "Secured ORCID Global Participation Fund support to accelerate persistent identifier adoption in West and Central Africa."
+          "period": "Q4 2026",
+          "title": "Nigeria ORCID Hub",
+          "desc": "Shared integration service led by Eko-Konnect. Covenant University is the first pilot."
         },
         {
-          "status": "Completed",
-          "title": "Regional Calls & Community Launch",
-          "desc": "Published open calls for the Ambassador Programme and Community of Practice membership."
+          "period": "OCTOBER 2026",
+          "title": "Open training resources",
+          "desc": "English/French toolkit released on BAOBAB."
         },
         {
-          "status": "Completed",
-          "title": "15 Ambassadors Selected & Onboarded",
-          "desc": "Rigorous selection of 15 champions followed by comprehensive orientation and toolkit rollout."
-        },
-        {
-          "status": "Target Exceeded",
-          "title": "1,330 Training Participants Mobilised",
-          "desc": "Surpassed the 1,000 target through high-impact workshops, webinars, and institutional engagement sessions."
-        },
-        {
-          "status": "In Progress",
-          "title": "Institutional PID Integration & Sustainability",
-          "desc": "Embedding persistent identifiers into university policies, institutional repositories, and regional workflows."
+          "period": "Q4 2026",
+          "title": "ORCID-WACA White Paper",
+          "desc": "Open access, in English and French."
         }
       ],
       "cta": {
-        "title": "Be Part of the Impact",
-        "subtitle": "Join the ORCID-WACA Community of Practice or connect with an ambassador to bring ORCID workshops to your institution.",
         "joinButton": "Join the Community of Practice",
-        "ambassadorsButton": "Meet the Ambassadors"
+        "createButton": "Create your ORCID iD",
+        "footnote": "Figures as at 30 September 2026. “Engaged” counts event attendances."
       }
     }
   }

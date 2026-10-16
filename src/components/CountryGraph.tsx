@@ -2,9 +2,10 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 interface CountryData {
-  country: string
+  defaultName: string
   code: string
   engaged: number
   percentOfTotal: string
@@ -12,30 +13,32 @@ interface CountryData {
 }
 
 const countries: CountryData[] = [
-  { country: 'Nigeria', code: 'ng', engaged: 1012, percentOfTotal: '76.1%', barWidthPercent: 100 },
-  { country: 'Ghana', code: 'gh', engaged: 143, percentOfTotal: '10.8%', barWidthPercent: 14.1 },
-  { country: 'Togo', code: 'tg', engaged: 65, percentOfTotal: '4.9%', barWidthPercent: 6.4 },
-  { country: "Côte d'Ivoire", code: 'ci', engaged: 44, percentOfTotal: '3.3%', barWidthPercent: 4.3 },
-  { country: 'Benin', code: 'bj', engaged: 33, percentOfTotal: '2.5%', barWidthPercent: 3.3 },
-  { country: 'Mali', code: 'ml', engaged: 27, percentOfTotal: '2.0%', barWidthPercent: 2.7 },
-  { country: 'Burkina Faso', code: 'bf', engaged: 6, percentOfTotal: '0.5%', barWidthPercent: 1.5 },
+  { defaultName: 'Nigeria', code: 'ng', engaged: 1012, percentOfTotal: '76.1%', barWidthPercent: 100 },
+  { defaultName: 'Ghana', code: 'gh', engaged: 143, percentOfTotal: '10.8%', barWidthPercent: 14.1 },
+  { defaultName: 'Togo', code: 'tg', engaged: 65, percentOfTotal: '4.9%', barWidthPercent: 6.4 },
+  { defaultName: "Côte d'Ivoire", code: 'ci', engaged: 44, percentOfTotal: '3.3%', barWidthPercent: 4.3 },
+  { defaultName: 'Benin', code: 'bj', engaged: 33, percentOfTotal: '2.5%', barWidthPercent: 3.3 },
+  { defaultName: 'Mali', code: 'ml', engaged: 27, percentOfTotal: '2.0%', barWidthPercent: 2.7 },
+  { defaultName: 'Burkina Faso', code: 'bf', engaged: 6, percentOfTotal: '0.5%', barWidthPercent: 1.5 },
 ]
 
 export default function CountryGraph() {
+  const t = useTranslations('result.page.countryGraph')
+
   return (
     <div className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow">
       <div className="flex items-center justify-between pb-4 mb-6 border-b border-zinc-100">
         <div>
           <h3 className="text-lg font-bold text-zinc-900">
-            People engaged, by country
+            {t('title')}
           </h3>
           <p className="text-xs text-zinc-500 mt-0.5">
-            Breakdown across 7 participating nations
+            {t('subtitle')}
           </p>
         </div>
         <div className="text-right">
           <span className="text-xs font-semibold text-zinc-400 block uppercase tracking-wider">
-            Total Engaged
+            {t('totalLabel')}
           </span>
           <span className="text-xl font-bold text-primary">
             1,330
@@ -44,31 +47,36 @@ export default function CountryGraph() {
       </div>
 
       <div className="space-y-4">
-        {countries.map((c, i) => (
-          <div key={c.country} className="space-y-1.5">
-            <div className="flex items-center justify-between text-sm">
-              <div className="flex items-center gap-2.5">
-                <Image
-                  src={`https://flagcdn.com/24x18/${c.code}.png`}
-                  alt={c.country}
-                  width={20}
-                  height={15}
-                  className="rounded-sm shadow-xs flex-shrink-0"
-                  unoptimized
-                />
-                <span className="font-semibold text-zinc-800">
-                  {c.country}
-                </span>
+        {countries.map((c, i) => {
+          const countryName = t.has(`countries.${c.code}`)
+            ? t(`countries.${c.code}`)
+            : c.defaultName
+
+          return (
+            <div key={c.code} className="space-y-1.5">
+              <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center gap-2.5">
+                  <Image
+                    src={`https://flagcdn.com/24x18/${c.code}.png`}
+                    alt={countryName}
+                    width={20}
+                    height={15}
+                    className="rounded-sm shadow-xs flex-shrink-0"
+                    unoptimized
+                  />
+                  <span className="font-semibold text-zinc-800">
+                    {countryName}
+                  </span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-zinc-400 font-medium hidden sm:inline">
+                    {c.percentOfTotal}
+                  </span>
+                  <span className="font-bold text-zinc-900 w-12 text-right">
+                    {c.engaged.toLocaleString()}
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-xs text-zinc-400 font-medium hidden sm:inline">
-                  {c.percentOfTotal}
-                </span>
-                <span className="font-bold text-zinc-900 w-12 text-right">
-                  {c.engaged.toLocaleString()}
-                </span>
-              </div>
-            </div>
 
             {/* Ease-in Animated Bar */}
             <div className="w-full bg-zinc-100 h-2.5 rounded-full overflow-hidden p-0.5">
@@ -91,12 +99,13 @@ export default function CountryGraph() {
               />
             </div>
           </div>
-        ))}
+        )
+      })}
       </div>
 
       <div className="mt-6 pt-4 border-t border-zinc-100 flex items-center justify-between text-xs text-zinc-500">
-        <span>7 Countries in West & Central Africa</span>
-        <span className="font-semibold text-primary">Total: 1,330 participants</span>
+        <span>{t('footerCount')}</span>
+        <span className="font-semibold text-primary">{t('footerTotal')}</span>
       </div>
     </div>
   )

@@ -706,102 +706,185 @@
   },
   "result": {
     "page": {
-      "badge": "Impacto & Resultados",
-      "heroTitle": "Tornando a pesquisa africana visível, um ORCID iD de cada vez",
-      "heroSubtitle": "Embaixadores, uma comunidade regional e formação prática em toda a África Ocidental e Central.",
+      "title": "Tornar a investigação africana visível, um identificador ORCID de cada vez",
+      "subtitle": "Embaixadores, uma comunidade regional e formação prática em toda a África Ocidental e Central.",
       "featuredStat": {
         "value": "1.330",
         "label": "participantes em eventos de formação ORCID",
-        "targetLabel": "Meta 1.000",
-        "badge": "Meta Superada (+33%)"
+        "target": "Meta 1.000"
       },
       "stats": [
         {
           "value": "15",
-          "label": "Embaixadores regionais capacitados",
-          "subtext": "Ativos nas instituições"
+          "label": "Embaixadores ORCID-WACA",
+          "sub": "em 10 países"
         },
         {
-          "value": "10+",
-          "label": "Países representados",
-          "subtext": "África Ocidental e Central"
+          "value": "217",
+          "label": "membros da Comunidade de Prática",
+          "sub": "de 24 países"
         },
         {
-          "value": "100+",
-          "label": "Membros da comunidade de prática",
-          "subtext": "Troca de conhecimentos"
+          "value": "24",
+          "label": "eventos de formação",
+          "sub": "em 7 países"
         },
         {
-          "value": "3",
-          "label": "Coortes linguísticas",
-          "subtext": "Inglês, Francês e Português"
+          "value": "613",
+          "label": "registos ORCID criados ou atualizados",
+          "sub": "durante as sessões práticas"
         }
       ],
-      "pillarsTitle": "Pilares de impacto e resultados mensuráveis",
-      "pillarsSubtitle": "Progresso tangível alcançado nos nossos eixos centrais de atuação na África Ocidental e Central.",
-      "pillars": [
+      "objectivesTitle": "O que nos propusemos fazer",
+      "objectives": [
         {
-          "tag": "Capacitação",
-          "title": "Formações e workshops práticos",
-          "desc": "Capacitar investigadores, bibliotecários e gestores com competências práticas para registar, gerir e otimizar perfis ORCID, resolver ambiguidade de nomes e conectar pesquisas aos registos globais.",
-          "stat": "1.330+",
-          "statLabel": "Investigadores formados na região"
+          "num": "01",
+          "title": "Formar 15 Embaixadores regionais",
+          "detail": "15 formados, 10 países",
+          "status": "Alcançado"
         },
         {
-          "tag": "Liderança de base",
-          "title": "Embaixadores ORCID-WACA",
-          "desc": "Uma equipa dedicada de 15 promotores regionais impulsionando a adoção dentro das suas instituições de origem e servindo de referência local.",
-          "stat": "15",
-          "statLabel": "Promotores institucionais"
+          "num": "02",
+          "title": "Construir uma Comunidade de Prática regional",
+          "detail": "217 membros, 24 países",
+          "status": "Alcançado"
         },
         {
-          "tag": "Colaboração regional",
-          "title": "Comunidade de Prática (CoP)",
-          "desc": "Um fórum dinâmico que liga profissionais de toda a África Ocidental e Central para partilhar estratégias práticas de implementação.",
-          "stat": "Ativo",
-          "statLabel": "Plataforma trilingue"
+          "num": "03",
+          "title": "Envolver mais de 1.000 pessoas em ORCID",
+          "detail": "1.330 envolvidos",
+          "status": "Superado"
         },
         {
-          "tag": "Infraestrutura",
-          "title": "Integração de PIDs e repositórios",
-          "desc": "Alinhar a adoção do ORCID com infraestruturas de ciência aberta como LIBSENSE, ARKs no BAOBAB e repositórios institucionais.",
-          "stat": "Ponta a ponta",
-          "statLabel": "Infraestrutura científica aberta"
+          "num": "04",
+          "title": "Lançar as bases para um Hub partilhado de Integração ORCID",
+          "detail": "Hub ORCID da Nigéria em curso",
+          "status": "Em curso"
         }
       ],
-      "timelineTitle": "Marcos importantes do projeto",
+      "participantsTitle": "Os participantes saíram com um registo ORCID funcional",
+      "participantsSubtitle": "Pessoas envolvidas, por país e resultados diretos durante as sessões práticas.",
+      "recordMetrics": [
+        {
+          "value": "355",
+          "label": "novos identificadores ORCID criados",
+          "sub": "durante as sessões práticas"
+        },
+        {
+          "value": "258",
+          "label": "registos ORCID existentes atualizados",
+          "sub": "durante as sessões práticas"
+        },
+        {
+          "value": "7",
+          "label": "países",
+          "sub": "Nigéria, Gana, Togo, Costa do Marfim, Benim, Mali, Burquina Faso"
+        }
+      ],
+      "countryGraph": {
+        "title": "Pessoas envolvidas, por país",
+        "subtitle": "Distribuição por 7 países participantes",
+        "totalLabel": "Total Envolvidos",
+        "footerCount": "7 países na África Ocidental e Central",
+        "footerTotal": "Total: 1.330 participantes",
+        "countries": {
+          "ng": "Nigéria",
+          "gh": "Gana",
+          "tg": "Togo",
+          "ci": "Costa do Marfim",
+          "bj": "Benim",
+          "ml": "Mali",
+          "bf": "Burquina Faso"
+        }
+      },
+      "networkTitle": "Uma rede bilingue de campeões e profissionais",
+      "ambassadorsCard": {
+        "title": "Embaixadores",
+        "badge": "10 Países",
+        "appsValue": "102",
+        "appsLabel": "candidaturas, 20 países",
+        "selectedCount": "15",
+        "selectedLabel": "campeões selecionados",
+        "anglophoneLabel": "8 Anglófonos",
+        "francophoneLabel": "7 Francófonos",
+        "representedTitle": "PAÍSES REPRESENTADOS",
+        "anglophoneCountries": [
+          { "name": "Nigéria", "code": "ng" },
+          { "name": "Gana", "code": "gh" },
+          { "name": "Camarões", "code": "cm" },
+          { "name": "Gâmbia", "code": "gm" }
+        ],
+        "francophoneCountries": [
+          { "name": "Benim", "code": "bj" },
+          { "name": "Burquina Faso", "code": "bf" },
+          { "name": "Costa do Marfim", "code": "ci" },
+          { "name": "Mali", "code": "ml" },
+          { "name": "Senegal", "code": "sn" },
+          { "name": "Togo", "code": "tg" }
+        ]
+      },
+      "copCard": {
+        "title": "Comunidade de Prática",
+        "badge": "CoP Regional",
+        "membersValue": "217",
+        "membersLabel": "membros",
+        "countriesValue": "24",
+        "countriesLabel": "países",
+        "regionValue": "91%",
+        "regionLabel": "da África Ocidental e Central",
+        "prioritiesTitle": "Principais prioridades dos membros",
+        "priorities": [
+          {
+            "label": "Mapeamento da adoção do ORCID e PIDs na região",
+            "percent": 79
+          },
+          {
+            "label": "Sessões temáticas lideradas por especialistas",
+            "percent": 73
+          },
+          {
+            "label": "Aprendizagem sobre identidade de investigação e PIDs",
+            "percent": 72
+          }
+        ]
+      },
+      "testimonialsTitle": "Vozes da Região",
+      "testimonials": [
+        {
+          "quote": "«Aprendizagem prática, não apenas palavras.»",
+          "role": "Apoio à investigação",
+          "country": "Gana",
+          "code": "gh"
+        },
+        {
+          "quote": "«Terei todo o gosto em fazer parte da ponte entre francófonos e anglófonos.»",
+          "role": "Professor Auxiliar",
+          "country": "Costa do Marfim",
+          "code": "ci"
+        }
+      ],
+      "integrationTitle": "De identificadores individuais à integração institucional",
       "milestones": [
         {
-          "status": "Concluído",
-          "title": "Início do projeto e apoio GPF",
-          "desc": "Apoio garantido pelo ORCID Global Participation Fund para acelerar a adoção de identificadores persistentes."
+          "period": "4.º Trimestre 2026",
+          "title": "Hub ORCID da Nigéria",
+          "desc": "Serviço de integração partilhado liderado pela Eko-Konnect. A Universidade Covenant é o primeiro piloto."
         },
         {
-          "status": "Concluído",
-          "title": "Chamadas regionais e lançamento da comunidade",
-          "desc": "Publicação de chamadas abertas para o Programa de Embaixadores e Comunidade de Prática."
+          "period": "OUTUBRO 2026",
+          "title": "Recursos de formação abertos",
+          "desc": "Kit de ferramentas em inglês e francês disponibilizado no BAOBAB."
         },
         {
-          "status": "Concluído",
-          "title": "15 Embaixadores selecionados e integrados",
-          "desc": "Seleção rigorosa de 15 embaixadores com formação inicial e disponibilização de ferramentas."
-        },
-        {
-          "status": "Meta Superada",
-          "title": "1.330 participantes mobilizados",
-          "desc": "Meta inicial de 1.000 superada através de workshops, webinars e eventos institucionais."
-        },
-        {
-          "status": "Em curso",
-          "title": "Integração institucional e sustentabilidade",
-          "desc": "Integração de identificadores persistentes em políticas universitárias e fluxos de trabalho regionais."
+          "period": "4.º Trimestre 2026",
+          "title": "Livro Branco ORCID-WACA",
+          "desc": "Acesso aberto, em inglês e francês."
         }
       ],
       "cta": {
-        "title": "Faça parte do impacto",
-        "subtitle": "Junte-se à Comunidade de Prática ORCID-WACA ou contacte um embaixador para realizar workshops na sua instituição.",
         "joinButton": "Juntar-se à Comunidade de Prática",
-        "ambassadorsButton": "Conhecer os Embaixadores"
+        "createButton": "Criar seu identificador ORCID",
+        "footnote": "Números a 30 de setembro de 2026. «Envolvidos» contabiliza as presenças nos eventos."
       }
     }
   }

@@ -706,102 +706,185 @@
   },
   "result": {
     "page": {
-      "badge": "Impact & Résultats",
-      "heroTitle": "Rendre la recherche africaine visible, un identifiant ORCID à la fois",
-      "heroSubtitle": "Des ambassadeurs, une communauté régionale et des formations pratiques à travers l'Afrique de l'Ouest et Centrale.",
+      "title": "Rendre la recherche africaine visible, un identifiant ORCID à la fois",
+      "subtitle": "Ambassadeurs, communauté régionale et formations pratiques à travers l'Afrique de l'Ouest et Centrale.",
       "featuredStat": {
         "value": "1 330",
-        "label": "participants aux événements de formation ORCID",
-        "targetLabel": "Cible 1 000",
-        "badge": "Objectif dépassé (+33%)"
+        "label": "participants aux ateliers de formation ORCID",
+        "target": "Objectif 1 000"
       },
       "stats": [
         {
           "value": "15",
-          "label": "Ambassadeurs régionaux formés",
-          "subtext": "Actifs dans les institutions"
+          "label": "Ambassadeurs ORCID-WACA",
+          "sub": "dans 10 pays"
         },
         {
-          "value": "10+",
-          "label": "Pays représentés",
-          "subtext": "Afrique de l'Ouest et Centrale"
+          "value": "217",
+          "label": "membres de la Communauté de Pratique",
+          "sub": "de 24 pays"
         },
         {
-          "value": "100+",
-          "label": "Membres de la communauté de pratique",
-          "subtext": "Échange de connaissances"
+          "value": "24",
+          "label": "ateliers de formation",
+          "sub": "dans 7 pays"
         },
         {
-          "value": "3",
-          "label": "Cohortes linguistiques",
-          "subtext": "Anglais, Français et Portugais"
+          "value": "613",
+          "label": "dossiers ORCID créés ou mis à jour",
+          "sub": "lors des sessions pratiques"
         }
       ],
-      "pillarsTitle": "Piliers d'impact et résultats mesurables",
-      "pillarsSubtitle": "Progrès tangibles obtenus sur nos axes stratégiques en Afrique de l'Ouest et Centrale.",
-      "pillars": [
+      "objectivesTitle": "Ce que nous nous sommes engagés à faire",
+      "objectives": [
         {
-          "tag": "Renforcement des capacités",
-          "title": "Formations et ateliers pratiques",
-          "desc": "Donner aux chercheurs, bibliothécaires et administrateurs les compétences pour créer, gérer et optimiser leurs profils ORCID, résoudre l'ambiguïté des noms et connecter leurs travaux aux registres mondiaux.",
-          "stat": "1 330+",
-          "statLabel": "Chercheurs formés dans la région"
+          "num": "01",
+          "title": "Former 15 Ambassadeurs régionaux",
+          "detail": "15 formés, 10 pays",
+          "status": "Atteint"
         },
         {
-          "tag": "Leadership de terrain",
-          "title": "Ambassadeurs ORCID-WACA",
-          "desc": "Une cohorte dévouée de 15 champions régionaux menant l'adoption au sein de leurs institutions, organisant des formations locales et servant de relais régionaux.",
-          "stat": "15",
-          "statLabel": "Champions institutionnels"
+          "num": "02",
+          "title": "Bâtir une Communauté de Pratique régionale",
+          "detail": "217 membres, 24 pays",
+          "status": "Atteint"
         },
         {
-          "tag": "Collaboration régionale",
-          "title": "Communauté de pratique (CoP)",
-          "desc": "Un forum transfrontalier dynamique reliant les professionnels d'Afrique de l'Ouest et Centrale pour partager des stratégies pratiques et lever les freins institutionnels.",
-          "stat": "Actif",
-          "statLabel": "Plateforme trilingue"
+          "num": "03",
+          "title": "Sensibiliser plus de 1 000 personnes à ORCID",
+          "detail": "1 330 engagés",
+          "status": "Dépassé"
         },
         {
-          "tag": "Infrastructure",
-          "title": "Intégration PID et dépôts institutionnels",
-          "desc": "Harmoniser l'adoption d'ORCID avec les plateformes de science ouverte telles que LIBSENSE, les ARKs du dépôt BAOBAB et les archives universitaires.",
-          "stat": "De bout en bout",
-          "statLabel": "Infrastructure savante ouverte"
+          "num": "04",
+          "title": "Poser les bases d'un Hub partagé d'intégration ORCID",
+          "detail": "Hub ORCID Nigéria en cours",
+          "status": "En cours"
         }
       ],
-      "timelineTitle": "Jalons majeurs du projet",
+      "participantsTitle": "Les participants sont repartis avec un dossier ORCID opérationnel",
+      "participantsSubtitle": "Personnes engagées, par pays et résultats directs lors des sessions pratiques.",
+      "recordMetrics": [
+        {
+          "value": "355",
+          "label": "nouveaux identifiants ORCID créés",
+          "sub": "lors des sessions pratiques"
+        },
+        {
+          "value": "258",
+          "label": "dossiers ORCID existants mis à jour",
+          "sub": "lors des sessions pratiques"
+        },
+        {
+          "value": "7",
+          "label": "pays",
+          "sub": "Nigéria, Ghana, Togo, Côte d'Ivoire, Bénin, Mali, Burkina Faso"
+        }
+      ],
+      "countryGraph": {
+        "title": "Personnes engagées, par pays",
+        "subtitle": "Répartition sur 7 pays participants",
+        "totalLabel": "Total Engagés",
+        "footerCount": "7 pays en Afrique de l'Ouest et Centrale",
+        "footerTotal": "Total : 1 330 participants",
+        "countries": {
+          "ng": "Nigéria",
+          "gh": "Ghana",
+          "tg": "Togo",
+          "ci": "Côte d'Ivoire",
+          "bj": "Bénin",
+          "ml": "Mali",
+          "bf": "Burkina Faso"
+        }
+      },
+      "networkTitle": "Un réseau bilingue de champions et de praticiens",
+      "ambassadorsCard": {
+        "title": "Ambassadeurs",
+        "badge": "10 Pays",
+        "appsValue": "102",
+        "appsLabel": "candidatures, 20 pays",
+        "selectedCount": "15",
+        "selectedLabel": "champions sélectionnés",
+        "anglophoneLabel": "8 Anglophones",
+        "francophoneLabel": "7 Francophones",
+        "representedTitle": "PAYS REPRÉSENTÉS",
+        "anglophoneCountries": [
+          { "name": "Nigéria", "code": "ng" },
+          { "name": "Ghana", "code": "gh" },
+          { "name": "Cameroun", "code": "cm" },
+          { "name": "Gambie", "code": "gm" }
+        ],
+        "francophoneCountries": [
+          { "name": "Bénin", "code": "bj" },
+          { "name": "Burkina Faso", "code": "bf" },
+          { "name": "Côte d'Ivoire", "code": "ci" },
+          { "name": "Mali", "code": "ml" },
+          { "name": "Sénégal", "code": "sn" },
+          { "name": "Togo", "code": "tg" }
+        ]
+      },
+      "copCard": {
+        "title": "Communauté de Pratique",
+        "badge": "CoP Régionale",
+        "membersValue": "217",
+        "membersLabel": "membres",
+        "countriesValue": "24",
+        "countriesLabel": "pays",
+        "regionValue": "91 %",
+        "regionLabel": "d'Afrique de l'Ouest et Centrale",
+        "prioritiesTitle": "Priorités majeures des membres",
+        "priorities": [
+          {
+            "label": "Cartographie de l'adoption d'ORCID et des PID dans la région",
+            "percent": 79
+          },
+          {
+            "label": "Sessions thématiques animées par des experts",
+            "percent": 73
+          },
+          {
+            "label": "Apprentissage sur l'identité de recherche et les PID",
+            "percent": 72
+          }
+        ]
+      },
+      "testimonialsTitle": "Paroles de la Région",
+      "testimonials": [
+        {
+          "quote": "« Un apprentissage pratique, pas seulement des paroles. »",
+          "role": "Personnel d'appui à la recherche",
+          "country": "Ghana",
+          "code": "gh"
+        },
+        {
+          "quote": "« Je serais ravi de faire partie du pont entre francophones et anglophones. »",
+          "role": "Professeur adjoint",
+          "country": "Côte d'Ivoire",
+          "code": "ci"
+        }
+      ],
+      "integrationTitle": "De l'identifiant individuel à l'intégration institutionnelle",
       "milestones": [
         {
-          "status": "Achevé",
-          "title": "Lancement du projet et soutien GPF",
-          "desc": "Obtention du soutien de l'ORCID Global Participation Fund pour accélérer l'adoption des identifiants persistants."
+          "period": "T4 2026",
+          "title": "Hub ORCID Nigéria",
+          "desc": "Service d'intégration partagé piloté par Eko-Konnect. L'Université Covenant est le premier pilote."
         },
         {
-          "status": "Achevé",
-          "title": "Appels régionaux et lancement de la communauté",
-          "desc": "Publication des appels à candidatures pour le programme des ambassadeurs et la communauté de pratique."
+          "period": "OCTOBRE 2026",
+          "title": "Ressources de formation ouvertes",
+          "desc": "Boîte à outils anglais/français publiée sur BAOBAB."
         },
         {
-          "status": "Achevé",
-          "title": "15 Ambassadeurs sélectionnés et intégrés",
-          "desc": "Sélection rigoureuse de 15 champions suivie d'une orientation complète et du déploiement des outils."
-        },
-        {
-          "status": "Objectif dépassé",
-          "title": "1 330 participants formés mobilisés",
-          "desc": "Dépassement de la cible de 1 000 grâce à des ateliers, webinaires et sessions institutionnelles à fort impact."
-        },
-        {
-          "status": "En cours",
-          "title": "Intégration institutionnelle et pérennité",
-          "desc": "Ancrage des identifiants persistants dans les politiques universitaires et dépôts institutionnels."
+          "period": "T4 2026",
+          "title": "Livre blanc ORCID-WACA",
+          "desc": "En libre accès, en anglais et en français."
         }
       ],
       "cta": {
-        "title": "Participez à l'impact",
-        "subtitle": "Rejoignez la communauté de pratique ORCID-WACA ou contactez un ambassadeur pour organiser des ateliers dans votre institution.",
-        "joinButton": "Rejoindre la communauté de pratique",
-        "ambassadorsButton": "Rencontrer les ambassadeurs"
+        "joinButton": "Rejoindre la Communauté de Pratique",
+        "createButton": "Créer votre ORCID iD",
+        "footnote": "Données au 30 septembre 2026. « Engagés » comptabilise les participations aux événements."
       }
     }
   }
