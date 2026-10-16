@@ -282,48 +282,91 @@ export default async function ResultPage() {
                     </div>
                   </div>
 
-                  {/* Bilingual split bar */}
+                  {/* Bilingual split bar matching screenshot reference */}
                   <div className="mb-6">
-                    <div className="w-full flex h-10 rounded-lg overflow-hidden border border-zinc-200/50">
-                      <div className="w-[53.33%] bg-primary flex items-center justify-center text-white font-bold text-sm px-3 border-r border-zinc-900">
+                    <div className="w-full flex h-11 rounded-lg overflow-hidden border border-zinc-900/10 shadow-xs">
+                      <div className="w-[53.33%] bg-[#2b88d8] flex items-center justify-start text-white font-bold text-sm sm:text-base px-4 border-r-2 border-zinc-900">
                         8 Anglophone
                       </div>
-                      <div className="w-[46.67%] bg-secondary flex items-center justify-center text-zinc-900 font-semibold text-sm px-3">
+                      <div className="w-[46.67%] bg-[#8ebe28] flex items-center justify-start text-zinc-900 font-semibold text-sm sm:text-base px-4">
                         7 Francophone
                       </div>
                     </div>
                   </div>
 
-                  {/* Country List */}
+                  {/* Country List: Anglophone on one side, Francophone on the other side */}
                   <div>
                     <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-3">
                       Represented Countries
                     </p>
-                    <div className="grid grid-cols-2 gap-2.5">
-                      {[
-                        { name: 'Nigeria', code: 'ng' },
-                        { name: 'Ghana', code: 'gh' },
-                        { name: 'Benin', code: 'bj' },
-                        { name: 'Burkina Faso', code: 'bf' },
-                        { name: 'Cameroon', code: 'cm' },
-                        { name: "Côte d'Ivoire", code: 'ci' },
-                        { name: 'The Gambia', code: 'gm' },
-                        { name: 'Mali', code: 'ml' },
-                        { name: 'Senegal', code: 'sn' },
-                        { name: 'Togo', code: 'tg' },
-                      ].map((c) => (
-                        <div key={c.name} className="flex items-center gap-2 text-sm text-zinc-700">
-                          <Image
-                            src={`https://flagcdn.com/24x18/${c.code}.png`}
-                            alt={c.name}
-                            width={18}
-                            height={13}
-                            className="rounded-xs shadow-xs"
-                            unoptimized
-                          />
-                          <span>{c.name}</span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {/* Anglophone Side */}
+                      <div className="rounded-xl border border-primary/20 bg-primary/5 p-4 flex flex-col">
+                        <div className="flex items-center justify-between pb-2 mb-3 border-b border-primary/15">
+                          <span className="text-xs font-bold text-primary uppercase tracking-wider">
+                            Anglophone
+                          </span>
+                          <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-primary/15 text-primary">
+                            6 countries
+                          </span>
                         </div>
-                      ))}
+                        <div className="space-y-2">
+                          {[
+                            { name: 'Nigeria', code: 'ng' },
+                            { name: 'Ghana', code: 'gh' },
+                            { name: 'The Gambia', code: 'gm' },
+                            { name: 'Cameroon', code: 'cm' },
+                            { name: 'Sierra Leone', code: 'sl' },
+                            { name: 'Liberia', code: 'lr' },
+                          ].map((c) => (
+                            <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-800">
+                              <Image
+                                src={`https://flagcdn.com/24x18/${c.code}.png`}
+                                alt={c.name}
+                                width={18}
+                                height={13}
+                                className="rounded-xs shadow-xs flex-shrink-0"
+                                unoptimized
+                              />
+                              <span>{c.name}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Francophone Side */}
+                      <div className="rounded-xl border border-secondary/30 bg-secondary/10 p-4 flex flex-col">
+                        <div className="flex items-center justify-between pb-2 mb-3 border-b border-secondary/25">
+                          <span className="text-xs font-bold text-secondary-dark uppercase tracking-wider">
+                            Francophone
+                          </span>
+                          <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-secondary/20 text-secondary-dark">
+                            6 countries
+                          </span>
+                        </div>
+                        <div className="space-y-2">
+                          {[
+                            { name: 'Benin', code: 'bj' },
+                            { name: 'Burkina Faso', code: 'bf' },
+                            { name: "Côte d'Ivoire", code: 'ci' },
+                            { name: 'Mali', code: 'ml' },
+                            { name: 'Senegal', code: 'sn' },
+                            { name: 'Togo', code: 'tg' },
+                          ].map((c) => (
+                            <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-800">
+                              <Image
+                                src={`https://flagcdn.com/24x18/${c.code}.png`}
+                                alt={c.name}
+                                width={18}
+                                height={13}
+                                className="rounded-xs shadow-xs flex-shrink-0"
+                                unoptimized
+                              />
+                              <span>{c.name}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
