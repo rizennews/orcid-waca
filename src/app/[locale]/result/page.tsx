@@ -82,12 +82,28 @@ export default async function ResultPage() {
         {/* ─── Hero ─── */}
         <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark text-white">
           <div className="mx-auto max-w-4xl px-4 py-12 md:py-20 text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Making African research visible, one ORCID iD at a time
             </h1>
-            <p className="text-base md:text-lg text-white/75 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base md:text-lg text-white/75 max-w-3xl mx-auto leading-relaxed mb-6">
               Ambassadors, a regional community and hands-on training across West and Central Africa.
             </p>
+
+            {/* Pure Typography Metric (No card / No box) */}
+            <div className="mt-8 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 text-white">
+              <span className="text-4xl sm:text-5xl font-extrabold text-secondary tracking-tight">
+                1,330
+              </span>
+              <div className="hidden sm:block w-px h-10 bg-white/20" />
+              <div className="text-center sm:text-left">
+                <p className="text-base sm:text-lg font-semibold text-white leading-tight">
+                  participants at ORCID training events
+                </p>
+                <p className="text-xs sm:text-sm text-white/75 mt-1">
+                  Target 1,000
+                </p>
+              </div>
+            </div>
           </div>
           <div className="absolute inset-0 pointer-events-none">
             <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5" />
@@ -294,36 +310,57 @@ export default async function ResultPage() {
                     </div>
                   </div>
 
-                  {/* Represented Countries */}
+                  {/* Represented Countries - Placed directly under each bar segment */}
                   <div>
                     <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-4">
                       REPRESENTED COUNTRIES
                     </p>
-                    <div className="grid grid-cols-2 gap-x-8 gap-y-3.5">
-                      {[
-                        { name: 'Nigeria', code: 'ng' },
-                        { name: 'Ghana', code: 'gh' },
-                        { name: 'Benin', code: 'bj' },
-                        { name: 'Burkina Faso', code: 'bf' },
-                        { name: 'Cameroon', code: 'cm' },
-                        { name: "Côte d'Ivoire", code: 'ci' },
-                        { name: 'The Gambia', code: 'gm' },
-                        { name: 'Mali', code: 'ml' },
-                        { name: 'Senegal', code: 'sn' },
-                        { name: 'Togo', code: 'tg' },
-                      ].map((c) => (
-                        <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-700">
-                          <Image
-                            src={`https://flagcdn.com/24x18/${c.code}.png`}
-                            alt={c.name}
-                            width={18}
-                            height={13}
-                            className="rounded-xs shadow-xs flex-shrink-0"
-                            unoptimized
-                          />
-                          <span>{c.name}</span>
-                        </div>
-                      ))}
+                    <div className="grid grid-cols-2 gap-6 sm:gap-8">
+                      {/* Under 8 Anglophone */}
+                      <div className="space-y-3">
+                        {[
+                          { name: 'Nigeria', code: 'ng' },
+                          { name: 'Ghana', code: 'gh' },
+                          { name: 'Cameroon', code: 'cm' },
+                          { name: 'The Gambia', code: 'gm' },
+                        ].map((c) => (
+                          <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-700">
+                            <Image
+                              src={`https://flagcdn.com/24x18/${c.code}.png`}
+                              alt={c.name}
+                              width={18}
+                              height={13}
+                              className="rounded-xs shadow-xs flex-shrink-0"
+                              unoptimized
+                            />
+                            <span>{c.name}</span>
+                          </div>
+                        ))}
+                      </div>
+
+                      {/* Under 7 Francophone */}
+                      <div className="space-y-3">
+                        {[
+                          { name: 'Benin', code: 'bj' },
+                          { name: 'Burkina Faso', code: 'bf' },
+                          { name: "Côte d'Ivoire", code: 'ci' },
+                          { name: 'Mali', code: 'ml' },
+                          { name: 'Senegal', code: 'sn' },
+                          { name: 'Togo', code: 'tg' },
+                        ].map((c) => (
+                          <div key={c.name} className="flex items-center gap-2.5 text-sm font-medium text-zinc-700">
+                            <Image
+                              src={`https://flagcdn.com/24x18/${c.code}.png`}
+                              alt={c.name}
+                              width={18}
+                              height={13}
+                              className="rounded-xs shadow-xs flex-shrink-0"
+                              unoptimized
+                            />
+                            <span>{c.name}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
