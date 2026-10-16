@@ -242,23 +242,319 @@ export default async function ResultPage() {
           </div>
         </section>
 
+        {/* ─── A bilingual network of champions and practitioners ─── */}
+        <section className="bg-zinc-50 py-16 md:py-20">
+          <div className="mx-auto max-w-7xl px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
+              A bilingual network of champions and practitioners
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Ambassadors Card */}
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-6">
+                    <h3 className="text-2xl font-bold text-zinc-900">
+                      Ambassadors
+                    </h3>
+                    <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary/10 text-primary">
+                      10 Countries
+                    </span>
+                  </div>
+
+                  {/* Top numbers row */}
+                  <div className="grid grid-cols-2 gap-4 pb-6 mb-6 border-b border-zinc-100">
+                    <div>
+                      <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
+                        102
+                      </p>
+                      <p className="text-xs sm:text-sm text-zinc-500">
+                        applications, 20 countries
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-3xl sm:text-4xl font-bold text-secondary mb-1">
+                        15
+                      </p>
+                      <p className="text-xs sm:text-sm text-zinc-500">
+                        selected champions
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Bilingual split */}
+                  <div className="flex items-center gap-3 mb-6">
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                      8 Anglophone
+                    </span>
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary/15 text-secondary-dark text-xs font-semibold">
+                      <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                      7 Francophone
+                    </span>
+                  </div>
+
+                  {/* Country List */}
+                  <div>
+                    <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-3">
+                      Represented Countries
+                    </p>
+                    <div className="grid grid-cols-2 gap-2.5">
+                      {[
+                        { name: 'Nigeria', code: 'ng' },
+                        { name: 'Ghana', code: 'gh' },
+                        { name: 'Benin', code: 'bj' },
+                        { name: 'Burkina Faso', code: 'bf' },
+                        { name: 'Cameroon', code: 'cm' },
+                        { name: "Côte d'Ivoire", code: 'ci' },
+                        { name: 'The Gambia', code: 'gm' },
+                        { name: 'Mali', code: 'ml' },
+                        { name: 'Senegal', code: 'sn' },
+                        { name: 'Togo', code: 'tg' },
+                      ].map((c) => (
+                        <div key={c.name} className="flex items-center gap-2 text-sm text-zinc-700">
+                          <Image
+                            src={`https://flagcdn.com/24x18/${c.code}.png`}
+                            alt={c.name}
+                            width={18}
+                            height={13}
+                            className="rounded-xs shadow-xs"
+                            unoptimized
+                          />
+                          <span>{c.name}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Community of Practice Card */}
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-6">
+                    <h3 className="text-2xl font-bold text-zinc-900">
+                      Community of Practice
+                    </h3>
+                    <span className="text-xs font-semibold px-3 py-1 rounded-full bg-secondary/15 text-secondary-dark">
+                      Regional CoP
+                    </span>
+                  </div>
+
+                  {/* Top numbers row */}
+                  <div className="grid grid-cols-3 gap-4 pb-6 mb-6 border-b border-zinc-100">
+                    <div>
+                      <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
+                        217
+                      </p>
+                      <p className="text-xs sm:text-sm text-zinc-500">
+                        members
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-3xl sm:text-4xl font-bold text-primary mb-1">
+                        24
+                      </p>
+                      <p className="text-xs sm:text-sm text-zinc-500">
+                        countries
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-3xl sm:text-4xl font-bold text-secondary mb-1">
+                        91%
+                      </p>
+                      <p className="text-xs sm:text-sm text-zinc-500 leading-tight">
+                        from West & Central Africa
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Members' top priorities */}
+                  <div>
+                    <p className="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-4">
+                      Members&apos; top priorities
+                    </p>
+                    <div className="space-y-4">
+                      {[
+                        {
+                          label: 'Mapping ORCID and PID adoption in the region',
+                          percent: 79,
+                        },
+                        {
+                          label: 'Expert-led special-topic sessions',
+                          percent: 73,
+                        },
+                        {
+                          label: 'Learning on research identity and PIDs',
+                          percent: 72,
+                        },
+                      ].map((priority) => (
+                        <div key={priority.label} className="space-y-1.5">
+                          <div className="flex items-center justify-between text-sm">
+                            <span className="text-zinc-700 font-medium leading-snug">
+                              {priority.label}
+                            </span>
+                            <span className="font-bold text-primary shrink-0 ml-3">
+                              {priority.percent}%
+                            </span>
+                          </div>
+                          <div className="w-full bg-zinc-100 h-2 rounded-full overflow-hidden">
+                            <div
+                              className="h-full rounded-full bg-gradient-to-r from-primary to-secondary"
+                              style={{ width: `${priority.percent}%` }}
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── Testimonials ─── */}
+        <section className="bg-white py-16 md:py-20">
+          <div className="mx-auto max-w-5xl px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
+              Voices from the Region
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Quote 1 */}
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between relative">
+                <div>
+                  <svg className="w-8 h-8 text-primary/20 mb-4 fill-current" viewBox="0 0 24 24">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                  <p className="text-xl md:text-2xl font-bold text-zinc-900 leading-snug mb-6">
+                    &ldquo;Practical learning, not just talk.&rdquo;
+                  </p>
+                </div>
+                <div className="flex items-center gap-3 pt-4 border-t border-zinc-100">
+                  <Image
+                    src="https://flagcdn.com/24x18/gh.png"
+                    alt="Ghana"
+                    width={20}
+                    height={15}
+                    className="rounded-xs shadow-xs flex-shrink-0"
+                    unoptimized
+                  />
+                  <div>
+                    <p className="text-sm font-semibold text-zinc-900">
+                      Research support staff
+                    </p>
+                    <p className="text-xs text-zinc-500">
+                      Ghana
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Quote 2 */}
+              <div className="rounded-xl border border-primary/20 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow flex flex-col justify-between relative">
+                <div>
+                  <svg className="w-8 h-8 text-secondary/30 mb-4 fill-current" viewBox="0 0 24 24">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                  <p className="text-xl md:text-2xl font-bold text-zinc-900 leading-snug mb-6">
+                    &ldquo;I would be glad to be part of the bridge between francophone and anglophone.&rdquo;
+                  </p>
+                </div>
+                <div className="flex items-center gap-3 pt-4 border-t border-zinc-100">
+                  <Image
+                    src="https://flagcdn.com/24x18/ci.png"
+                    alt="Côte d'Ivoire"
+                    width={20}
+                    height={15}
+                    className="rounded-xs shadow-xs flex-shrink-0"
+                    unoptimized
+                  />
+                  <div>
+                    <p className="text-sm font-semibold text-zinc-900">
+                      Assistant Professor
+                    </p>
+                    <p className="text-xs text-zinc-500">
+                      Côte d&apos;Ivoire
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── From individual iDs to institutional integration ─── */}
+        <section className="bg-zinc-50 py-16 md:py-20">
+          <div className="mx-auto max-w-6xl px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-center mb-12">
+              From individual iDs to institutional integration
+            </h2>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  period: 'Q4 2026',
+                  title: 'Nigeria ORCID Hub',
+                  desc: 'Shared integration service led by Eko-Konnect. Covenant University is the first pilot.',
+                },
+                {
+                  period: 'OCTOBER 2026',
+                  title: 'Open training resources',
+                  desc: 'English/French toolkit released on BAOBAB.',
+                },
+                {
+                  period: 'Q4 2026',
+                  title: 'ORCID-WACA White Paper',
+                  desc: 'Open access, in English and French.',
+                },
+              ].map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl border border-primary/20 bg-white p-6 md:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between"
+                >
+                  <div>
+                    <span className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold tracking-wider text-primary mb-4">
+                      {item.period}
+                    </span>
+                    <h3 className="text-xl font-bold text-zinc-900 mb-2">
+                      {item.title}
+                    </h3>
+                  </div>
+                  <p className="text-sm text-zinc-500 leading-relaxed mt-2">
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ─── CTA ─── */}
         <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-16 md:py-20">
           <div className="mx-auto max-w-3xl px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Join the Movement
-            </h2>
-            <p className="text-white/75 text-lg mb-8">
-              Be part of the ORCID-WACA community and help drive persistent identifier adoption across West and Central Africa.
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+              <a
+                href="https://groups.google.com/g/orcid-waca-cop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-12 items-center justify-center rounded-full bg-secondary px-8 text-sm font-semibold text-white hover:bg-secondary-dark transition-colors"
+              >
+                Join the Community of Practice
+              </a>
+              <a
+                href="https://orcid.org/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-12 items-center justify-center rounded-full border-2 border-white px-8 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+              >
+                Create your ORCID iD
+              </a>
+            </div>
+            <p className="text-xs text-white/70">
+              Figures as at 30 September 2026. &ldquo;Engaged&rdquo; counts event attendances.
             </p>
-            <a
-              href="https://groups.google.com/g/orcid-waca-cop"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex h-11 items-center justify-center rounded-full bg-secondary px-6 text-sm font-semibold text-white hover:bg-secondary-dark transition-colors"
-            >
-              Join the Community of Practice
-            </a>
           </div>
         </section>
       </main>
