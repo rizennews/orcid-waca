@@ -521,7 +521,10 @@
       "sections": {
         "videos": {
           "title": "Tutoriels vidéo",
-          "desc": "Regardez et apprenez à votre rythme."
+          "desc": "Regardez et apprenez à votre rythme.",
+          "featuredTitle": "Introduction à ORCID-WACA : Valoriser les chercheurs africains",
+          "featuredDesc": "Découvrez comment l'initiative ORCID-WACA et les identifiants pérennes aident les chercheurs d'Afrique de l'Ouest et du Centre à renforcer leur visibilité mondiale.",
+          "watchVideo": "Regarder la vidéo"
         },
         "photos": {
           "title": "Photos",

@@ -521,7 +521,10 @@
       "sections": {
         "videos": {
           "title": "Video Tutorials",
-          "desc": "Watch and learn at your own pace."
+          "desc": "Watch and learn at your own pace.",
+          "featuredTitle": "Introduction to ORCID-WACA: Empowering African Researchers",
+          "featuredDesc": "Learn how the ORCID-WACA initiative and persistent identifiers help researchers across West and Central Africa gain global recognition and streamline research workflows.",
+          "watchVideo": "Watch Video"
         },
         "photos": {
           "title": "Photos",

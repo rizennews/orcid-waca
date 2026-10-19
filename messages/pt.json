@@ -521,7 +521,10 @@
       "sections": {
         "videos": {
           "title": "Tutoriais em Vídeo",
-          "desc": "Assista e aprenda ao seu próprio ritmo."
+          "desc": "Assista e aprenda ao seu próprio ritmo.",
+          "featuredTitle": "Introdução ao ORCID-WACA: Capacitando os Investigadores Africanos",
+          "featuredDesc": "Saiba como a iniciativa ORCID-WACA e os identificadores persistentes ajudam os investigadores na África Ocidental e Central a obter reconhecimento global.",
+          "watchVideo": "Assistir ao vídeo"
         },
         "photos": {
           "title": "Fotos",

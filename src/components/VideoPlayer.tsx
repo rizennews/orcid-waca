@@ -1,6 +1,6 @@
 'use client'
 
-function getEmbedInfo(url: string, hostname: string): { src: string } | null {
+function getEmbedInfo(url: string, hostname: string): { src: string; isDirectVideo?: boolean } | null {
   try {
     const u = new URL(url)
 
@@ -37,7 +37,7 @@ function getEmbedInfo(url: string, hostname: string): { src: string } | null {
     }
 
     if (/\.(mp4|webm|ogg|mov)(\?|$)/i.test(u.pathname)) {
-      return { src: url }
+      return { src: url, isDirectVideo: true }
     }
 
     // Kaltura (video.wacren.net)
@@ -64,6 +64,21 @@ export default function VideoPlayer({ url, title }: { url: string; title: string
         <a href={url} target="_blank" rel="noopener noreferrer" className="text-primary underline text-sm">
           Open in new tab
         </a>
+      </div>
+    )
+  }
+
+  if (embed.isDirectVideo) {
+    return (
+      <div className="relative h-full w-full bg-black flex items-center justify-center">
+        <video
+          src={embed.src}
+          title={title}
+          controls
+          autoPlay
+          playsInline
+          className="h-full w-full object-contain"
+        />
       </div>
     )
   }

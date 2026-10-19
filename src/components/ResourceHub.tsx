@@ -19,7 +19,13 @@ type HubLabels = {
     community: { title: string; desc: string }
   }
   sections: {
-    videos: { title: string; desc: string }
+    videos: {
+      title: string
+      desc: string
+      featuredTitle?: string
+      featuredDesc?: string
+      watchVideo?: string
+    }
     photos: { title: string; desc: string }
     infographics: { title: string; desc: string }
     documents: { title: string; desc: string }
@@ -46,14 +52,13 @@ type ResourceItem = {
 
 /* ─── Data ─── */
 const datasetVideos: ResourceItem[] = [
-  { title: 'LIBSENSE Connect II - Abuja 2024', tags: ['videos'], image: '/images/resources/videos/video-1.jpg', url: 'https://video.wacren.net/media/LIBSENSE-Connect+II+-+Abuja+2024_video+highlight/0_npcsnamn' },
-  { title: 'How to Set Up an ORCID iD', tags: ['videos'], image: '/images/resources/videos/video-2.jpg', url: 'https://www.youtube.com/watch?v=ZUfmVtQ53_g' },
-  { title: 'WACREN 2026 Recap Video', tags: ['videos'], image: '/images/resources/videos/video-3.jpg', url: 'https://video.wacren.net/media/WACREN+2026+Recap+Video/0_t0xhvw6l/597270' },
-  { title: 'WACREN 2026 Promo Video 2', tags: ['videos'], image: '/images/resources/videos/video-4.jpg', url: 'https://video.wacren.net/media/WACREN+2026+promo+video+2/0_2o7gy912/597270' },
-  { title: 'ORCID Workflows for Peer Review Validation', tags: ['videos'], image: '/images/resources/videos/video-5.jpg', url: 'https://www.youtube.com/watch?v=MOJngTySFv8' },
-  { title: 'ORCID Integration in Open Journal Systems (OJS)', tags: ['videos'], image: '/images/resources/videos/video-6.jpg', url: 'https://www.youtube.com/watch?v=gxeQldk9m-8' },
-  { title: 'LIBSENSE OS Gambia Reel', tags: ['videos'], image: '/images/resources/videos/video-7.jpg', url: 'https://video.wacren.net/media/LIBSENSE+OS+Gambia_reel/0_ab6brimc/597270' },
-  { title: 'WACREN 2026 Promo Video 1', tags: ['videos'], image: '/images/resources/videos/video-8.jpg', url: 'https://video.wacren.net/media/WACREN+2026+promo+video+1/0_ujlpdl4p/597270' },
+  {
+    title: 'Introduction to ORCID-WACA: Empowering African Researchers',
+    desc: 'Learn how the ORCID-WACA initiative and persistent identifiers help researchers across West and Central Africa gain global recognition.',
+    tags: ['videos'],
+    image: '/images/resources/videos/orcid-waca-explainer.png',
+    url: 'https://pub-c6fbc326710d430b94a503a7680462ac.r2.dev/202610191811%20(1).mp4',
+  },
 ]
 
 const datasetPhotos: ResourceItem[] = [
@@ -196,8 +201,12 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
   useEffect(() => {
     if (!selectedVideo) return
     const handleKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setSelectedVideo(null) }
+    document.body.style.overflow = 'hidden'
     window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
+    return () => {
+      document.body.style.overflow = ''
+      window.removeEventListener('keydown', handleKey)
+    }
   }, [selectedVideo])
 
   useEffect(() => {
@@ -242,6 +251,75 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               </p>
             </motion.a>
           ))}
+        </div>
+
+        {/* ─── Video Tutorials Section ─── */}
+        <div className="mt-8">
+          <div className="border-l-4 border-secondary pl-4 mb-8">
+            <h2 className="text-xl md:text-2xl font-bold text-zinc-900">
+              {labels.sections.videos.title}
+            </h2>
+            <p className="text-sm text-zinc-500 mt-1">
+              {labels.sections.videos.desc}
+            </p>
+          </div>
+
+          <div className="max-w-2xl">
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+              onClick={() => setSelectedVideo({
+                title: labels.sections.videos.featuredTitle || datasetVideos[0].title,
+                url: datasetVideos[0].url,
+                image: datasetVideos[0].image,
+                tags: ['videos'],
+              })}
+              className="group cursor-pointer rounded-2xl border border-primary/20 bg-white overflow-hidden shadow-sm hover:shadow-xl hover:border-primary/40 transition-all duration-300"
+            >
+              <div className="relative aspect-video flex items-center justify-center overflow-hidden bg-zinc-900">
+                <Image
+                  src={datasetVideos[0].image!}
+                  alt={labels.sections.videos.featuredTitle || datasetVideos[0].title}
+                  fill
+                  unoptimized
+                  loading="eager"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/25 group-hover:bg-black/15 transition-colors duration-300" />
+                <div className="relative z-10 flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-primary text-white shadow-xl group-hover:scale-110 group-hover:bg-primary-dark transition-all duration-300">
+                  <svg viewBox="0 0 24 24" className="h-8 w-8 sm:h-10 sm:w-10 fill-current translate-x-0.5">
+                    <polygon points="6 4 20 12 6 20 6 4" />
+                  </svg>
+                </div>
+                <span className="absolute bottom-3 right-3 rounded-md bg-black/75 backdrop-blur-sm px-2.5 py-1 text-xs font-semibold text-white tracking-wide">
+                  Video
+                </span>
+              </div>
+
+              <div className="p-6 sm:p-7">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+                    ORCID-WACA
+                  </span>
+                  <span className="text-xs text-zinc-400">•</span>
+                  <span className="text-xs text-zinc-500">Overview &amp; Guide</span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors leading-snug mb-2">
+                  {labels.sections.videos.featuredTitle || datasetVideos[0].title}
+                </h3>
+                <p className="text-sm text-zinc-600 leading-relaxed mb-4">
+                  {labels.sections.videos.featuredDesc || datasetVideos[0].desc}
+                </p>
+                <div className="flex items-center gap-2 text-sm font-bold text-primary group-hover:translate-x-1 transition-transform">
+                  <span>{labels.sections.videos.watchVideo || 'Watch Video'}</span>
+                  <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
 
         {/* ─── Search & Filter ─── */}
@@ -327,7 +405,7 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-2 sm:p-4"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-3 sm:p-6"
             onClick={() => setSelectedVideo(null)}
           >
             <motion.div
@@ -335,18 +413,19 @@ export default function ResourceHub({ labels }: { labels: HubLabels }) {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.2 }}
-              className="relative w-full max-w-5xl bg-black rounded-xl overflow-hidden shadow-2xl mx-auto"
+              className="relative w-full max-w-5xl bg-black rounded-2xl overflow-hidden shadow-2xl mx-auto border border-white/10"
               onClick={e => e.stopPropagation()}
             >
               <button
                 onClick={() => setSelectedVideo(null)}
-                className="absolute top-2 right-2 sm:top-3 sm:right-3 z-10 flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-full bg-black/60 text-white hover:bg-white/40 transition-colors"
+                aria-label="Close video"
+                className="absolute top-3 right-3 z-20 flex h-9 w-9 items-center justify-center rounded-full bg-black/70 text-white hover:bg-white/20 transition-colors shadow-lg"
               >
-                <svg viewBox="0 0 24 24" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </button>
-              <div className="w-full" style={{ aspectRatio: '16 / 9' }}>
+              <div className="w-full bg-black" style={{ aspectRatio: '16 / 9' }}>
                 <VideoPlayer url={selectedVideo.url || ''} title={selectedVideo.title} />
               </div>
             </motion.div>
